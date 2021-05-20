@@ -6,7 +6,7 @@ author:
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-url: 'https\://github.com/R-Computing-Lab/handbook'
+url: 'https\://r-computing-lab.github.io/handbook/'
 github-repo: R-Computing-Lab/handbook
 twitter-handle: smasongarrison
 cover-image: assets/logo.png
