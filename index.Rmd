@@ -36,6 +36,12 @@ library(readr)
 ```
 
 
+```{r, echo=FALSE}
+
+embed_url("https://www.youtube.com/watch?v=yPr-Vm6Ji0E") %>%
+  use_align("center")
+
+```
 
 The R Computing Lab houses scientists who conduct biometrically-informed research in R. Our research addresses a mixture of substantive and methodological questions. We're part of the MegaLab with Veronica Cole!
 
@@ -48,21 +54,7 @@ Students in the laboratory work on projects covering a wide range of topics incl
 ## Mason Notes {-}
 
 
-```{r message = FALSE, warning = FALSE, echo = FALSE}
-
-ds4p_status <- read_csv("data/ds4p_status.csv"
-#    , col_types = cols(Module = col_factor(levels = c("0", 
-#        "01", "02", "03", "04", "05", "06", "07", 
-#        "08", "09", "10", "11", "12", "13", 
-#        "14", "15")))
-)
-ds4p_status$Status=round(rowMeans(ds4p_status[,2:6],na.rm = TRUE),digits = 3)
-```
-
-
-This website is constantly changing. This new course is in active development, and approximately `r round(mean(ds4p_status$Status,na.rm = TRUE),digits = 3)*100`% done. I have made this process explicitly transparent because I want you to see how you can use R to produce some pretty neat things. Indeed, I've included the source code for this website in the class [github](https://github.com/DataScience4Psych). I encourage you to contribute to the [course code](https://github.com/DataScience4Psych/DataScience4Psych). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. By the end of the semester, I would love for everyone to have contributed to the course materials. It can be as simple as adding a course request to the [wishlist](#course-wishlist). I believe that it is useful skill to be able to do. 
-
-
+This website is constantly changing and often in active development. I have made this process explicitly transparent because I want you to see how you can use R to produce some pretty neat things. Indeed, I've included the source code for this website in the class [github](https://github.com/DataScience4Psych). I encourage you to contribute to the [course code](https://github.com/DataScience4Psych/DataScience4Psych). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. 
 
 ### How to use these notes {-}
 

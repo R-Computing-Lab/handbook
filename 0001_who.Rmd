@@ -20,7 +20,7 @@ Members are listed by seniority (in the order they joined the lab).
 ----------
 ### Principal Investigator
 
-* [S. Mason Garrison][1]
+* S. Mason Garrison
 
 ### Affiliated Principal Investigator
 * Veronica Cole
@@ -36,14 +36,18 @@ Members are listed by seniority (in the order they joined the lab).
 
 #### Affiliated (Primary Lab)
 
-* [Emma Sims][3] (Jayawickreme)
+* [Emma Sims] (Jayawickreme)
 
 
 ### Undergraduate Students
-* [Kennon Later][4]
-* [Jonathan Trattner][5]
+* Kennon Later
+* Jonathan Trattner
 * Sherry Mao
-* [Hannah Robertson][7]
+* Hannah Robertson
+* 
+
+
+
 
 ### Sidekicks
 * Tukey
