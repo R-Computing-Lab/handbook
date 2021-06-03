@@ -2,7 +2,7 @@
 
 
 
-Please look at the lab website for [specifics](https://datascience4psych.github.io/DataScience4Psych)
+Please look at the lab website for [specifics](https://R-Computing-Lab.github.io/handbook)
 
 # FAQ
 
