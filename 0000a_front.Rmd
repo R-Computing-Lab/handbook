@@ -115,6 +115,3 @@ session$packages %>%
                            paging = FALSE))
 ```
 
-
-
-

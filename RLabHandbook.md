@@ -3,10 +3,10 @@ title: "R Lab Handbook"
 subtitle: "Handbook for the R Computing Lab"
 author: 
 - S. Mason Garrison
-date: "2021-05-20"
+date: "2021-06-30"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-url: 'https\://github.com/R-Computing-Lab/handbook'
+url: 'https\://r-computing-lab.github.io/handbook/'
 github-repo: R-Computing-Lab/handbook
 twitter-handle: smasongarrison
 cover-image: assets/logo.png
@@ -887,11 +887,14 @@ Although these notes share some of the features of a textbook, they are neither 
 
 
 # Attribution {-}
-This class leans heavily on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/DataScience4Psych/DataScience4Psych/commits/main)
+This document leans heavily on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/r-computing-lab//handbook/commits/main)
 
 ## Major Attributions  {-}
 
 * Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
+* [Candice Morey's lab handbook](https://github.com/CCMorey/labHandbook)
+* [Jonathan Peelle's lab manual](http://jpeelle.net/peellelab_manual.pdf)
+* [Joshua Hartshorne's Language Learning Lab Manual](http://l3atbc.org/L3Manual.pdf)
 
 ## Additional Attributions  {-}
 
@@ -967,19 +970,16 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-05-20
+#>  date     2021-06-30
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-6f7b078d5388599a92fd" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6f7b078d5388599a92fd">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.22",null,null,"0.7.6","1.0.5","3.7.0","1.1.0",null,"2.5.0",null,"2.0-1",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.6","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.1.0","0.5.1.9000","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.1","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.11","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.4.0","1.1.1",null,"1.1.1",null,"1.6.2","1.4.0",null,"3.0.2","3.1.2","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2021-04-24","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2021-05-04","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05",null,"2021-03-22","2020-10-24","2021-05-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15",null,"2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2021-05-12","2019-03-25","2021-04-23","2021-04-16","2021-05-17","2021-01-12","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-05-16","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2021-04-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2021-05-17","2019-02-10","2020-07-23","2021-02-14","2021-05-16","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)",null,"CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","Github (rstudio/htmltools@11cfbf3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":153,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,153]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-68fcccc2cac6dd755b5d" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-68fcccc2cac6dd755b5d">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.22",null,null,"0.7.8","1.0.5","3.7.0","1.1.0",null,"2.5.0",null,"2.0-1",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.6","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.4",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.1.0","0.5.1.9000","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.1","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.4.0","2.0.0",null,null,"0.4.11","2.9",null,null,"2.0.2","0.13",null,"1.0.0","0.4.0","1.1.1",null,"1.1.1",null,"1.6.2","1.4.0",null,"3.0.3","3.1.2","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.23","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2021-04-24","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-06-24","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2021-05-04","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-05-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15",null,"2020-10-31","2019-02-19","2021-03-29","2021-06-16","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2021-05-12","2019-03-25","2021-04-23","2021-04-16","2021-05-17","2021-01-12","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-05-16","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-04-02","2020-04-09","2018-06-08","2021-04-30","2021-06-15","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-03-09","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-05-17","2019-02-10","2020-07-23","2021-06-16","2021-05-16","2021-03-03","2021-04-30","2021-04-15","2021-05-29","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-05-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)",null,"CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","Github (rstudio/htmltools@11cfbf3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":153,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,153]}},"evals":[],"jsHooks":[]}</script>
 ```
-
-
-
 
 
 <!--chapter:end:0000a_front.Rmd-->
@@ -1462,7 +1462,7 @@ For the most current list... navigate to the "[Active Projects](https://osf.io/5
 
 <!--chapter:end:0001_who.Rmd-->
 
-# (PART) Module 01 {-}
+# (PART) Introduction {-}
 
 
 
@@ -1876,367 +1876,398 @@ For the most current list... navigate to the "[Active Projects](https://osf.io/5
 [how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
 
 
-# Welcome to Data Science
 
-This module is designed to introduce you to data science. Please watch the videos and work your way through the notes. **The videos start on the next page.**  You can find the module playlist [here][ds4p-pl-01]. Most of the slides used to make the videos in this module can be found in the [slides repo][ds4p-slides].
 
+# Introduction
 
-## Module Materials
-* Videos
-  * Located in the subchapters of this module
-* Slidedecks
-  * [Welcome Slides][d01_welcome]
-  * [Meet the toolkit][d02_toolkit]
-* Suggested Readings
-    * All subchapters of this module, including
-        * [R basics and workflow](#r_basics)
-    * R4DS
-        * [Book Introduction](https://r4ds.had.co.nz/introduction.html)
-        * [Data exploration Introduction](https://r4ds.had.co.nz/explore-intro.html)
-    * [Happy Git with R](https://happygitwithr.com/)
-        * If Happy Git is too much, start [here](#shorthappygit)
-        * If Short Happy Git is too much, start with [Oh My Git](https://ohmygit.org/)
-* Activities
-  * [UN Voting][ae-01a-un-votes]
-  * [Covid Data][ae-01b-covid]
-  * [Bechdal Test][ae-02-bechdel]
-  * [Oh My Git](https://ohmygit.org/)
-* Lab
-  * [Hello R](#lab01)
+This lab handbook is a work in progress. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. At the end of each section, I will cite the materials I used.
 
 
 
-### Estimated Video Length
+# Lab Philosophy
 
-<!--https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup & https://ytplaylist-len.herokuapp.com/ -->
+## You won't know everything
 
-No of videos : 8
+Ask questions! It is ok to not know something. I don't know everything. It is the sign of a good scholar to ask questions and it is the sign of a confident scholar to be willing to say that they don't know.
 
-Average length of video: 12 minutes, 6 seconds
+## Work-Life Balance
 
-Total length of playlist: 1 hour, 36 minutes, 48 seconds
 
-# What is Data Science?
+# General
+## Funding
+## Local Collaborators
+## Other Collaborators
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/BpKXkkU-NiY" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
 
-You can follow along with the slides [here][d01_welcome] if they do not appear below.
+# Being in the lab
+## Everyone
+### Big Picture
+### Small Picture
 
+## Mason
+You can expect me to:
+- Have a vision of where the lab is going.
+- Care about your happiness.
+- Obtain the funding to support the science and the people in the lab.
+- Track down interesting sources of data.
+- Support you in your career development (regardless of whether you plan to stay in research), including: 
+    - writing letters of recommendation,
+    - introductions to other scientists, 
+    - subsidizing conference travel, and 
+    - promoting your work as often and as shamelessly as possible.
 
-<iframe src="https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html" width="672" height="400px"></iframe>
+- Support you in your personal growth, including (but not limited to):
+    - giving you flexibility in working hours and environment, and 
+    - encouraging you to do things other than science.
 
-## See for yourselves!
-I've embedded a few examples below.
+- Treat you to coffee and keep the snack drawer filled.
 
-### Shiny App
+- Make the time to meet with you regularly, read through your manuscripts, and talk about science.
 
-<iframe src="https://minecr.shinyapps.io/unvotes/?showcase=0" width="672" height="400px"></iframe>
+Sources of Adaptation ([2],[3])
 
+## Graduate Students
 
-### Hans Rosling
+I expect graduate students to:
+- Know the literature related to their topic like the back of their hand.
+- Seek out and apply for fellowships and awards (including travel awards, etc.).
+- Realize there are (extraordinarily rare) times for pulling all nighters, and times for leaving early to go to the park and enjoy the sunshine.
 
-The video below is the shorter version. Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats
+By the time you're done, you will have to know how to do statistics and plots in R, share your work with me using Rmarkdown, use mplus for latent variable modeling and use github and osf for version control analyses.
 
+The learning curve can be a little steep on these but it's well worth it. (If these learning outcomes aren't compatible with your goals or interests, my lab is probably not a good fit for you!)
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/jbkSRLYSojo" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+Sources of Adaptation ([2])
 
-You can find a longer talk-length version below.
+### General Timeline
 
+The timeline below is intended to help you structure your time during the WFU graduate program-- to stay on track with: 
+- non-coursework program requirements, 
+- professional development opportunities (conferences), and 
+- PhD applications, if you plan to apply. 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/hVimVzgtD6w" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+It likely not comprehensive for your unique situation, and it is expected that you will personalize it. 
 
-### Social Media
+Sources of Adaptation ([The AMAZING Shannon Brady][4])
 
-Social media contains a ton of great (and terrible examples of data science in action. These examples range from entire subreddits, such as
-[/r/DataisBeautiful](https://www.reddit.com/r/dataisbeautiful/) ([be sure to check out the highest voted posts](https://www.reddit.com/r/dataisbeautiful/top/?sort=top&t=all)) to celebrity tweets about data scientists.
+#### Year 1
 
+August
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">YASSSSSSSSSS MY LOVE STEVE IS BACK!!! <a href="https://twitter.com/hashtag/KornackiThirstcontinues?src=hash&amp;ref_src=twsrc%5Etfw">#KornackiThirstcontinues</a> <a href="https://t.co/ynK4D87Bhr">pic.twitter.com/ynK4D87Bhr</a></p>&mdash; Leslie Jones 🦋 (@Lesdoggg) <a href="https://twitter.com/Lesdoggg/status/1346584128368508930?ref_src=twsrc%5Etfw">January 5, 2021</a></blockquote>
+- Match with Advisor
+- Consider Submitting to SSSP
 
-```
 
+September
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Good reasons to not be a Data Scientist:<br><br>- It is a lot of work<br>- Literally nobody will know what you&#39;re talking about<br>- In the end, your computer will be your only real friend</p>&mdash; 🔥 Kareem Carr 🔥 (@kareem_carr) <a href="https://twitter.com/kareem_carr/status/1352655262054834182?ref_src=twsrc%5Etfw">January 22, 2021</a></blockquote>
+- Acclimate! Get lab key
+- Discuss interests and goals with advisor; personalize timeline
 
-```
 
-### Read for yourselves!
-<!-- source: https://raw.githubusercontent.com/academic/awesome-datascience/live/README.md -->
+October
 
-| Link | Preview |
-| --- | --- |
-| [What is Data Science @ O'reilly](https://www.oreilly.com/ideas/what-is-data-science) | _Data scientists combine entrepreneurship with patience, the willingness to build data products incrementally, the ability to explore, and the ability to iterate over a solution. They are inherently interdiscplinary. They can tackle all aspects of a problem, from initial data collection and data conditioning to drawing conclusions. They can think outside the box to come up with new ways to view the problem, or to work with very broadly defined problems: “here’s a lot of data, what can you make from it?”_ |
-| [What is Data Science @ Quora](https://www.quora.com/Data-Science/What-is-data-science) | Data Science is a combination of a number of aspects of Data such as Technology, Algorithm development, and data interference to study the data, analyze it, and find innovative solutions to difficult problems. Basically Data Science is all about Analyzing data and driving for business growth by finding creative ways. |
-| [The sexiest job of 21st century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century) | _Data scientists today are akin to Wall Street "quants" of the 1980s and 1990s. In those days people with backgrounds in physics and math streamed to investment banks and hedge funds, where they could devise entirely new algorithms and data strategies. Then a variety of universities developed master’s programs in financial engineering, which churned out a second generation of talent that was more accessible to mainstream firms. The pattern was repeated later in the 1990s with search engineers, whose rarefied skills soon came to be taught in computer science programs._ |
-| [Wikipedia](https://en.wikipedia.org/wiki/Data_science) | _Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data. Data science is related to data mining, machine learning and big data._ |
-| [How to Become a Data Scientist](https://www.mastersindatascience.org/careers/data-scientist/) | _Data scientists are big data wranglers, gathering and analyzing large sets of structured and unstructured data. A data scientist’s role combines computer science, statistics, and mathematics. They analyze, process, and model data then interpret the results to create actionable plans for companies and other organizations._ |
-| [a very short history of #datascience](http://www.forbes.com/sites/gilpress/2013/05/28/a-very-short-history-of-data-science/) | _The story of how data scientists became sexy is mostly the story of the coupling of the mature discipline of statistics with a very young one--computer science.  The term “Data Science” has emerged only recently to specifically designate a new profession that is expected to make sense of the vast stores of big data. But making sense of data has a long history and has been discussed by scientists, statisticians, librarians, computer scientists and others for years. The following timeline traces the evolution of the term “Data Science” and its use, attempts to define it, and related terms._ |
+- Read relevant literature
+- Review Grad Handbook sections for Year 1 
+- Begin to develop First Year Project (FYP)
+- Consider attending SSSP 
 
 
-## Course structure and some other useful things
+November
 
+- Read relevant literature
+- Present FYP to peers; get feedback
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/3mz3HNyew-s" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
 
-You can follow along with the slides [here](https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html#28) if they do not appear below.
+December
 
-<iframe src="https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html#28" width="672" height="400px"></iframe>
+- Read relevant literature
+- Refine plan for FYP
+- If needed: Secure IRB approval for FYP 
+    - (In my lab needing IRB approval is rare)
 
 
-# Choice your own activity
+January
 
-You can do either activity. The choice is yours.
+- Begin data collection OR begin data cleaning/analysis
 
-## UN Votes
-<iframe src="https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html#25" width="672" height="400px"></iframe>
 
-You can find the materials for the UN activity [here][ae-01a-un-votes]. The compiled version should look something like the following...
+February
 
-<iframe src="https://datascience4psych.github.io/ae-01a-un-votes/unvotes.html" width="672" height="400px"></iframe>
+- Collect data and/or clean and analyze data
 
 
-## Covid Data
+March
 
-<iframe src="https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html#26" width="672" height="400px"></iframe>
+- Collect data and/or clean and analyze data
+- Discuss initial ideas for MAP w/ advisor
+- Find template for FYP poster; 
+    -  discuss w/ advisor
+- Consider submitting FYP to BGA
 
+April
 
-You can find the materials for the Covid version of this activity [here][ae-01b-covid]. The compiled version should look something like the following...
+- Create and revise FYP poster
+- Present FYP Poster
 
-<iframe src="https://datascience4psych.github.io/ae-01b-covid/covid.html" width="672" height="400px"></iframe>
 
+May
 
+- Review Grad Handbook sections for Year 2 
+- Discuss initial ideas for MAP w/ advisor
+- Generate initial list of PhD topics/advisors; 
+    - discuss w/ mentors 
+- Consider submitting to a conference
 
-# Meet our toolbox!
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/SJaQtRLFb-Y" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
-You can follow along with the slides [here][d02_toolkit] if they do not appear below. I recommend installing [R, Rstudio](#install), [git, and github](#installgit) before starting [activity 02](#bechdal)
+June
 
-<iframe src="https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html" width="672" height="400px"></iframe>
+- Identify articles to be "mentor texts"
+- Draft Methods section of MAP; get feedback
+- Read papers by prospective advisors
 
-## R and RStudio
+July
 
-### Install R and RStudio {#install}
+- Draft Results section of MAP; get feedback
+- Read papers by prospective advisors
+- Create/update CV
+- Consider submitting to SPSP
 
-```r
-library(vembedr)
-embed_url("https://www.youtube.com/watch?v=kVIZGCT5p9U") %>%
-  use_align("center")
-```
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+#### Year 2
+August
+- Review Grad Handbook expectations for MAP
+- Create complete outline of MAP
+    - get feedback
+- Submit MAP outline and annotated biblio
+- Refine list of PhD advisors; 
+    - reach out
+- Write crappy first draft of SOP
+- Consider submitting to SSSP
 
-* Install [R, a free software environment for statistical computing and graphics][r-proj] from [CRAN][cran], the Comprehensive R Archive Network. I __highly recommend__ you install a precompiled binary distribution for your operating system -- use the links up at the top of the CRAN page linked above!
 
-* Install RStudio's IDE (stands for _integrated development environment_), a powerful user interface for R. Get the Open Source Edition of RStudio Desktop.
+September
+- Schedule MAP feedback mtg
+- Send MAP to all committee members
+- Contact recommenders
+- Discuss SOP with mentors/peers/friends
 
-  - You can run either the [Preview version][rstudio-preview] or the official releases available [here][rstudio-official].
-  - RStudio comes with a __text editor__, so there is no immediate need to install a separate stand-alone editor.
-  - RStudio can __interface with Git(Hub)__. However, you must do all the Git(Hub) set up [described elsewhere][happy-git] before you can take advantage of this.
-    
-If you have a pre-existing installation of R and/or RStudio, I __highly recommend__ that you reinstall both and get as current as possible. It can be considerably harder to run old software than new.
+October
+- Have MAP feedback mtg
+    - If needed: revise MAP
+- Review Grad Handbook expectations for thesis
+- Finalize thesis idea
+- Review and revise SOP;
+- draft any other materials needed for applications
+- Send materials to recommenders
+- Consider attending SSSP
 
-* If you upgrade R, you will need to update any packages you have installed. The command below should get you started, though you may need to specify more arguments if, e.g., you have been using a non-default library for your packages.
 
-``` r
-update.packages(ask = FALSE, checkBuilt = TRUE)
-```
+November
 
-__Note:__ this  code will only look for updates on CRAN. So if you use a package that lives *only* on GitHub or if you want a development version from GitHub, you will need to  update manually, e.g. via `devtools::install_github()`.
+December
 
+January
 
-### Testing testing
+February
 
-* Do whatever is appropriate for your OS to launch RStudio. You should get a window similar to the screenshot you see [here][rstudio-workbench], but yours will be more boring because you haven't written any code or made any figures yet!
+March
 
-* Put your cursor in the pane labeled Console, which is where you interact with the live R process. Create a simple object with code like `x <- 3 * 4` (followed by enter or return). Then inspect the `x` object by typing `x` followed by enter or return. You should see the value 12 print to screen. If yes, you've succeeded in installing R and RStudio.
+April
 
-### Add-on packages
+May
 
-R is an extensible system and many people share useful code they have developed as a _package_ via CRAN and GitHub. To install a package from CRAN, for example the [dplyr][dplyr-cran] package for data manipulation, here is one way to do it in the R console (there are others).
+June
 
-```r
-install.packages("dplyr", dependencies = TRUE)
-```
+July
 
-By including `dependencies = TRUE`, we are being explicit and extra-careful to install any additional packages the target package, dplyr in the example above, needs to have around.
+### Useful Websites
 
-You could use the above method to install the following packages, all of which we will use:
+https://graduate.wfu.edu/graduation-requirement-checklist-reynolda-campus/
 
-* tidyr, [package webpage][tidyr-web]
-* ggplot2, [package webpage][ggplot2-web]
+## Undergraduate Students
 
+I expect undergraduates to be utterly reliable and willing to help with whatever projects need it. At a bare minimum, reliability includes showing up on time and making sure that all of your work is accurate (double-check everything). If you find yourself without a specific project:
 
-### Further resources
+- Ask around to see if you can help with anything.
+- Look on the wiki under "Essential lab skills" and spend some time learning something new.
+- Look on the giant lab todo list for either a wiki page that needs creating/updating, or other miscellaneous lab tasks that need to be done.
 
-The above will get your basic setup ready but here are some links if you are interested in reading a bit further.
+There is enough to do that you should not be bored!
 
-* [How to Use RStudio][rstudio-support]
-* [RStudio's leads for learning R][rstudio-R-help]
-* [R FAQ][cran-faq]
-* [R Installation and Administration][cran-R-admin]
-* [More about add-on packages in the R Installation and Administration Manual][cran-add-ons]
+Your first semester in the lab is an opportunity to see whether continuing in the lab is a good fit; after your first semester we will meet and discuss whether you will continue.
 
+Sources of Adaptation ([2])
 
-# Bechdel Activity {#bechdal}
+### Honors Students
 
-<iframe src="https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html#24" width="672" height="400px"></iframe>
+### Independent study
 
 
-You can find the materials for the Bechdel activity [here][ae-02-bechdel]. The compiled version should look something like the following...
 
 
+## University Policies
+### Employee guidelines
+### Sexual harassment
 
-<iframe src="https://datascience4psych.github.io/ae-02-bechdel-rmarkdown/bechdel.html" width="672" height="400px"></iframe>
+----------
 
+# Communication 
+## Communication within the lab
+### My doors
 
+###  Lab Meetings
 
-# Thoughtful Workflow
+Lab members participate in both regular and ad hoc meetings. These meetings may involve everyone or just subgroups. If you have been asked to participate in a meeting, it is because you are a vital part of that project group. If you cannot attend, you should tell the group leader in advance. Remember, however, that the group may no longer be able to carry out the intended work without your presence, so skip meetings sparingly. 
 
-At this point, I recommend you pause and think about your workflow. I give you permission to spend some time and energy sorting this out! It can be as or more important than learning a new R function or package. The experts don't talk about this much, because they've already got a workflow; it's something they do almost without thinking.
+If you do not appear at a meeting as expected and have not informed anyone in advance, it will be assumed that you have been abducted by aliens, and a search-and-rescue mission will be organized. I will draw [inspiration][5] from Prof. Charlotta Turner of Lund University.
 
-Working through subsequent material in R Markdown documents, possibly using Git and GitHub to track and share your progress, is a great idea and will leave you more prepared for your future data analysis projects. Typing individual lines of R code is but a small part of data analysis and it pays off to think holistically about your workflow. 
+All meetings begin and end on time, if not earlier. Don't be afraid to remind me of this if/when I am the offending party. It is important that we all respect each other's time.
 
-If you want a lot more detail on workflows, you can wander over to the optional bit on [r basics and workflow](#r_basics).
+Sources of Adaptation ([2],[3])
 
-## R Markdown {#r-markdown}
 
+### Wiki
+The lab wiki is our shared collection of knowledge about how to get things done in the lab. The lab manual you are reading now is "top down", in that I am writing the whole thing myself. By contrast the wiki is a shared resource to which everyone can—and should—contribute. A good rule of thumb is that if you need to figure out how to do something, someone else in the lab may someday need to do the same thing. Whenever possible please document what you figure out on the wiki, including updating old sections which may no longer be relevant. Please encourage each other (and those working with you) to do the same! (And me, please remind me!)
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/fIhIqTy8PVw?start=412" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+Sources of Adaptation ([2])
 
-If you are in the mood to be entertained, start the video from the beginning. But if you'd rather just get on with it, start watching at 6:52.
+### Email
 
-You can follow along with the slides [here][d02_toolkit] if they do not appear below.
+### Calendars
 
-<iframe src="https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html#26" width="672" height="400px"></iframe>
 
+## Communication outside the lab
+### Manuscripts
+### Abstracts
+#### Talks
+#### Posters
 
-<!--Original content: https://stat545.com/block007_first-use-rmarkdown.html-->
 
-R Markdown is a very accessible way to create computational documents that combine prose and tables and figures produced by R code.
+## Conferences
 
-An introductory R Markdown workflow, including how it intersects with Git, GitHub, and RStudio, is now maintained within the Happy Git site:
+Conferences are excellent opportunities to present your research, make connections, and learn about new research and methods from others. If possible, I recommend attending two or more conferences while you are a graduate student at Wake Forest and presenting your research at one or more of the conferences you attend.    
 
-[Test drive R Markdown](https://happygitwithr.com/rmd-test-drive.html)
 
 
 
+----------
 
-## Git and Github {#installgit}
+# Science
+## Big picture science
+### Scientific integrity
+### Open, accurate, and reproducible science
+#### Open science
+#### Accurate science
 
-![XKCD on Git](https://imgs.xkcd.com/comics/git.png)
+## Practical science
 
-<!-- source https://github.com/uo-ec607/lectures/blob/master/02-git/02-Git.Rmd -->
+## Computers and data
+## Authorship
 
-First, it's important to realize that Git and GitHub are distinct things. GitHub is an online hosting platform that provides an array of services built on top of the Git system. (Similar platforms include Bitbucket and GitLab.) Just like we don't *need* Rstudio to run R code, we don't *need* GitHub to use Git... But, it will make our lives so much easier. 
+My general philosophy is to be generous and provide ample opportunity for members of the lab to earn authorship. Authorship on an academic work is a ["public acknowledgment of scientific or professional contribution"][6]. Although the criteria for authorship differ slightly across fields, the general question asked is whether this individual made a meaningful contribution to the work. I tend to ask myself had this potential author not been involved in the project, would the final product differed substantially? If the answer to that counter-factual is yes, then I believe that person has earned authorship.
 
-I recommend checking out Jenny Bryan's instructions around installation, setup, and early Git usage with her book [Happy Git with R](https://happygitwithr.com). I have provided a optional deep dive in a 'later chapter](#happygit).  
+### Order of Authors
 
+In psychology, the order of authors reflects their relative contribution. Other fields have different conventions, such as economics tends to alphabetize authors. However, psychology and other lab-based fields don't merely rank authors. Instead the authorship order resembles a 'U' where first and last authors indicate the most substantial contributions and authors in the middle reflect relatively smaller contributions. 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/RIOp8biwBZ4" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+### Authorship on the lab wiki
 
-You can follow along with the slides [here][d02_toolkit] if they do not appear below.
+If a lab member makes a meaningful contribution to any page of the OSF website, I'll add them as a bibliographic contributor for that specific page. I encourage you to contribute as well as provide suggestions for additional content. A suggestion by itself doesn't earn authorship, but it is a good start.
 
-<iframe src="https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html#30" width="672" height="400px"></iframe>
 
+# Other
+## Recommendation letters
 
+It is part of my job (and, thankfully, quite often a pleasure) to write letters of recommendation for people in the lab. Please give me as much notice as possible, and make sure I know the deadline, format (electronic? printed?), official name of the organization, what you are applying for, and so on. Please also send along a current CV.
 
-### What is Github?
+If you are an undergraduate, I will write your letters on my own. For more senior lab members, I will also write your letters on my own, but please send me a draft of the letter (which I will extensively modify). The first few times you do this it will probably feel awkward. However, keep in mind that your goal is to make it as easy as possible for a letter writer (in this case, me) to complete the task by the deadline and without error. Even though I will re-word a lot of the letter, it will still have the name of what you are applying for and details regarding how long I have known you, the projects you have worked on, and so on. This is extremely helpful in jogging my memory and will give me more time to focus on saying good things about you. Don't worry about being too "braggy"; I have no problem toning things down if need be.
 
+Like everything else, communication is key, and when in doubt, ask!
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/w3jLJU7DT5E" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+Sources of Adaptation ([2])
 
+## Potential for Controversy
+[Internal comment -- this issue came to mind because of a conversation I had with Steven Pinker about some of his twitter controversy https://www.nytimes.com/2020/07/15/us/steven-pinker-harvard.html So it's on my mind right now ]
 
-### Git
+Many of the research topics in our lab have the potential to be controversial.
 
-- Git is a distributed version control system. (Wait, what?)
-- Okay, try this: Imagine if Dropbox and the "Track changes" feature in MS Word had a baby. Git would be that baby.
-- In fact, it's even better than that because Git is optimized for the things that social scientists and data scientists spend a lot of time working on (e.g. code).
-- The learning curve is worth it -- I promise you.
+[disclaimer: controversy can come from the right or left Controversy from the left tends to be XXXX; Controversy from the right tends to be XXXX. We have research questions that can offend both sides. Right offense: LGBTQ; Left offense: genetic effects.]
 
-Git and GitHub's role in global software development is not in question.
-- There's a high probability that your favorite app, program or package is built using Git-based tools. (RStudio is a case in point.)
+### Topics of Controversy
 
-Scientists and academic researchers are cottoning on too. Benefits of version control and collaboration tools aside, Git(Hub) helps to operationalize the ideals of open science and reproducibility. Journals have increasingly strict requirements regarding reproducibility and data access. GH makes this easy (DOI integration, off-the-shelf licenses, etc.).
+#### Genetic Effects
+For example, one of my papers examined the genetic and environmental sources of variance underlying the relationship between socioeconomic status and health (Garrison & Rodgers, 2019). We found that the relationship between physical health and SES was primarily genetic. 
 
-I run my [entire lab on GH](https://github.com/R-Computing-Lab); this entire course is running on github; these lecture notes are hosted on github...
+[paragraph on interpreting genetic effects]
 
+#### Intelligence
 
-## Getting Help with R
+#### Historically Marginalized Groups
 
-You can follow along with the slides [here][d02_toolkit] if they do not appear below.
+#### Data Collected Unethically
 
+### Causes of Controversy
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/O2wfi7Z0Py4" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+[Misinterpreting findings as racist, sexist, eugenicist, elitist]
 
+### Consequences of Controversy
 
+The consequences of controversial research can range, here are some examples of increasing severity. The more severe the less common.
+ - uncomfortable conversations
+ - negative media coverage
+ - petitions for removal/revocation of
+ - rescinding of admissions, 
+    - jobs offers, 
+    - research funding,
+    - awards 
 
-<iframe src="https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html#41" width="672" height="400px"></iframe>
+#### Relevant Examples
+(Not an endorsement of their beliefs.)
 
 
+Carl Noah
+
+Steven Pinker
+
+Charles Murray
+
+
+### Current Strategy
+
+Proceed with extreme caution; approach topics very thoughtfully and deliberately. Lay out how these findings can be misinterpreted. I will have your back 1000% on your topic of choice, as long as we do it thoughtfully and without an agenda. This lab does not seek out controversy. This lab focuses on doing good science, and will only delve into controversial areas *IF* that science has the potential for benefiting the greater good.
+
+----------
+
+# Frequently asked questions
+## Where are all the FAQs?
+
+No one has asked any questions yet.
+
+
+Sources of Adaptation ([2])
+
+----------
+
+
+# Glossary
+
+### PI (principal investigator)
+
+In the context of a grant, the PI is the person responsible for making sure the proposed research gets done. More broadly it refers to a researcher who has their own research group or lab (i.e., someone who would be in a position to be a PI on a grant, regardless of whether or not they are currently funded).
+
+Sources of Adaptation ([2])
+
+----------
+
+# References
+
+
+
+  [4]: https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/
+  [5]: https://www.nbcnews.com/news/world/how-swedish-professor-helped-rescue-grad-student-isis-controlled-iraq-n947866
+  [6]: https://www.apa.org/science/leadership/students/authorship-paper
 
 <!--chapter:end:0101_welcome.Rmd-->
 
@@ -2689,7 +2720,7 @@ You can follow along with the slides [here](LINK) if they do not appear below.
 ```{=html}
 <div class="vembedr" align="center">
 <div>
-<iframe src="https://www.youtube.com/embed/C8RFYPkpnkE" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/16W7c0mb-rE" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
 ```
@@ -2704,7 +2735,7 @@ You can find the materials for this activity [here](LINK).
 ```{=html}
 <div class="vembedr" align="center">
 <div>
-<iframe src="https://www.youtube.com/embed/VRZVQVUO4PU" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/ofTb57aZHZs" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
 ```

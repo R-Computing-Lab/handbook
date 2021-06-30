@@ -1,4 +1,4 @@
-# (PART) Module 01 {-}
+# (PART) Introduction {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -13,25 +13,13 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 ```{r links, child="links.md"}
 ```
 
-@[toc]
 
-----------
-
-# Acknowledgements
-
-This handbook leans heavily on the following works:
-
- - [Candice Morey's lab handbook][1]
- - [Jonathan Peelle's lab manual][2]
- - [Joshua Hartshorne's Language Learning Lab Manual][3]
-
-----------
 
 # Introduction
 
 This lab handbook is a work in progress. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. At the end of each section, I will cite the materials I used.
 
-----------
+
 
 # Lab Philosophy
 
@@ -41,14 +29,13 @@ Ask questions! It is ok to not know something. I don't know everything. It is th
 
 ## Work-Life Balance
 
-----------
 
 # General
 ## Funding
 ## Local Collaborators
 ## Other Collaborators
 
-----------
+
 
 # Being in the lab
 ## Everyone
@@ -414,9 +401,7 @@ Sources of Adaptation ([2])
 # References
 
 
-  [1]: https://github.com/CCMorey/labHandbook
-  [2]: http://jpeelle.net/peellelab_manual.pdf
-  [3]: http://l3atbc.org/L3Manual.pdf
+
   [4]: https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/
   [5]: https://www.nbcnews.com/news/world/how-swedish-professor-helped-rescue-grad-student-isis-controlled-iraq-n947866
   [6]: https://www.apa.org/science/leadership/students/authorship-paper
