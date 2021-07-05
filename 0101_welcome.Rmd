@@ -15,10 +15,6 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 
 
 
-# Introduction
-
-This lab handbook is a work in progress. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. At the end of each section, I will cite the materials I used.
-
 
 
 # Lab Philosophy

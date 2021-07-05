@@ -49,6 +49,10 @@ Our substantive work focuses understanding the relationships between socioeconom
 
 Students in the laboratory work on projects covering a wide range of topics including inter-generational consequences of divorce, vaccination willingness, R package development.
 
+# Introduction
+
+This lab handbook is a work in progress. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. At the end of each section, I will cite the materials I used.
+
 
 
 ## Mason Notes {-}
