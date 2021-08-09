@@ -13,10 +13,6 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 ```{r links, child="links.md"}
 ```
 
-
-
-
-
 # Lab Philosophy
 
 ## You won't know everything
@@ -230,7 +226,7 @@ There is enough to do that you should not be bored!
 
 Your first semester in the lab is an opportunity to see whether continuing in the lab is a good fit; after your first semester we will meet and discuss whether you will continue.
 
-Sources of Adaptation ([2])
+
 
 ### Honors Students
 
@@ -389,13 +385,9 @@ Sources of Adaptation ([2])
 
 In the context of a grant, the PI is the person responsible for making sure the proposed research gets done. More broadly it refers to a researcher who has their own research group or lab (i.e., someone who would be in a position to be a PI on a grant, regardless of whether or not they are currently funded).
 
-Sources of Adaptation ([2])
-
 ----------
 
 # References
-
-
 
   [4]: https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/
   [5]: https://www.nbcnews.com/news/world/how-swedish-professor-helped-rescue-grad-student-isis-controlled-iraq-n947866

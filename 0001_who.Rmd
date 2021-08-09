@@ -30,6 +30,7 @@ Members are listed by seniority (in the order they joined the lab).
 ----------
 ### Graduate Students
 #### Primary Lab
+
 * Yoo Ri Hwang
 * Open Position for Fall 2021
 
@@ -44,8 +45,6 @@ Members are listed by seniority (in the order they joined the lab).
 * Jonathan Trattner
 * Sherry Mao
 * Hannah Robertson
-* 
-
 
 
 
@@ -58,6 +57,7 @@ Members are listed by seniority (in the order they joined the lab).
 ----------
 #### Graduate Students
 ##### Affiliated (Primary Lab)
+
 * Lindley Slipetz (Cole)
 
 ### Undergraduate Students
@@ -67,10 +67,3 @@ Members are listed by seniority (in the order they joined the lab).
 
 ## Active Projects
 
-The R Computing Lab also has a github.... https://github.com/R-Computing-Lab
-
-For the most current list... navigate to the "[Active Projects](https://osf.io/5syrj/)" folder within OSF storage below. 
- * Discordant Kinship R Package
- * Divorce and Depression
- * Vaccination Willingness and SES
- * Depression and Delinquency

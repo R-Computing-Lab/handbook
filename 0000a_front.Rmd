@@ -13,7 +13,6 @@ library(knitr)
 ```
 
 
-
 # Attribution {-}
 This document leans heavily on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/r-computing-lab//handbook/commits/main)
 
@@ -85,7 +84,7 @@ knitr::write_bib(c(
 
 # Colophon {-}
 
-These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][ds4p-git].
+These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
 
 The book style was designed by [Desirée De Leon](https://desiree.rbind.io/).
 
