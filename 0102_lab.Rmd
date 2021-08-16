@@ -1,0 +1,379 @@
+# (PART) Being in the lab {-}
+
+```{r include = FALSE}
+source("common.R")
+
+# install.packages("devtools")
+
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+ds4p_urls <- read.csv("./data/ds4p_urls.csv")
+```
+
+```{r links, child="links.md"}
+```
+
+
+
+# Being in the lab
+## Everyone
+### Big Picture
+### Small Picture
+
+## Mason
+You can expect me to:
+- Have a vision of where the lab is going.
+- Care about your happiness.
+- Obtain the funding to support the science and the people in the lab.
+- Track down interesting sources of data.
+- Support you in your career development (regardless of whether you plan to stay in research), including: 
+    - writing letters of recommendation,
+    - introductions to other scientists, 
+    - subsidizing conference travel, and 
+    - promoting your work as often and as shamelessly as possible.
+
+- Support you in your personal growth, including (but not limited to):
+    - giving you flexibility in working hours and environment, and 
+    - encouraging you to do things other than science.
+
+- Treat you to coffee and keep the snack drawer filled.
+
+- Make the time to meet with you regularly, read through your manuscripts, and talk about science.
+
+
+
+## Graduate Students
+
+I expect graduate students to:
+- Know the literature related to their topic like the back of their hand.
+- Seek out and apply for fellowships and awards (including travel awards, etc.).
+- Realize there are (extraordinarily rare) times for pulling all nighters, and times for leaving early to go to the park and enjoy the sunshine.
+
+By the time you're done, you will have to know how to do statistics and plots in R, share your work with me using Rmarkdown, use mplus for latent variable modeling and use github and osf for version control analyses.
+
+The learning curve can be a little steep on these but it's well worth it. (If these learning outcomes aren't compatible with your goals or interests, my lab is probably not a good fit for you!)
+
+
+### General Timeline
+
+The timeline below is intended to help you structure your time during the WFU graduate program-- to stay on track with: 
+- non-coursework program requirements, 
+- professional development opportunities (conferences), and 
+- PhD applications, if you plan to apply. 
+
+It likely not comprehensive for your unique situation, and it is expected that you will personalize it. 
+
+Sources of Adaptation ([The AMAZING Shannon Brady](https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/))
+
+#### Year 1
+
+August
+
+- Match with Advisor
+- Consider Submitting to SSSP
+
+
+September
+
+- Acclimate! Get lab key
+- Discuss interests and goals with advisor; personalize timeline
+
+
+October
+
+- Read relevant literature
+- Review Grad Handbook sections for Year 1 
+- Begin to develop First Year Project (FYP)
+- Consider attending SSSP 
+
+
+November
+
+- Read relevant literature
+- Present FYP to peers; get feedback
+
+
+December
+
+- Read relevant literature
+- Refine plan for FYP
+- If needed: Secure IRB approval for FYP 
+    - (In my lab needing IRB approval is rare)
+
+
+January
+
+- Begin data collection OR begin data cleaning/analysis
+
+
+February
+
+- Collect data and/or clean and analyze data
+
+
+March
+
+- Collect data and/or clean and analyze data
+- Discuss initial ideas for MAP w/ advisor
+- Find template for FYP poster; 
+    -  discuss w/ advisor
+- Consider submitting FYP to BGA
+
+April
+
+- Create and revise FYP poster
+- Present FYP Poster
+
+
+May
+
+- Review Grad Handbook sections for Year 2 
+- Discuss initial ideas for MAP w/ advisor
+- Generate initial list of PhD topics/advisors; 
+    - discuss w/ mentors 
+- Consider submitting to a conference (like SPSP)
+
+
+
+June
+
+- Identify articles to be "mentor texts"
+- Draft Methods section of MAP; get feedback
+- Read papers by prospective advisors
+
+July
+
+- Draft Results section of MAP; get feedback
+- Read papers by prospective advisors
+- Create/update CV
+- Consider submitting to SPSP
+
+
+#### Year 2
+August
+- Review Grad Handbook expectations for MAP
+- Create complete outline of MAP
+    - get feedback
+- Submit MAP outline and annotated biblio
+- Refine list of PhD advisors; 
+    - reach out
+- Write crappy first draft of SOP
+- Consider submitting to SSSP
+
+
+September
+- Schedule MAP feedback mtg
+- Send MAP to all committee members
+- Contact recommenders
+- Discuss SOP with mentors/peers/friends
+
+October
+- Have MAP feedback mtg
+    - If needed: revise MAP
+- Review Grad Handbook expectations for thesis
+- Finalize thesis idea
+- Review and revise SOP;
+- draft any other materials needed for applications
+- Send materials to recommenders
+- Consider attending SSSP
+
+
+November
+
+December
+
+January
+
+February
+
+March
+
+April
+
+May
+
+June
+
+July
+
+### Useful Websites
+
+https://graduate.wfu.edu/graduation-requirement-checklist-reynolda-campus/
+
+## Undergraduate Students
+
+I expect undergraduates to be utterly reliable and willing to help with whatever projects need it. At a bare minimum, reliability includes showing up on time and making sure that all of your work is accurate (double-check everything). If you find yourself without a specific project:
+
+- Ask around to see if you can help with anything.
+- Look on the wiki under "Essential lab skills" and spend some time learning something new.
+- Look on the giant lab todo list for either a wiki page that needs creating/updating, or other miscellaneous lab tasks that need to be done.
+
+There is enough to do that you should not be bored!
+
+Your first semester in the lab is an opportunity to see whether continuing in the lab is a good fit; after your first semester we will meet and discuss whether you will continue.
+
+
+
+### Honors Students
+
+### Independent study
+
+
+
+
+## University Policies
+### Employee guidelines
+### Sexual harassment
+
+
+
+# Communication 
+## Communication within the lab
+### My doors
+
+###  Lab Meetings
+
+Lab members participate in both regular and ad hoc meetings. These meetings may involve everyone or just subgroups. If you have been asked to participate in a meeting, it is because you are a vital part of that project group. If you cannot attend, you should tell the group leader in advance. Remember, however, that the group may no longer be able to carry out the intended work without your presence, so skip meetings sparingly. 
+
+If you do not appear at a meeting as expected and have not informed anyone in advance, it will be assumed that you have been abducted by aliens, and a search-and-rescue mission will be organized. I will draw [inspiration](https://www.nbcnews.com/news/world/how-swedish-professor-helped-rescue-grad-student-isis-controlled-iraq-n947866) from Prof. Charlotta Turner of Lund University.
+
+All meetings begin and end on time, if not earlier. Don't be afraid to remind me of this if/when I am the offending party. It is important that we all respect each other's time.
+
+
+
+
+### Wiki
+
+The lab wiki is our shared collection of knowledge about how to get things done in the lab. The lab manual you are reading now is "top down", in that I am writing the whole thing myself. By contrast the wiki is a shared resource to which everyone can—and should—contribute. A good rule of thumb is that if you need to figure out how to do something, someone else in the lab may someday need to do the same thing. Whenever possible please document what you figure out on the wiki, including updating old sections which may no longer be relevant. Please encourage each other (and those working with you) to do the same! (And me, please remind me!)
+
+Sources of Adaptation ([2])
+
+### Email
+
+### Calendars
+
+
+## Communication outside the lab
+### Manuscripts
+### Abstracts
+#### Talks
+#### Posters
+
+
+## Conferences
+
+Conferences are excellent opportunities to present your research, make connections, and learn about new research and methods from others. If possible, I recommend attending two or more conferences while you are a graduate student at Wake Forest and presenting your research at one or more of the conferences you attend.    
+
+
+
+
+
+# Science
+## Big picture science
+### Scientific integrity
+### Open, accurate, and reproducible science
+#### Open science
+#### Accurate science
+
+## Practical science
+
+## Computers and data
+## Authorship
+
+My general philosophy is to be generous and provide ample opportunity for members of the lab to earn authorship. Authorship on an academic work is a ["public acknowledgment of scientific or professional contribution"](https://www.apa.org/science/leadership/students/authorship-paper). Although the criteria for authorship differ slightly across fields, the general question asked is whether this individual made a meaningful contribution to the work. I tend to ask myself had this potential author not been involved in the project, would the final product differed substantially? If the answer to that counter-factual is yes, then I believe that person has earned authorship.
+
+### Order of Authors
+
+In psychology, the order of authors reflects their relative contribution. Other fields have different conventions, such as economics tends to alphabetize authors. However, psychology and other lab-based fields don't merely rank authors. Instead the authorship order resembles a 'U' where first and last authors indicate the most substantial contributions and authors in the middle reflect relatively smaller contributions. 
+
+### Authorship on the lab wiki
+
+If a lab member makes a meaningful contribution to any page of the OSF website, I'll add them as a bibliographic contributor for that specific page. I encourage you to contribute as well as provide suggestions for additional content. A suggestion by itself doesn't earn authorship, but it is a good start.
+
+
+# Other
+## Recommendation letters
+
+It is part of my job (and, thankfully, quite often a pleasure) to write letters of recommendation for people in the lab. Please give me as much notice as possible, and make sure I know the deadline, format (electronic? printed?), official name of the organization, what you are applying for, and so on. Please also send along a current CV.
+
+If you are an undergraduate, I will write your letters on my own. For more senior lab members, I will also write your letters on my own, but please send me a draft of the letter (which I will extensively modify). The first few times you do this it will probably feel awkward. However, keep in mind that your goal is to make it as easy as possible for a letter writer (in this case, me) to complete the task by the deadline and without error. Even though I will re-word a lot of the letter, it will still have the name of what you are applying for and details regarding how long I have known you, the projects you have worked on, and so on. This is extremely helpful in jogging my memory and will give me more time to focus on saying good things about you. Don't worry about being too "braggy"; I have no problem toning things down if need be.
+
+Like everything else, communication is key, and when in doubt, ask!
+
+
+
+## Potential for Controversy
+[Internal comment -- this issue came to mind because of a conversation I had with Steven Pinker about some of his twitter controversy https://www.nytimes.com/2020/07/15/us/steven-pinker-harvard.html So it's on my mind right now ]
+
+Many of the research topics in our lab have the potential to be controversial.
+
+[disclaimer: controversy can come from the right or left Controversy from the left tends to be XXXX; Controversy from the right tends to be XXXX. We have research questions that can offend both sides. Right offense: LGBTQ; Left offense: genetic effects.]
+
+### Topics of Controversy
+
+#### Genetic Effects
+For example, one of my papers examined the genetic and environmental sources of variance underlying the relationship between socioeconomic status and health (Garrison & Rodgers, 2019). We found that the relationship between physical health and SES was primarily genetic. 
+
+[paragraph on interpreting genetic effects]
+
+#### Intelligence
+
+#### Historically Marginalized Groups
+
+#### Data Collected Unethically
+
+### Causes of Controversy
+
+[Misinterpreting findings as racist, sexist, eugenicist, elitist]
+
+### Consequences of Controversy
+
+The consequences of controversial research can range, here are some examples of increasing severity. The more severe the less common.
+ - uncomfortable conversations
+ - negative media coverage
+ - petitions for removal/revocation of
+ - rescinding of admissions, 
+    - jobs offers, 
+    - research funding,
+    - awards 
+
+#### Relevant Examples
+(Not an endorsement of their beliefs.)
+
+
+Carl Noah
+
+Steven Pinker
+
+Charles Murray
+
+
+### Current Strategy
+
+Proceed with extreme caution; approach topics very thoughtfully and deliberately. Lay out how these findings can be misinterpreted. I will have your back 1000% on your topic of choice, as long as we do it thoughtfully and without an agenda. This lab does not seek out controversy. This lab focuses on doing good science, and will only delve into controversial areas *IF* that science has the potential for benefiting the greater good.
+
+
+
+# Frequently asked questions
+## Where are all the FAQs?
+
+No one has asked any questions yet.
+
+
+
+
+
+
+# Glossary
+
+### PI (principal investigator)
+
+In the context of a grant, the PI is the person responsible for making sure the proposed research gets done. More broadly it refers to a researcher who has their own research group or lab (i.e., someone who would be in a position to be a PI on a grant, regardless of whether or not they are currently funded).
+
+
+
+# References
+
+
+  [5]: 
+  [6]: 
