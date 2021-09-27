@@ -1,0 +1,138 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+\usepackage{xspace}
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.5in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{../logo.png}}} % Company/institution logo at the top left of the page
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=3pt}%,topmarginskip=0in,unprtop=0in,} % Slightly decrease the height of the signature field
+%\newlfmP{addrfromphone} % Print a phone number under the sender's address
+%\newlfmP{addrfromemail} % Print an email address under the sender's address
+%\PhrPhone{Phone} % Customize the "Telephone" text
+%\PhrEmail{Email} % Customize the "E-mail" text
+
+\lthUiuc % Print the company/institution logo
+
+\newcommand{\et}{\textit{et al}.\xspace}
+\newcommand{\eg}{\textit{e.g},\xspace}
+\newcommand{\R}{\textup{\textrm{R}}\xspace}
+
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{S. Mason Garrison} % Name
+
+\addrfrom{\me\\
+\today\\ % Date
+Nashville, TN 37203\\
+%\myphone\\
+\myemail}
+
+\newcommand{\myphone}{1.267.357.4392\xspace} % Phone number
+\newcommand{\myemail}{sarah.m.garrison@vanderbilt.edu\xspace} % Email address
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Dear \chair and members of the search committee,} % Greeting text
+\closeline{Cordially,} % Closing text
+
+\newcommand{\me}{S(arah) Mason Garrison\xspace}
+\newcommand{\chair}{Prof. Name of Committee Chair\xspace} %Name of Committee Chair
+\newcommand{\department}{Psychology Department\xspace} %Department
+\newcommand{\university}{Y University\xspace} % UNIVERSITY Y
+\newcommand{\uniaddress}{City, State\xspace} % ADDRESSS
+
+
+\addrto{\chair\\
+Chair,\\ 
+\department\\
+\university\\
+\uniaddress}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Position
+%----------------------------------------------------------------------------------------
+\uchyph=0
+\newcommand{\job}{Assistant Professor\xspace} % Job Level
+\newcommand{\positiontitle}{AREA\xspace} % Position Area
+\newcommand{\positionnumber}{(\#)\xspace} % identifying numbers
+
+\newcommand{\materials}{my vita, 
+representative publications,
+teaching evaluations,
+evidence of teaching effectiveness,
+links to sample publications
+and statements of research 
+, diversity,
+and teaching} %Job materials
+\newcommand{\refs}{Professors Joseph Lee Rodgers (joseph.l.rodgers@vanderbilt.edu), Kristopher Preacher (kris.preacher@vanderbilt.edu), and Jeremy Biesanz (jbiesanz@psych.ubc.ca)} %Reference Letters
+
+
+\newcommand{\wishlist}{with comparable expertise in quantitative methods and a content specialization\xspace} 
+
+
+
+%----------------------------------------------------------------------------------------
+%	Tailored Responses
+%----------------------------------------------------------------------------------------
+
+% Research
+\newcommand{\tailoredwishlist}{interests reflect the historic symbiosis between quantitative methods and differential psychology: my substantive work on individual differences and health inequity inspires my quantitative work, whereas my quantitative work on biometrically-informed designs facilitates my substantive work.\xspace}
+
+
+\newcommand{\researchprogram}{the evaluation of biometrically-informed designs for psychology and their application to understanding health inequity. In my substantive work, I focus on how individual differences influence the relationship between socioeconomic status and health. In my methodological work, I focus on developing and improving biometrically-informed designs, such as behavior genetic and discordant kin models. These designs strengthen our ability to make causal inferences by leveraging environmental and genetic information.\xspace}
+
+\newcommand{\funding}{\xspace I have received external funding for the intersection of this research; I was awarded a three-year research fellowship ($\approx \textdollar 138,000$) from the National Science Foundation and competitive smaller travel and training grants from outside universities, professional organizations, and private foundations. As an Assistant Professor, I intend to pursue similar funding streams, and actively encourage my students to pursue these streams of external funding.\xspace}
+
+% Teaching
+
+\newcommand{\teachingprepgrad}{t the graduate level, I could teach survey courses on Longitudinal Modeling, Generalized Linear modeling, and Quasi-Experimental Methods, as well as specialty courses related to my research. These survey courses would focus on popular methods and software overviews. For example, the Longitudinal course would provide overviews of Structural Equation Modeling, Multilevel Modeling, Survival Analysis, and other applications of maximum likelihood estimation.\xspace}
+
+\newcommand{\teachingprepugrad}{t the undergraduate level, I could teach foundational methods and statistics courses, and topical surveys in quantitative psychology, measurement, and personality. Further, I would be interested to developing specialty elective courses for data analysis in \R, and Lying with Statistics.\xspace}
+
+
+% Why University
+
+\newcommand{\whyus}{The department's long-standing commitment to both graduate and undergraduate research makes this position particularly appealing. I would be interested in mentoring graduate students in the university's masters program in General Psychology or Industrial/Organizational Psychology conducting research on the social/personality aspect of the SES-health gradient. Further, I could serve as an affiliated faculty mentor for the clinical psychology graduate programs, conducting research on the mental health aspects of the SES-health gradient. In addition, I would enjoy collaborating with the department as well as provide methods consulting. \xspace}
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I am applying for the advertised \job of \positiontitle position \positionnumber in the \department at \university. I am a Ph.D candidate in Quantitative Methodology at Vanderbilt University's Department of Psychology and Human Development. I anticipate defending my dissertation by May 2019.
+
+Your advertisement noted interest in candidates \wishlist. As you will see in greater detail in my research statement, my research \tailoredwishlist
+
+I have two lines of research that examine \researchprogram
+
+\funding
+
+With respect to teaching a\teachingprepgrad A\teachingprepugrad
+
+\whyus
+
+I have enclosed \materials; my letters of reference will be submitted by \refs. I am available via email and telephone (\myphone) to answer any questions. Thank you for considering my application.
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\end{document}
