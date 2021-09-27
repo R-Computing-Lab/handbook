@@ -164,7 +164,7 @@ August
 September
 - Schedule MAP feedback mtg
 - Send MAP to all committee members
-- Contact recommenders
+- Contact letter writers
 - Discuss SOP with mentors/peers/friends
 
 October
@@ -174,7 +174,7 @@ October
 - Finalize thesis idea
 - Review and revise SOP;
 - draft any other materials needed for applications
-- Send materials to recommenders
+- Send materials to letter writers
 - Consider attending SSSP
 
 
@@ -373,7 +373,3 @@ In the context of a grant, the PI is the person responsible for making sure the 
 
 
 # References
-
-
-  [5]: 
-  [6]: 
