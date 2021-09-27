@@ -1,0 +1,109 @@
+@[toc]
+1. Graduate Application Resources
+https://osf.io/jvdx7/wiki/home/
+Not maintained
+
+# Motivation
+
+Here are an incomplete collection of resources for students interested in applying to graduate school in psychology. I've included my application materials that I used for the PhD program I enrolled in. NOTE: I really feel that I was accepted in spite of my application essay. However, in the spirit of transparency, I've included it anyway.
+
+
+
+
+# General Advice
+
+
+## Psychology
+- [Mitch Prinstein][1]'s collection of info for PHD applicants including:
+    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology][2] 
+    - [Tips on Applying to Graduate School][3] by Sophie Choukas-Bradley
+    - [Before You Apply][4] by Casey Calhoun
+
+
+- [Bill Revelle][5]'s [Website has a collection of info][6] 
+
+## Should you go?
+
+- The Economist on [Why doing a PhD is often a waste of time][7]
+- Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree][8]
+
+
+# Application
+
+- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.][9]
+
+- [Philip Guo's][10] [A Five-Minute Guide to Ph.D. Program Applications][11]
+
+# Programs
+## What area of psychology?
+
+- Wikipedia's Lists 
+    - [Subfields of psychology][12], 
+    - [Psychology Disciplines][13]
+
+## Lists
+
+### Funded Terminal Master's Programs (Incomplete List)
+
+- [College William and Mary][14]
+- [Villanova University][15]
+- [Wake Forest University][16]
+
+### General Lists
+
+### Subfield
+
+- Clinical Psychology
+    - [American Psychological Association][17]'s [List of APA-Accredited Programs][18]
+
+
+- Individual Differences (Personality, Intelligence, etc)
+    - [Bill Revelle][19]'s List of [Graduate Departments of Psychology with Personality Programs][20]
+
+
+- Quantitative Psychology
+    - [List of schools for quantitative psychology][21]
+
+- Social Psychology
+    - [Social Psychology Network Ranked List][22]
+    - [SPSP's Social and Personality Graduate Program Directory][23]
+
+## Subreddits
+- [/r/Gradadmissions][24]
+- [/r/GradSchool][25]
+- [/r/AskAcademia][26]
+
+# Graduate Student Life
+
+- [Graduate School Survival Guide][27]
+- [PhD Comics][28]
+
+
+  [1]: http://mitch.web.unc.edu/info-for-phd-applicants/
+  [2]: http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf
+  [3]: http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf
+  [4]: http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf
+  [5]: https://www.personality-project.org
+  [6]: https://www.personality-project.org/org.html#howtoapply
+  [7]: https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb
+  [8]: https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd
+  [9]: https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf
+  [10]: http://www.pgbovine.net/index.html
+  [11]: http://www.pgbovine.net/PhD-application-tips.htm
+  [12]: https://en.wikipedia.org/wiki/Subfields_of_psychology
+  [13]: https://en.wikipedia.org/wiki/List_of_psychology_disciplines
+  [14]: https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php
+  [15]: https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html
+  [16]: http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/
+  [17]: https://www.apa.org/index
+  [18]: https://www.apa.org/ed/accreditation/programs/
+  [19]: https://www.personality-project.org
+  [20]: https://www.personality-project.org/org.html#gradpsych
+  [21]: https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology
+  [22]: https://www.socialpsychology.org/gsocial.htm
+  [23]: http://spsp.org/resources/student/grad-directory
+  [24]: https://www.reddit.com/r/gradadmissions/
+  [25]: https://www.reddit.com/r/GradSchool/
+  [26]: https://www.reddit.com/r/AskAcademia
+  [27]: http://www.cs.unc.edu/~azuma/hitch4.html
+  [28]: http://phdcomics.com/

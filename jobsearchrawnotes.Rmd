@@ -1,0 +1,117 @@
+@[toc]
+
+https://osf.io/nhmuv/wiki/home/?edit&view&menu
+
+----------
+
+# Motivation
+
+I had a tough time finding examples of job materials for quantitatively-inclined candidates. Here are representative examples from my own materials. Hopefully, they'll be able to help inspire your own materials. In addition, I've added some of the other resources and information that I found helpful. Although this collection has focused on academic jobs, I also considered industry jobs in my search.
+
+## General Thoughts
+
+## My Experience
+
+----------
+
+
+# Resources
+This is an incomplete list. Suggestions are very much encouraged.
+
+## General Advice
+
+- The Professor Is In: [Blog][1] and [Book][2]
+
+- American Psychological Association [APA Career Resources][3]
+
+## Materials
+
+### Cover letter
+- [How To Write Academic Job Cover Letters from The Professor Is In][4]
+
+### Teaching Statements
+- [Vanderbilt Center for Teaching on Teaching Statements][5]
+- [Writing a Teaching Philosophy Statement by Helen G. Grundman][6]
+- [University of Arizona on Writing Diversity Statements][7]
+
+### Research Statements
+
+### Diversity Statements
+- [The Effective Diversity Statement from InsideHigherEd][8]
+- [Beck, S. L., (2018). Developing and writing a diversity statement. Vanderbilt University Center for Teaching][9]
+
+### Example Materials
+
+- UCSF [Samples for Academic Positions][10]
+- [Plasticity in Neurodevelopment Lab][11]
+
+## Finding Jobs
+
+### Academic
+- [APA PsychCareers](https://www.psyccareers.com/search)
+- [APS Employment Network](https://jobs.psychologicalscience.org/)
+- [HigherEd Jobs](https://www.higheredjobs.com/faculty/search.cfm?JobCat=91)
+- [Psych Jobs Wiki](http://psychjobsearch.wikidot.com/)
+- [SMEP Job Postings](https://smep.org/resources/positions-available)
+- [Society for Math Psych](http://www.mathpsych.org/index.php?option=com_content&view=category&layout=blog&id=34&Itemid=62)
+- [SPSP](https://my.spsp.org/Careers/Job-Search)
+- [Times Higher Education](https://www.timeshighereducation.com/unijobs/en-us/listings/psychology/)
+
+### Industry
+Most data-savvy companies have a careers page. I've included some of those pages here of companies I applied to, were recruited by, or would be interested in working for. There are also job boards, which companies post positions on. There's some overlap, but not 100%.
+#### Specific Companies
+- [23andMe](https://www.23andme.com/careers/)
+- [ACT](https://careers-act.icims.com/jobs/)
+- [Amazon](https://www.amazon.jobs/en/job_categories/data-science)
+- [Ancestry](https://careers.ancestry.com/us/en)
+- [ETS](https://www.ets.org/careers)
+- [Facebook](https://www.facebook.com/careers/jobs)
+- [Google](https://careers.google.com/)
+- [Houghton Mifflin Harcourt](https://careers.hmhco.com/key/educational-measurement-jobs.html)
+- [ITHAKA (JSTOR, Ithaka S+R, Portico)](https://www.ithaka.org/career-opportunities)
+- [New York Times](https://www.nytco.com/careers/)
+- [Pearson](https://pearson.jobs/)
+- [Pew Research Center][12]
+- [RAND][13]
+- [SSRS][14]
+- [W. W. Norton & Company](https://wwnorton.com/careers/current-openings)
+
+#### Job Postings
+- [Glassdoor](https://www.glassdoor.com)
+- [Indeed](https://www.indeed.com/)
+- [USA Jobs (US Government Jobs)](https://www.usajobs.gov/)
+
+
+## Data / Research
+- Bureau of Labor Statistics on [STEM crisis or STEM surplus? Yes and yes][15]
+- [What are the chances of becoming a Psychology Professor?][16]
+    -[(archived link)][17]
+-  [Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology][18]
+- [Boysen, G. A., Jones, C., Kaltwasser, R., & Thompson, E. (2018). Keys to a successful job talk: Perceptions of psychology faculty. Teaching of Psychology, 45(3), 270-277.][19]
+- [Pennycook, G. & Thompson, V. A. (2018). An analysis of the Canadian cognitive psychology job market (2006-2016). Canadian Journal of Experimental Psychology, 72, 71-80.][20]
+- Washington Post on [The academic job market is a nightmare][21]
+- Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took][22]
+
+
+  [1]: http://theprofessorisin.com/
+  [2]: https://smile.amazon.com/gp/product/0553419420
+  [3]: https://www.apa.org/careers/resources/academic/
+  [4]: https://theprofessorisin.com/category/how-to-write-academic-job-cover-letters/
+  [5]: https://cft.vanderbilt.edu/guides-sub-pages/teaching-statements/
+  [6]: http://www.ams.org/notices/200611/comm-grundman.pdf
+  [7]: https://postdoc.arizona.edu/content/writing-diversity-statements
+  [8]: https://www.insidehighered.com/advice/2016/06/10/how-write-effective-diversity-statement-essay
+  [9]: https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/
+  [10]: https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples
+  [11]: https://www.plasticityinneurodevelopmentlab.com/for-academics
+  [12]: https://jobs-prc.icims.com/jobs/
+  [13]: https://www.rand.org/jobs.html
+  [14]: https://ssrs.com/careers/
+  [15]: https://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm
+  [16]: http://geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/stem-surplus-yes-and-yes.htm
+  [17]: http://webcache.googleusercontent.com/search?q=cache:M-P4L1Xj8XoJ:geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/&hl=en&gl=us&strip=0&vwsrc=0
+  [18]: https://journals.sagepub.com/doi/abs/10.1177/0098628319853942
+  [19]: https://journals.sagepub.com/doi/abs/10.1177/0098628318779277
+  [20]: https://psyarxiv.com/mxa35
+  [21]: https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took
+  [22]: https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took
