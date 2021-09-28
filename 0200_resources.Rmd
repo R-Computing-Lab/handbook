@@ -24,64 +24,63 @@ This project gathers together all the resources I've gathered throughout my care
  
 # Graduate Application Resources
 https://osf.io/jvdx7/wiki/home/
-Not maintained
 
-# Motivation
+## Motivation
 
 Here are an incomplete collection of resources for students interested in applying to graduate school in psychology. I've included my application materials that I used for the PhD program I enrolled in. NOTE: I really feel that I was accepted in spite of my application essay. However, in the spirit of transparency, I've included it anyway.
 
 
 
 
-# General Advice
+## General Advice
 
 
-## Psychology
-- [Mitch Prinstein][1]'s collection of info for PHD applicants including:
-    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology][2] 
-    - [Tips on Applying to Graduate School][3] by Sophie Choukas-Bradley
-    - [Before You Apply][4] by Casey Calhoun
+### Psychology
+- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
+    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
+    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
+    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
 
 
-- [Bill Revelle][5]'s [Website has a collection of info][6] 
+- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
 
-## Should you go?
+### Should you go?
 
-- The Economist on [Why doing a PhD is often a waste of time][7]
+- The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
 - Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree][8]
 
 
-# Application
+## Application
 
 - [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.][9]
 
 - [Philip Guo's][10] [A Five-Minute Guide to Ph.D. Program Applications][11]
 
-# Programs
-## What area of psychology?
+## Programs
+### What area of psychology?
 
 - Wikipedia's Lists 
     - [Subfields of psychology][12], 
     - [Psychology Disciplines][13]
 
-## Lists
+### Lists
 
-### Funded Terminal Master's Programs (Incomplete List)
+#### Funded Terminal Master's Programs (Incomplete List)
 
 - [College William and Mary][14]
 - [Villanova University][15]
 - [Wake Forest University][16]
 
-### General Lists
 
-### Subfield
+
+#### Subfield
 
 - Clinical Psychology
     - [American Psychological Association][17]'s [List of APA-Accredited Programs][18]
 
 
 - Individual Differences (Personality, Intelligence, etc)
-    - [Bill Revelle][19]'s List of [Graduate Departments of Psychology with Personality Programs][20]
+    - [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs][20]
 
 
 - Quantitative Psychology
@@ -92,23 +91,18 @@ Here are an incomplete collection of resources for students interested in applyi
     - [SPSP's Social and Personality Graduate Program Directory][23]
 
 ## Subreddits
-- [/r/Gradadmissions][24]
-- [/r/GradSchool][25]
-- [/r/AskAcademia][26]
-
+- [/r/Gradadmissions](https://www.reddit.com/r/gradadmissions/)
+- [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
+- [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
 # Graduate Student Life
 
-- [Graduate School Survival Guide][27]
-- [PhD Comics][28]
+- [Graduate School Survival Guide](http://www.cs.unc.edu/~azuma/hitch4.html)
+- [PhD Comics](http://phdcomics.com/)
 
 
-  [1]: http://mitch.web.unc.edu/info-for-phd-applicants/
-  [2]: http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf
-  [3]: http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf
-  [4]: http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf
-  [5]: https://www.personality-project.org
-  [6]: https://www.personality-project.org/org.html#howtoapply
-  [7]: https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb
+
+
+  [7]: 
   [8]: https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd
   [9]: https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf
   [10]: http://www.pgbovine.net/index.html
@@ -120,22 +114,20 @@ Here are an incomplete collection of resources for students interested in applyi
   [16]: http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/
   [17]: https://www.apa.org/index
   [18]: https://www.apa.org/ed/accreditation/programs/
-  [19]: https://www.personality-project.org
   [20]: https://www.personality-project.org/org.html#gradpsych
   [21]: https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology
   [22]: https://www.socialpsychology.org/gsocial.htm
   [23]: http://spsp.org/resources/student/grad-directory
-  [24]: https://www.reddit.com/r/gradadmissions/
-  [25]: https://www.reddit.com/r/GradSchool/
-  [26]: https://www.reddit.com/r/AskAcademia
-  [27]: http://www.cs.unc.edu/~azuma/hitch4.html
-  [28]: http://phdcomics.com/
+  [24]: 
+  [25]: 
+  [26]: 
+  [27]: 
+  [28]: 
   
   
-  
-@[toc]
 
-https://osf.io/nhmuv/wiki/home/?edit&view&menu
+
+<!-- https://osf.io/nhmuv/wiki/home/?edit&view&menu -->
 
 ----------
 
