@@ -980,8 +980,8 @@ Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-4d3b985375712cbc4200" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4d3b985375712cbc4200">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0","3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.2","1.5.3","1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1","0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","1.1.1",null,"1.1.1","1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,"0.1.2","2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2021-07-17","2020-10-08","2021-06-24","2018-12-01",null,"2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02",null,null,"2020-10-31",null,"2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09",null,"2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-08-25","2020-12-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2021-05-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-05-03","2021-06-01","2021-01-26","2021-06-01","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13",null,"2016-04-21","2020-05-01","2021-06-02","2021-08-05","2021-04-30","2021-08-06","2020-06-27",null,"2020-11-15","2020-11-12","2021-05-31","2021-07-26","2020-05-11","2019-11-20","2018-11-05","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2021-07-20","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,null,"CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":146,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,146]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-4d2545a5d52f730a05eb" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4d2545a5d52f730a05eb">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0","3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.2","1.5.3","1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1","0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","1.1.1",null,"1.1.1","1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,"0.1.2","2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2021-07-17","2020-10-08","2021-06-24","2018-12-01",null,"2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02",null,null,"2020-10-31",null,"2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09",null,"2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-08-25","2020-12-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2021-05-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-05-03","2021-06-01","2021-01-26","2021-06-01","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13",null,"2016-04-21","2020-05-01","2021-06-02","2021-08-05","2021-04-30","2021-08-06","2020-06-27",null,"2020-11-15","2020-11-12","2021-05-31","2021-07-26","2020-05-11","2019-11-20","2018-11-05","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2021-07-20","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,null,"CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":146,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,146]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -2702,59 +2702,59 @@ Here are an incomplete collection of resources for students interested in applyi
     - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
     - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
 
-
 - [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
 
 ### Should you go?
 
 - The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
-- Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree][8]
+- Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
 
 
 ## Application
 
-- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.][9]
+- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
 
-- [Philip Guo's][10] [A Five-Minute Guide to Ph.D. Program Applications][11]
+- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
 
 ## Programs
 ### What area of psychology?
 
 - Wikipedia's Lists 
-    - [Subfields of psychology][12], 
-    - [Psychology Disciplines][13]
+    - [Subfields of psychology](https://en.wikipedia.org/wiki/Subfields_of_psychology), 
+    - [Psychology Disciplines](https://en.wikipedia.org/wiki/List_of_psychology_disciplines)
 
 ### Lists
 
 #### Funded Terminal Master's Programs (Incomplete List)
 
-- [College William and Mary][14]
-- [Villanova University][15]
-- [Wake Forest University][16]
+- [College William and Mary](https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php)
+- [Villanova University](https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html)
+- [Wake Forest University](http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/)
 
 
 
 #### Subfield
 
 - Clinical Psychology
-    - [American Psychological Association][17]'s [List of APA-Accredited Programs][18]
+    - [American Psychological Association](https://www.apa.org/index)'s [List of APA-Accredited Programs](https://www.apa.org/ed/accreditation/programs/)
 
 
 - Individual Differences (Personality, Intelligence, etc)
-    - [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs][20]
+    - [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs](https://www.personality-project.org/org.html#gradpsych)
 
 
 - Quantitative Psychology
-    - [List of schools for quantitative psychology][21]
+    - [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
 
 - Social Psychology
-    - [Social Psychology Network Ranked List][22]
-    - [SPSP's Social and Personality Graduate Program Directory][23]
+    - [Social Psychology Network Ranked List](https://www.socialpsychology.org/gsocial.htm)
+    - [SPSP's Social and Personality Graduate Program Directory](http://spsp.org/resources/student/grad-directory)
 
 ## Subreddits
 - [/r/Gradadmissions](https://www.reddit.com/r/gradadmissions/)
 - [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
 - [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
+
 # Graduate Student Life
 
 - [Graduate School Survival Guide](http://www.cs.unc.edu/~azuma/hitch4.html)
@@ -2763,75 +2763,45 @@ Here are an incomplete collection of resources for students interested in applyi
 
 
 
-  [7]: 
-  [8]: https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd
-  [9]: https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf
-  [10]: http://www.pgbovine.net/index.html
-  [11]: http://www.pgbovine.net/PhD-application-tips.htm
-  [12]: https://en.wikipedia.org/wiki/Subfields_of_psychology
-  [13]: https://en.wikipedia.org/wiki/List_of_psychology_disciplines
-  [14]: https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php
-  [15]: https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html
-  [16]: http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/
-  [17]: https://www.apa.org/index
-  [18]: https://www.apa.org/ed/accreditation/programs/
-  [20]: https://www.personality-project.org/org.html#gradpsych
-  [21]: https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology
-  [22]: https://www.socialpsychology.org/gsocial.htm
-  [23]: http://spsp.org/resources/student/grad-directory
-  [24]: 
-  [25]: 
-  [26]: 
-  [27]: 
-  [28]: 
-  
-  
 
-
+# Quantitative Methods Psych Jobs 
 <!-- https://osf.io/nhmuv/wiki/home/?edit&view&menu -->
-
-----------
-
-# Motivation
+## Motivation
 
 I had a tough time finding examples of job materials for quantitatively-inclined candidates. Here are representative examples from my own materials. Hopefully, they'll be able to help inspire your own materials. In addition, I've added some of the other resources and information that I found helpful. Although this collection has focused on academic jobs, I also considered industry jobs in my search.
 
-## General Thoughts
 
-## My Experience
-
-----------
-
-
-# Resources
+## Resources
 This is an incomplete list. Suggestions are very much encouraged.
 
-## General Advice
+### General Advice
 
-- The Professor Is In: [Blog][1] and [Book][2]
+- The Professor Is In: [Blog](http://theprofessorisin.com/) and [Book](https://smile.amazon.com/gp/product/0553419420)
 
-- American Psychological Association [APA Career Resources][3]
+- American Psychological Association [APA Career Resources](https://www.apa.org/careers/resources/academic/)
 
-## Materials
+### Materials
 
-### Cover letter
-- [How To Write Academic Job Cover Letters from The Professor Is In][4]
+#### Cover letter
+- [How To Write Academic Job Cover Letters from The Professor Is In](https://theprofessorisin.com/category/how-to-write-academic-job-cover-letters/)
 
-### Teaching Statements
-- [Vanderbilt Center for Teaching on Teaching Statements][5]
-- [Writing a Teaching Philosophy Statement by Helen G. Grundman][6]
-- [University of Arizona on Writing Diversity Statements][7]
+#### Teaching Statements
+- [Vanderbilt Center for Teaching on Teaching Statements]( https://cft.vanderbilt.edu/guides-sub-pages/teaching-statements/)
+- [Writing a Teaching Philosophy Statement by Helen G. Grundman](http://www.ams.org/notices/200611/comm-grundman.pdf)
+- [University of Arizona on Writing Diversity Statements](https://postdoc.arizona.edu/content/writing-diversity-statements)
 
-### Research Statements
+#### Research Statements
 
-### Diversity Statements
-- [The Effective Diversity Statement from InsideHigherEd][8]
-- [Beck, S. L., (2018). Developing and writing a diversity statement. Vanderbilt University Center for Teaching][9]
+#### Diversity Statements
+- [The Effective Diversity Statement from InsideHigherEd](https://www.insidehighered.com/advice/2016/06/10/how-write-effective-diversity-statement-essay)
+- [Beck, S. L., (2018). Developing and writing a diversity statement. Vanderbilt University Center for Teaching](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/)
 
-### Example Materials
+#### Example Materials
 
-- UCSF [Samples for Academic Positions][10]
-- [Plasticity in Neurodevelopment Lab][11]
+- UCSF [Samples for Academic Positions](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
+- [Plasticity in Neurodevelopment Lab](https://www.plasticityinneurodevelopmentlab.com/for-academics)
+- Mine
+
 
 ## Finding Jobs
 
@@ -2859,9 +2829,9 @@ Most data-savvy companies have a careers page. I've included some of those pages
 - [ITHAKA (JSTOR, Ithaka S+R, Portico)](https://www.ithaka.org/career-opportunities)
 - [New York Times](https://www.nytco.com/careers/)
 - [Pearson](https://pearson.jobs/)
-- [Pew Research Center][12]
-- [RAND][13]
-- [SSRS][14]
+- [Pew Research Center](https://jobs-prc.icims.com/jobs/)
+- [RAND](https://www.rand.org/jobs.html)
+- [SSRS](https://ssrs.com/careers/)
 - [W. W. Norton & Company](https://wwnorton.com/careers/current-openings)
 
 #### Job Postings
@@ -2871,38 +2841,15 @@ Most data-savvy companies have a careers page. I've included some of those pages
 
 
 ## Data / Research
-- Bureau of Labor Statistics on [STEM crisis or STEM surplus? Yes and yes][15]
-- [What are the chances of becoming a Psychology Professor?][16]
-    -[(archived link)][17]
--  [Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology][18]
-- [Boysen, G. A., Jones, C., Kaltwasser, R., & Thompson, E. (2018). Keys to a successful job talk: Perceptions of psychology faculty. Teaching of Psychology, 45(3), 270-277.][19]
-- [Pennycook, G. & Thompson, V. A. (2018). An analysis of the Canadian cognitive psychology job market (2006-2016). Canadian Journal of Experimental Psychology, 72, 71-80.][20]
-- Washington Post on [The academic job market is a nightmare][21]
-- Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took][22]
 
-
-  [1]: http://theprofessorisin.com/
-  [2]: https://smile.amazon.com/gp/product/0553419420
-  [3]: https://www.apa.org/careers/resources/academic/
-  [4]: https://theprofessorisin.com/category/how-to-write-academic-job-cover-letters/
-  [5]: https://cft.vanderbilt.edu/guides-sub-pages/teaching-statements/
-  [6]: http://www.ams.org/notices/200611/comm-grundman.pdf
-  [7]: https://postdoc.arizona.edu/content/writing-diversity-statements
-  [8]: https://www.insidehighered.com/advice/2016/06/10/how-write-effective-diversity-statement-essay
-  [9]: https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/
-  [10]: https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples
-  [11]: https://www.plasticityinneurodevelopmentlab.com/for-academics
-  [12]: https://jobs-prc.icims.com/jobs/
-  [13]: https://www.rand.org/jobs.html
-  [14]: https://ssrs.com/careers/
-  [15]: https://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm
-  [16]: http://geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/stem-surplus-yes-and-yes.htm
-  [17]: http://webcache.googleusercontent.com/search?q=cache:M-P4L1Xj8XoJ:geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/&hl=en&gl=us&strip=0&vwsrc=0
-  [18]: https://journals.sagepub.com/doi/abs/10.1177/0098628319853942
-  [19]: https://journals.sagepub.com/doi/abs/10.1177/0098628318779277
-  [20]: https://psyarxiv.com/mxa35
-  [21]: https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took
-  [22]: https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took
+- Bureau of Labor Statistics on [STEM crisis or STEM surplus? Yes and yes](https://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm)
+- [What are the chances of becoming a Psychology Professor?](http://geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/stem-surplus-yes-and-yes.htm)
+    -[(archived link)](http://webcache.googleusercontent.com/search?q=cache:M-P4L1Xj8XoJ:geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/&hl=en&gl=us&strip=0&vwsrc=0)
+- [Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology](https://journals.sagepub.com/doi/abs/10.1177/0098628319853942)
+- [Boysen, G. A., Jones, C., Kaltwasser, R., & Thompson, E. (2018). Keys to a successful job talk: Perceptions of psychology faculty. Teaching of Psychology, 45(3), 270-277.](https://journals.sagepub.com/doi/full/10.1177/0098628318779277)
+- [Pennycook, G. & Thompson, V. A. (2018). An analysis of the Canadian cognitive psychology job market (2006-2016). Canadian Journal of Experimental Psychology, 72, 71-80.](https://psyarxiv.com/mxa35)
+- Washington Post on [The academic job market is a nightmare](https://www.washingtonpost.com/outlook/2019/04/15/job-market-academics-is-nightmare-heres-one-way-fix-it/)
+- Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took](https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took)
 
 <!--chapter:end:0200_resources.Rmd-->
 
