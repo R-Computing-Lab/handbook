@@ -35,6 +35,7 @@ Here are an incomplete collection of resources for students interested in applyi
 ## General Advice
 
 
+
 ### Psychology
 - [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
     - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
@@ -51,6 +52,14 @@ Here are an incomplete collection of resources for students interested in applyi
 
 ## Application
 
+```{r, echo=FALSE}
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+
+include_tweet("https://twitter.com/crisbanksleite/status/1453753460357218306")
+```
+
+
 - [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
 
 - [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
@@ -66,7 +75,7 @@ Here are an incomplete collection of resources for students interested in applyi
 
 #### Funded Terminal Master's Programs (Incomplete List)
 
-- [College William and Mary](https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php)
+- [College of William and Mary](https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php)
 - [Villanova University](https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html)
 - [Wake Forest University](http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/)
 
