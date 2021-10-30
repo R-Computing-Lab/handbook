@@ -101,8 +101,6 @@ Here are an incomplete collection of resources for students interested in applyi
 
 
 
-
-
 # Quantitative Methods Psych Jobs 
 <!-- https://osf.io/nhmuv/wiki/home/?edit&view&menu -->
 ## Motivation
@@ -156,6 +154,7 @@ This is an incomplete list. Suggestions are very much encouraged.
 
 ### Industry
 Most data-savvy companies have a careers page. I've included some of those pages here of companies I applied to, were recruited by, or would be interested in working for. There are also job boards, which companies post positions on. There's some overlap, but not 100%.
+
 #### Specific Companies
 - [23andMe](https://www.23andme.com/careers/)
 - [ACT](https://careers-act.icims.com/jobs/)
