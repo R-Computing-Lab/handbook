@@ -1,0 +1,18 @@
+```{r include = FALSE}
+source("common.R")
+
+# install.packages("devtools")
+
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+
+```
+
+# Graduate School Life Advice
+
+
+## Sources of Funding
+
+SPSP Travel Awards
+
+SMEP travel awards
