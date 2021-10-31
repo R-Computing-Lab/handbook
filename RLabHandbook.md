@@ -3,7 +3,7 @@ title: "R Lab Handbook"
 subtitle: "Handbook for the R Computing Lab"
 author: 
 - S. Mason Garrison
-date: "2021-09-28"
+date: "2021-10-31"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://r-computing-lab.github.io/handbook/'
@@ -43,18 +43,13 @@ Our substantive work focuses understanding the relationships between socioeconom
 
 Students in the laboratory work on projects covering a wide range of topics including inter-generational consequences of divorce, vaccination willingness, R package development.
 
-# Introduction
+# Preamble
 
-This lab handbook is a work in progress. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. At the end of each section, I will cite the materials I used.
+This lab handbook is constantly changing and often in active development. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
 
+I encourage you to contribute to the [lab code](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. 
 
-
-## Mason Notes {-}
-
-
-This website is constantly changing and often in active development. I have made this process explicitly transparent because I want you to see how you can use R to produce some pretty neat things. Indeed, I've included the source code for this website in the class [github](https://github.com/DataScience4Psych). I encourage you to contribute to the [course code](https://github.com/DataScience4Psych/DataScience4Psych). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. 
-
-### How to use these notes {-}
+## How to use these notes
 
 This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester.
 
@@ -965,7 +960,7 @@ This version of the notes was built with:
 ```
 #> Finding R package dependencies ... Done!
 #>  setting  value                       
-#>  version  R version 4.1.1 (2021-08-10)
+#>  version  R version 4.0.5 (2021-03-31)
 #>  os       Windows 10 x64              
 #>  system   x86_64, mingw32             
 #>  ui       RTerm                       
@@ -973,15 +968,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-09-28
+#>  date     2021-10-31
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-4d2545a5d52f730a05eb" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4d2545a5d52f730a05eb">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0","3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.2","1.5.3","1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1","0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","1.1.1",null,"1.1.1","1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,"0.1.2","2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2021-07-17","2020-10-08","2021-06-24","2018-12-01",null,"2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02",null,null,"2020-10-31",null,"2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09",null,"2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-08-25","2020-12-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2021-05-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-05-03","2021-06-01","2021-01-26","2021-06-01","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13",null,"2016-04-21","2020-05-01","2021-06-02","2021-08-05","2021-04-30","2021-08-06","2020-06-27",null,"2020-11-15","2020-11-12","2021-05-31","2021-07-26","2020-05-11","2019-11-20","2018-11-05","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2021-07-20","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,null,"CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":146,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,146]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-1c0ec146d10c54162257" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1c0ec146d10c54162257">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.28","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.2","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.1.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.5","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.26","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-09-22","2021-10-29","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-09-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-09-27","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-09-30","2021-09-27","2021-04-30","2021-04-15","2021-09-28","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-10-27","2021-04-29","2021-10-13","2021-04-13","2021-09-14","2021-09-14","2019-08-28","2021-04-18","2021-09-14","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1405,7 +1400,7 @@ Along with these packages:
 Members are listed by seniority (in the order they joined the lab).
 
 ## Investigators
-----------
+
 ### Principal Investigator
 
 * S. Mason Garrison
@@ -1413,9 +1408,9 @@ Members are listed by seniority (in the order they joined the lab).
 ### Affiliated Principal Investigator
 * Veronica Cole
 
-----------
+
 ## Current Students
-----------
+
 ### Graduate Students
 #### Primary Lab
 
@@ -2682,85 +2677,6 @@ This project gathers together all the resources I've gathered throughout my care
 
  - [Edyburn, Dave (August 21, 2020). [An Onboarding Guide for Postdoctoral Researchers. Inside Higher Ed](https://www.insidehighered.com/advice/2020/08/21/advice-postdocs-during-start-phase-their-appointments-opinion)
  
- 
-# Graduate Application Resources
-https://osf.io/jvdx7/wiki/home/
-
-## Motivation
-
-Here are an incomplete collection of resources for students interested in applying to graduate school in psychology. I've included my application materials that I used for the PhD program I enrolled in. NOTE: I really feel that I was accepted in spite of my application essay. However, in the spirit of transparency, I've included it anyway.
-
-
-
-
-## General Advice
-
-
-### Psychology
-- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
-    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
-    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
-    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
-
-- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
-
-### Should you go?
-
-- The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
-- Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
-
-
-## Application
-
-- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
-
-- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
-
-## Programs
-### What area of psychology?
-
-- Wikipedia's Lists 
-    - [Subfields of psychology](https://en.wikipedia.org/wiki/Subfields_of_psychology), 
-    - [Psychology Disciplines](https://en.wikipedia.org/wiki/List_of_psychology_disciplines)
-
-### Lists
-
-#### Funded Terminal Master's Programs (Incomplete List)
-
-- [College William and Mary](https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php)
-- [Villanova University](https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html)
-- [Wake Forest University](http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/)
-
-
-
-#### Subfield
-
-- Clinical Psychology
-    - [American Psychological Association](https://www.apa.org/index)'s [List of APA-Accredited Programs](https://www.apa.org/ed/accreditation/programs/)
-
-
-- Individual Differences (Personality, Intelligence, etc)
-    - [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs](https://www.personality-project.org/org.html#gradpsych)
-
-
-- Quantitative Psychology
-    - [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
-
-- Social Psychology
-    - [Social Psychology Network Ranked List](https://www.socialpsychology.org/gsocial.htm)
-    - [SPSP's Social and Personality Graduate Program Directory](http://spsp.org/resources/student/grad-directory)
-
-## Subreddits
-- [/r/Gradadmissions](https://www.reddit.com/r/gradadmissions/)
-- [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
-- [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
-
-# Graduate Student Life
-
-- [Graduate School Survival Guide](http://www.cs.unc.edu/~azuma/hitch4.html)
-- [PhD Comics](http://phdcomics.com/)
-
-
 
 
 
@@ -2817,6 +2733,7 @@ This is an incomplete list. Suggestions are very much encouraged.
 
 ### Industry
 Most data-savvy companies have a careers page. I've included some of those pages here of companies I applied to, were recruited by, or would be interested in working for. There are also job boards, which companies post positions on. There's some overlap, but not 100%.
+
 #### Specific Companies
 - [23andMe](https://www.23andme.com/careers/)
 - [ACT](https://careers-act.icims.com/jobs/)
@@ -2852,6 +2769,99 @@ Most data-savvy companies have a careers page. I've included some of those pages
 - Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took](https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took)
 
 <!--chapter:end:0200_resources.Rmd-->
+
+
+
+# Graduation Admissions Advice
+
+## Motivation
+
+Here are an incomplete collection of resources for students interested in applying to graduate school in psychology. I've included my application materials that I used for the PhD program I enrolled in. NOTE: I really feel that I was accepted in spite of my application essay. However, in the spirit of transparency, I've included it anyway.
+
+
+
+## General Advice
+
+### Psychology
+
+- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
+    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
+    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
+    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
+
+- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
+
+### Should you go?
+
+- The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
+- Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
+
+
+## Application
+
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">3rd category is the mixed bag. The words may be right but there are red ⛳️. Doing a PhD is 4+ years of v close interaction. As a female PI, I had my share of entitled male students being confrontational. I select students who will be collegial and + to the lab. (4/n) <a href="https://t.co/f5KSmeei5I">pic.twitter.com/f5KSmeei5I</a></p>&mdash; Cristina Banks-Leite (@crisbanksleite) <a href="https://twitter.com/crisbanksleite/status/1453753460357218306?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
+
+```
+
+
+- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
+
+- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
+
+## Programs
+### What area of psychology?
+
+- Wikipedia's Lists 
+    - [Subfields of psychology](https://en.wikipedia.org/wiki/Subfields_of_psychology), 
+    - [Psychology Disciplines](https://en.wikipedia.org/wiki/List_of_psychology_disciplines)
+
+### Lists
+
+#### Funded Terminal Master's Programs (Incomplete List)
+
+- [College of William and Mary](https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php)
+- [Villanova University](https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html)
+- [Wake Forest University](http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/)
+
+
+### Subfield
+
+- Clinical Psychology
+    - [American Psychological Association](https://www.apa.org/index)'s [List of APA-Accredited Programs](https://www.apa.org/ed/accreditation/programs/)
+
+
+- Individual Differences (Personality, Intelligence, etc)
+    - [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs](https://www.personality-project.org/org.html#gradpsych)
+
+
+- Quantitative Psychology
+    - [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
+
+- Social Psychology
+    - [Social Psychology Network Ranked List](https://www.socialpsychology.org/gsocial.htm)
+    - [SPSP's Social and Personality Graduate Program Directory](http://spsp.org/resources/student/grad-directory)
+
+## Subreddits
+- [/r/Gradadmissions](https://www.reddit.com/r/gradadmissions/)
+- [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
+- [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
+
+<!--chapter:end:0201_gradadmission.Rmd-->
+
+
+
+# Graduate School Life Advice
+
+
+## Sources of Funding
+
+SPSP Travel Awards
+
+SMEP travel awards
+
+<!--chapter:end:0202_gradlife.Rmd-->
 
 
 # References {-}

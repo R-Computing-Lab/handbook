@@ -17,7 +17,7 @@ library(knitr)
 Members are listed by seniority (in the order they joined the lab).
 
 ## Investigators
-----------
+
 ### Principal Investigator
 
 * S. Mason Garrison
@@ -25,9 +25,9 @@ Members are listed by seniority (in the order they joined the lab).
 ### Affiliated Principal Investigator
 * Veronica Cole
 
-----------
+
 ## Current Students
-----------
+
 ### Graduate Students
 #### Primary Lab
 

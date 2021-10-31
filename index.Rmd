@@ -49,18 +49,13 @@ Our substantive work focuses understanding the relationships between socioeconom
 
 Students in the laboratory work on projects covering a wide range of topics including inter-generational consequences of divorce, vaccination willingness, R package development.
 
-# Introduction
+# Preamble
 
-This lab handbook is a work in progress. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. At the end of each section, I will cite the materials I used.
+This lab handbook is constantly changing and often in active development. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
 
+I encourage you to contribute to the [lab code](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. 
 
-
-## Mason Notes {-}
-
-
-This website is constantly changing and often in active development. I have made this process explicitly transparent because I want you to see how you can use R to produce some pretty neat things. Indeed, I've included the source code for this website in the class [github](https://github.com/DataScience4Psych). I encourage you to contribute to the [course code](https://github.com/DataScience4Psych/DataScience4Psych). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. 
-
-### How to use these notes {-}
+## How to use these notes
 
 This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester.
 
