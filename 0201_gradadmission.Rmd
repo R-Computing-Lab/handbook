@@ -32,19 +32,6 @@ Here are an incomplete collection of resources for students interested in applyi
 - The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
 - Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
 
-
-## Application
-
-```{r, echo=FALSE}
-
-include_tweet("https://twitter.com/crisbanksleite/status/1453753460357218306")
-```
-
-
-- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
-
-- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
-
 ## Programs
 ### What area of psychology?
 
@@ -82,3 +69,23 @@ include_tweet("https://twitter.com/crisbanksleite/status/1453753460357218306")
 - [/r/Gradadmissions](https://www.reddit.com/r/gradadmissions/)
 - [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
 - [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
+
+## Application
+
+- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
+
+- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
+
+
+
+### Contacting Professors
+```{r, echo=FALSE}
+
+include_tweet("https://twitter.com/crisbanksleite/status/1453753460357218306")
+
+include_tweet("https://twitter.com/DrBKelleher/status/1455202559988273155")
+```
+
+
+
+
