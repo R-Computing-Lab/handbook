@@ -18,27 +18,34 @@ Here are an incomplete collection of resources for students interested in applyi
 
 ## General Advice
 
-### Psychology
 
-- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
-    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
-    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
-    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
 
-- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
 
 ### Should you go?
 
 - The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
 - Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
 
-## Programs
+
+
+## Aimed at Psychology
+
+### Resources
+- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
+    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
+    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
+    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
+
+- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
+- [Craig Rodriguez-Seijas's](https://sites.lsa.umich.edu/splat-lab/) [FAQ](https://sites.lsa.umich.edu/splat-lab/faqs/)
+
 ### What area of psychology?
 
 - Wikipedia's Lists 
     - [Subfields of psychology](https://en.wikipedia.org/wiki/Subfields_of_psychology), 
     - [Psychology Disciplines](https://en.wikipedia.org/wiki/List_of_psychology_disciplines)
 
+## Programs
 ### Lists
 
 #### Funded Terminal Master's Programs (Incomplete List)
