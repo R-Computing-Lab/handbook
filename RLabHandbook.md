@@ -3,7 +3,7 @@ title: "R Lab Handbook"
 subtitle: "Handbook for the R Computing Lab"
 author: 
 - S. Mason Garrison
-date: "2021-10-31"
+date: "2021-11-08"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://r-computing-lab.github.io/handbook/'
@@ -968,15 +968,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-10-31
+#>  date     2021-11-08
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-1c0ec146d10c54162257" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1c0ec146d10c54162257">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.28","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.2","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.1.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.5","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.26","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-09-22","2021-10-29","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-09-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-09-27","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-09-30","2021-09-27","2021-04-30","2021-04-15","2021-09-28","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-10-27","2021-04-29","2021-10-13","2021-04-13","2021-09-14","2021-09-14","2019-08-28","2021-04-18","2021-09-14","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-dd35acc2f41023163d61" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dd35acc2f41023163d61">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.28","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.2","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.1.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.5","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.26","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-09-22","2021-10-29","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-09-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-09-27","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-09-30","2021-09-27","2021-04-30","2021-04-15","2021-09-28","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-10-27","2021-04-29","2021-10-13","2021-04-13","2021-09-14","2021-09-14","2019-08-28","2021-04-18","2021-09-14","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -2768,7 +2768,7 @@ Most data-savvy companies have a careers page. I've included some of those pages
 - Washington Post on [The academic job market is a nightmare](https://www.washingtonpost.com/outlook/2019/04/15/job-market-academics-is-nightmare-heres-one-way-fix-it/)
 - Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took](https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took)
 
-<!--chapter:end:0200_resources.Rmd-->
+<!--chapter:end:0800_resources.Rmd-->
 
 
 
@@ -2782,14 +2782,8 @@ Here are an incomplete collection of resources for students interested in applyi
 
 ## General Advice
 
-### Psychology
 
-- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
-    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
-    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
-    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
 
-- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
 
 ### Should you go?
 
@@ -2797,26 +2791,25 @@ Here are an incomplete collection of resources for students interested in applyi
 - Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
 
 
-## Application
 
+## Aimed at Psychology
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">3rd category is the mixed bag. The words may be right but there are red ⛳️. Doing a PhD is 4+ years of v close interaction. As a female PI, I had my share of entitled male students being confrontational. I select students who will be collegial and + to the lab. (4/n) <a href="https://t.co/f5KSmeei5I">pic.twitter.com/f5KSmeei5I</a></p>&mdash; Cristina Banks-Leite (@crisbanksleite) <a href="https://twitter.com/crisbanksleite/status/1453753460357218306?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
+### Resources
+- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
+    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
+    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
+    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
 
-```
+- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
+- [Craig Rodriguez-Seijas's](https://sites.lsa.umich.edu/splat-lab/) [FAQ](https://sites.lsa.umich.edu/splat-lab/faqs/)
 
-
-- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
-
-- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
-
-## Programs
 ### What area of psychology?
 
 - Wikipedia's Lists 
     - [Subfields of psychology](https://en.wikipedia.org/wiki/Subfields_of_psychology), 
     - [Psychology Disciplines](https://en.wikipedia.org/wiki/List_of_psychology_disciplines)
 
+## Programs
 ### Lists
 
 #### Funded Terminal Master's Programs (Incomplete List)
@@ -2848,7 +2841,34 @@ Here are an incomplete collection of resources for students interested in applyi
 - [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
 - [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
 
-<!--chapter:end:0201_gradadmission.Rmd-->
+## Application
+
+- [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
+
+- [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
+
+
+
+### Contacting Professors
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">3rd category is the mixed bag. The words may be right but there are red ⛳️. Doing a PhD is 4+ years of v close interaction. As a female PI, I had my share of entitled male students being confrontational. I select students who will be collegial and + to the lab. (4/n) <a href="https://t.co/f5KSmeei5I">pic.twitter.com/f5KSmeei5I</a></p>&mdash; Cristina Banks-Leite (@crisbanksleite) <a href="https://twitter.com/crisbanksleite/status/1453753460357218306?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
+
+```
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">It&#39;s rec letter season! A few tips: (1) include all materials in one batch and one email thread, (2) include a table of due dates/instructions, and keep up-to-date in most recent email; (3) send reminders; (4) let us know if you are now NOT submitting. What did I miss? Good luck!</p>&mdash; Dr. Bridgette Kelleher (@DrBKelleher) <a href="https://twitter.com/DrBKelleher/status/1455202559988273155?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote>
+
+```
+
+### My Materials
+
+I've included my materials for my application to quantitative psychology graduate programs. You can find them in the [source code for the handbook](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/gradapps). Specifically, here is my CV when I applied(file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.pdf);  and statement of purpose (file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.pdf).
+
+
+
+
+<!--chapter:end:0801_gradadmission.Rmd-->
 
 
 
@@ -2861,7 +2881,12 @@ SPSP Travel Awards
 
 SMEP travel awards
 
-<!--chapter:end:0202_gradlife.Rmd-->
+## Sample Materials
+
+### NSFGRFP
+I've included my National Science Foundation Graduate Fellowship materials. You can find them in the [source code for the handbook](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/nsfgrfp). I applied twice. Here's my personal statement [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/unsuccessful/MG_NOWIN_personal_submitted.pdf), research proposal[(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/unsuccessful/MG_NOWIN_research.pdf), and reviewer feedback [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/unsuccessful/MG_NOTWIN_ViewApplReview.pdf) for my unsuccessful first attempt . And here are those same things (personal statement [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/successful/mg.personal_2014.pdf), research proposal[(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/successful/mg.research.pdf), and reviewer feedback [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/successful/mg.ViewApplReview.pdf)) for my successful 2nd attempt. 
+
+<!--chapter:end:0802_gradlife.Rmd-->
 
 
 # References {-}
