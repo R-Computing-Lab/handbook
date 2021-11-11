@@ -32,20 +32,18 @@ Members are listed by seniority (in the order they joined the lab).
 #### Primary Lab
 
 * Yoo Ri Hwang
-* Open Position for Fall 2021
+* Xuanyu Lyu
 
 
 #### Affiliated (Primary Lab)
 
-* [Emma Sims] (Jayawickreme)
-
+* Emma Sims (Jayawickreme)
+* Jonathan Trattner
 
 ### Undergraduate Students
 * Kennon Later
-* Jonathan Trattner
-* Sherry Mao
 * Hannah Robertson
-
+* out of date
 
 
 ### Sidekicks
@@ -62,8 +60,6 @@ Members are listed by seniority (in the order they joined the lab).
 
 ### Undergraduate Students
 * Nora Clancy
-
-# What R we doing? {-}
-
-## Active Projects
+* Sherry Mao
+* Jonathan Trattner
 
