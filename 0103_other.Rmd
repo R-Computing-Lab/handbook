@@ -1,0 +1,96 @@
+
+```{r include = FALSE}
+source("common.R")
+
+# install.packages("devtools")
+
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+ds4p_urls <- read.csv("./data/ds4p_urls.csv")
+```
+
+```{r links, child="links.md"}
+```
+
+# Other
+## Recommendation letters
+
+It is part of my job (and, thankfully, quite often a pleasure) to write letters of recommendation for people in the lab. Please give me as much notice as possible, and make sure I know the deadline, format (electronic? printed?), official name of the organization, what you are applying for, and so on. Please also send along a current CV.
+
+If you are an undergraduate, I will write your letters on my own. For more senior lab members, I will also write your letters on my own, but please send me a draft of the letter (which I will extensively modify). The first few times you do this it will probably feel awkward. However, keep in mind that your goal is to make it as easy as possible for a letter writer (in this case, me) to complete the task by the deadline and without error. Even though I will re-word a lot of the letter, it will still have the name of what you are applying for and details regarding how long I have known you, the projects you have worked on, and so on. This is extremely helpful in jogging my memory and will give me more time to focus on saying good things about you. Don't worry about being too "braggy"; I have no problem toning things down if need be.
+
+Like everything else, communication is key, and when in doubt, ask!
+
+
+
+## Potential for Controversy
+[Internal comment -- this issue came to mind because of a conversation I had with Steven Pinker about some of his twitter controversy https://www.nytimes.com/2020/07/15/us/steven-pinker-harvard.html So it's on my mind right now ]
+
+Many of the research topics in our lab have the potential to be controversial.
+
+[disclaimer: controversy can come from the right or left Controversy from the left tends to be XXXX; Controversy from the right tends to be XXXX. We have research questions that can offend both sides. Right offense: LGBTQ; Left offense: genetic effects.]
+
+### Topics of Controversy
+
+#### Genetic Effects
+For example, one of my papers examined the genetic and environmental sources of variance underlying the relationship between socioeconomic status and health (Garrison & Rodgers, 2019). We found that the relationship between physical health and SES was primarily genetic. 
+
+[paragraph on interpreting genetic effects]
+
+#### Intelligence
+
+#### Historically Marginalized Groups
+
+#### Data Collected Unethically
+
+### Causes of Controversy
+
+[Misinterpreting findings as racist, sexist, eugenicist, elitist]
+
+### Consequences of Controversy
+
+The consequences of controversial research can range, here are some examples of increasing severity. The more severe the less common.
+ - uncomfortable conversations
+ - negative media coverage
+ - petitions for removal/revocation of
+ - rescinding of admissions, 
+    - jobs offers, 
+    - research funding,
+    - awards 
+
+#### Relevant Examples
+(Not an endorsement of their beliefs.)
+
+
+Carl Noah
+
+Steven Pinker
+
+Charles Murray
+
+
+### Current Strategy
+
+Proceed with extreme caution; approach topics very thoughtfully and deliberately. Lay out how these findings can be misinterpreted. I will have your back 1000% on your topic of choice, as long as we do it thoughtfully and without an agenda. This lab does not seek out controversy. This lab focuses on doing good science, and will only delve into controversial areas *IF* that science has the potential for benefiting the greater good.
+
+
+
+# Frequently asked questions
+## Where are all the FAQs?
+
+No one has asked any questions yet.
+
+
+
+
+
+
+# Glossary
+
+### PI (principal investigator)
+
+In the context of a grant, the PI is the person responsible for making sure the proposed research gets done. More broadly it refers to a researcher who has their own research group or lab (i.e., someone who would be in a position to be a PI on a grant, regardless of whether or not they are currently funded).
+
+
+
+# References
