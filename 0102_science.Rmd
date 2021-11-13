@@ -22,12 +22,16 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 #### Accurate science
 
 ## Practical science
-
-## Computers and data
-## Authorship
+### Writing
+#### Abstracts
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/DrasmaJabeen1/status/1459448488048140294")
+```
+### Computers and data
+### Authorship
 
 My general philosophy is to be generous and provide ample opportunity for members of the lab to earn authorship. Authorship on an academic work is a ["public acknowledgment of scientific or professional contribution"](https://www.apa.org/science/leadership/students/authorship-paper). Although the criteria for authorship differ slightly across fields, the general question asked is whether this individual made a meaningful contribution to the work. I tend to ask myself had this potential author not been involved in the project, would the final product differed substantially? If the answer to that counter-factual is yes, then I believe that person has earned authorship.
 
-### Order of Authors
+#### Order of Authors
 
 In psychology, the order of authors reflects their relative contribution. Other fields have different conventions, such as economics tends to alphabetize authors. However, psychology and other lab-based fields don't merely rank authors. Instead the authorship order resembles a 'U' where first and last authors indicate the most substantial contributions and authors in the middle reflect relatively smaller contributions. Practically speaking, this ordering means that I (Mason) will probably be last author, and any project that you, dear reader, lead are first author.
