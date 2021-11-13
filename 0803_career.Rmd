@@ -1,4 +1,4 @@
-# (PART) Resources {-}
+
 
 ```{r include = FALSE}
 source("common.R")
