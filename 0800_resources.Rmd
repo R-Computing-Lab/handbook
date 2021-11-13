@@ -1,0 +1,8 @@
+# (PART) Resources {-}
+
+```{r include = FALSE}
+source("common.R")
+# install.packages("devtools")
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+```
