@@ -34,16 +34,12 @@ Description: export a dataframe to specific data type?
 Source: [Quick-R](https://www.statmethods.net/input/exportingdata.html)
 
 
-
  - dat
 
-
-    write.table(mydata, "mydata.dat", sep="\t")
+> write.table(mydata, "mydata.dat", sep="\t")
     
  - csv
-    
-
-    write.csv(mydata,"mydata.csv", row.names = FALSE)
+> write.csv(mydata,"mydata.csv", row.names = FALSE)
 
 
 
@@ -54,7 +50,7 @@ Description: Merges list of dataframes into a single dataframe
 Source: [stackoverflow]( https://stackoverflow.com/questions/2851327/convert-a-list-of-data-frames-into-one-data-frame/38509685)
 
 
-    bind_rows(list_of_dataframes, .id = "column_label")
+> bind_rows(list_of_dataframes, .id = "column_label")
 
 Note: .id = "column_label" adds the unique row names based on the list element names
 
@@ -93,38 +89,33 @@ This section contains google-related code that I have googled more than once
 
 Returns the most recent cached version of a web page 
  
-    cache:
+> cache:
     
 Restrict results to those of a certain filetype. E.g., PDF, DOCX, TXT, PPT, etc.
 
-    filetype:
+> filetype:
     
 
 Limit results to those from a specific website.
 
-    site:
+> site:
     
 
 Find sites related to a given domain.
 
-    related:
+> related:
 
 Find pages with a certain word (or words) in the title. 
 
-    intitle:
+> intitle:
 
 
 
 Proximity search. Find pages containing two words or phrases within X words of each other.
 
-    AROUND(X)
+> AROUND(X)
 
 
-### Youtube
-
-Embed an unlisted youtube video in html
-
-    <p><iframe src="https://www.youtube-nocookie.com/embed/1R7njAG2Ikk" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe></p>
 
 ## Javascript Bookmarklets
 
@@ -135,7 +126,7 @@ A bookmarklet is a bookmark stored in a web browser that contains JavaScript com
 
 Description: Redirects you to the WFU proxied version of the website
 
-    javascript:void(location.href="http://go.libproxy.wakehealth.edu/login?url="+location.href)
+> javascript:void(location.href="http://go.libproxy.wakehealth.edu/login?url="+location.href)
     
 Source: Mason
 
@@ -146,7 +137,7 @@ Source: Mason
 Description: Text-only version of google Cache
 
 
-    javascript:(function(){var loc=window.location;if (window.location.protocol != "https:"){loc=window.location.toString().replace(/^http:\/\//,'http://webcache.googleusercontent.com/search?q=cache:');}else{loc=window.location.toString().replace(/^https:\/\//,'https://webcache.googleusercontent.com/search?q=cache:');}window.location.replace(loc + '&num=1&strip=1&vwsrc=0')})()
+> javascript:(function(){var loc=window.location;if (window.location.protocol != "https:"){loc=window.location.toString().replace(/^http:\/\//,'http://webcache.googleusercontent.com/search?q=cache:');}else{loc=window.location.toString().replace(/^https:\/\//,'https://webcache.googleusercontent.com/search?q=cache:');}window.location.replace(loc + '&num=1&strip=1&vwsrc=0')})()
 
 Source: [Online Techtips](https://www.online-tech-tips.com/cool-websites/the-12-best-bookmarklets-every-browser-should-have/)
 
@@ -155,7 +146,7 @@ Source: [Online Techtips](https://www.online-tech-tips.com/cool-websites/the-12-
 Description: Autodetect language and translate into English
 
 
-    javascript:var t=((window.getSelection&&window.getSelection())||(document.getSelection&&document.getSelection())||(document.selection &&document.selection.createRange&&document.selection.createRange().text));var e=(document.charset||document.characterSet);if(t!=''){location.href='http://translate.google.com/translate_t?text=' t '&hl=en&langpair=auto|en&tbb=1&ie=' e;}else{location.href='http://translate.google.com/translate?u=' escape(location.href) '&hl=en&langpair=auto|en&tbb=1&ie=' e;};
+> javascript:var t=((window.getSelection&&window.getSelection())||(document.getSelection&&document.getSelection())||(document.selection &&document.selection.createRange&&document.selection.createRange().text));var e=(document.charset||document.characterSet);if(t!=''){location.href='http://translate.google.com/translate_t?text=' t '&hl=en&langpair=auto|en&tbb=1&ie=' e;}else{location.href='http://translate.google.com/translate?u=' escape(location.href) '&hl=en&langpair=auto|en&tbb=1&ie=' e;};
 
 Source: [Online Techtips](https://www.online-tech-tips.com/cool-websites/the-12-best-bookmarklets-every-browser-should-have/)
 
@@ -166,7 +157,7 @@ Waybackmachine
 Description: "If the webpage you're wanting to read is no longer available, is throwing an error, or the website as a whole has been taken down, you might still have luck finding it on Wayback Machine." 
 
 
-    javascript:location.href='https://web.archive.org/web/*/'+location.href
+> javascript:location.href='https://web.archive.org/web/*/'+location.href
 
 Source: [Online Techtips](https://www.online-tech-tips.com/cool-websites/the-12-best-bookmarklets-every-browser-should-have/)
 
@@ -183,3 +174,14 @@ User scripts put you in control of your browsing experience. Once installed, the
 (Source: [GreasyFork](https://greasyfork.org/en/help/installing-user-scripts))
 
 
+# Template
+
+## Name
+
+Description: 
+
+> CODE
+
+Note: Additional comments
+
+Source: [URL](https://google.com)
