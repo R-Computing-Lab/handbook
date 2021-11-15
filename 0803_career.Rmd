@@ -17,15 +17,12 @@ This project gathers together all the resources I've gathered related to the Aca
 
 
 
-## Useful Articles
 
- - [Edyburn, Dave (August 21, 2020). [An Onboarding Guide for Postdoctoral Researchers. Inside Higher Ed](https://www.insidehighered.com/advice/2020/08/21/advice-postdocs-during-start-phase-their-appointments-opinion)
- 
 
 
 
 ## Quantitative Methods Psych Jobs 
-<!-- https://osf.io/nhmuv/wiki/home/?edit&view&menu -->
+
 ### Motivation
 
 I had a tough time finding examples of job materials for quantitatively-inclined candidates. Here are representative examples from my own materials. Hopefully, they'll be able to help inspire your own materials. In addition, I've added some of the other resources and information that I found helpful. Although this collection has focused on academic jobs, I also considered industry jobs in my search.
@@ -110,6 +107,8 @@ include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075")
 
 ## Data / Research
 
+ - [Edyburn, Dave (August 21, 2020). [An Onboarding Guide for Postdoctoral Researchers. Inside Higher Ed](https://www.insidehighered.com/advice/2020/08/21/advice-postdocs-during-start-phase-their-appointments-opinion)
+ 
 - Bureau of Labor Statistics on [STEM crisis or STEM surplus? Yes and yes](https://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm)
 - [What are the chances of becoming a Psychology Professor?](http://geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/stem-surplus-yes-and-yes.htm)
     -[(archived link)](http://webcache.googleusercontent.com/search?q=cache:M-P4L1Xj8XoJ:geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/&hl=en&gl=us&strip=0&vwsrc=0)
