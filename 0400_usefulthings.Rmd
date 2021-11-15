@@ -64,7 +64,7 @@ Source: [rdrr.io](https://rdrr.io/r/base/expand.grid.html)
 ```{r}
     require(utils)
 
-    expand.grid(height = seq(60, 80, 5), weight = seq(100, 300, 50), sex = c("Male","Female"))
+    expand.grid(height = seq(60, 80, 5), weight = seq(100, 300, 50), type = c("Cat","Dog"))
 ```
 
 #### How to disable scientific notation?
