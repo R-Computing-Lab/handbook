@@ -31,7 +31,7 @@ library(tweetrmd) #... embedding tweets
  
  Primarily, this google group serves as an easy way for me to transmit information/opportunties to the lab. You can opt opt of the emails or consolidate them as a digest.
 
-https://groups.google.com/g/rcomputinglab
+https://groups.google.com/g/rcomputinglab 
  
-
+ ## R
 
