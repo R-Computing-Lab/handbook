@@ -62,7 +62,15 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 Although these notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give you all a set of common materials on which to draw during the course. In class, we will sometimes do things outside the notes. The idea here is that you will read the materials and try to learn from them, just as you would attend classes and try to learn from them.
 
+# Lab Philosophy
 
+## You won't know everything
+
+Ask questions! It is ok to not know something. I don't know everything. It is the sign of a good scholar to ask questions and it is the sign of a confident scholar to be willing to say that they don't know.
+
+## Work-Life Balance
+
+We value work-life balance.
 
 ```{r links, child="links.md"}
 ```
