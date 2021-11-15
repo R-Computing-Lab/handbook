@@ -1,4 +1,4 @@
-# (PART) Welcome {-}
+# (PART) Onboarding {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -13,13 +13,7 @@ library(tweetrmd) #... embedding tweets
 ```{r links, child="links.md"}
 ```
 
-# Lab Philosophy
 
-## You won't know everything
-
-Ask questions! It is ok to not know something. I don't know everything. It is the sign of a good scholar to ask questions and it is the sign of a confident scholar to be willing to say that they don't know.
-
-## Work-Life Balance
 
 
 # Onboarding
