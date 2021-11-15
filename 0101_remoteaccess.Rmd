@@ -1,0 +1,31 @@
+
+# Remote_access
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1
+1.	You will need to be sure you have the WFU VPN Client software (Cisco Anyconnect Mobility) installed - if you don't already have it, you can install it from software.wfu.edu. 
+
+## 2 
+
+2.	You will also need to have the Microsoft Remote Desktop software installed. You should already have this as part of MS Office. If on a Mac, you won't have it probably, but can get it free through the app store. 
+
+## 3
+
+3.	You will sign into VPN (using the client software mentioned above). 
+
+
+## 4 
+
+
+4.	Once connected through VPN, you need to open the Microsoft Remote Desktop software and key in the following IP address
+
+
+## 5
+
+5.	(also, you should enter your ID and password)
+	For example, if your email address is “ Gravity21@wfu.edu” and your password is “11111111”, you should key in “Gravity21” and “11111111
+
