@@ -20,11 +20,18 @@ library(tweetrmd) #... embedding tweets
 
  ## Things You'll Need
  
- Github Membership
  
- Added to the google group
+ ## Github
  
- Added to the lab repo
+- Github Membership
+- Added to the lab repo
+- Added to the DS class
  
- Added to the DS class
+ ## Google Group
+ 
+ Primarily, this google group serves as an easy way for me to transmit information/opportunties to the lab. You can opt opt of the emails or consolidate them as a digest.
+
+https://groups.google.com/g/rcomputinglab
+ 
+
 
