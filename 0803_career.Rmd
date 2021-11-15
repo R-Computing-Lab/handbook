@@ -13,7 +13,7 @@ library(tweetrmd) #... embedding tweets
 
 # Career Resources
 
-This project gathers together all the resources I've gathered throughout my career. The collections are currently divided into Graduate School Applications and Academic Job Search. 
+This project gathers together all the resources I've gathered related to the Academic Job Search. 
 
 
 
@@ -60,9 +60,12 @@ This is an incomplete list. Suggestions are very much encouraged.
 
 - UCSF [Samples for Academic Positions](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
 - [Plasticity in Neurodevelopment Lab](https://www.plasticityinneurodevelopmentlab.com/for-academics)
-- Mine
+- [Mine](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials)
 
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683?s=20")
 
+```
 ## Finding Jobs
 
 ### Academic
