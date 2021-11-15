@@ -13,9 +13,17 @@ library(tweetrmd) #... embedding tweets
 
 ## Sources of Funding
 
-SPSP Travel Awards
 
-SMEP travel awards
+### Internal Wake Forest
+https://ureca.wfu.edu/student-resources/starr-travel-grant
+
+### Externals
+#### SMEP
+https://smep.org/resources/underrepresented-fellowships Support for Students from Underrepresented Groups to Attend Methodological Workshop
+
+#### SPSP Travel Awards
+
+SPSP has travel awards
 
 ## Sample Materials
 
