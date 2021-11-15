@@ -1,0 +1,18 @@
+# (PART) Projects {-}
+
+```{r include = FALSE}
+source("common.R")
+# install.packages("devtools")
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+```
+
+```{r links, child="links.md"}
+```
+
+# Active Projects
+
+For the most current list... navigate to the lab github.... https://github.com/R-Computing-Lab
+
+
+# Showcase
