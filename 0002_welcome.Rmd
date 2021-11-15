@@ -18,3 +18,13 @@ library(tweetrmd) #... embedding tweets
 
 # Onboarding
 
+ ## Things You'll Need
+ 
+ Github Membership
+ 
+ Added to the google group
+ 
+ Added to the lab repo
+ 
+ Added to the DS class
+
