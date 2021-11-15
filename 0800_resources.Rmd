@@ -6,3 +6,6 @@ source("common.R")
 if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
 library(tweetrmd) #... embedding tweets
 ```
+
+# Motivation
+This project gathers together all the resources I've gathered throughout my career. The collections are currently divided into Graduate School Applications and Academic Job Search. Clearly, there's much to add in between those two stages, such as graduate school, fellowships, and the like. 
