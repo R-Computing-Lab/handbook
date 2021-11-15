@@ -12,7 +12,9 @@ library(knitr)
 ```{r links, child="links.md"}
 ```
 
-# Who R we? {-}
+# Who R we?
+
+
 
 Members are listed by seniority (in the order they joined the lab).
 
@@ -50,9 +52,9 @@ Members are listed by seniority (in the order they joined the lab).
 * Tukey
 * Archie & Annie
 
-----------
+
 ## Prior Members
-----------
+
 #### Graduate Students
 ##### Affiliated (Primary Lab)
 
@@ -63,3 +65,13 @@ Members are listed by seniority (in the order they joined the lab).
 * Sherry Mao
 * Jonathan Trattner
 
+
+# Lab Philosophy
+
+## You won't know everything
+
+Ask questions! It is ok to not know something. I don't know everything. It is the sign of a good scholar to ask questions and it is the sign of a confident scholar to be willing to say that they don't know.
+
+## Work-Life Balance
+
+We value work-life balance.
