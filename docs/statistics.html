@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>License | R Lab Handbook</title>
+  <title>13 Statistics | R Lab Handbook</title>
   <meta name="description" content="Handbook for the R Computing Lab" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="License | R Lab Handbook" />
+  <meta property="og:title" content="13 Statistics | R Lab Handbook" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://r-computing-lab.github.io/handbook/" />
   <meta property="og:image" content="https://r-computing-lab.github.io/handbook//assets/logo.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="R-Computing-Lab/handbook" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="License | R Lab Handbook" />
+  <meta name="twitter:title" content="13 Statistics | R Lab Handbook" />
   <meta name="twitter:site" content="@smasongarrison" />
   <meta name="twitter:description" content="Handbook for the R Computing Lab" />
   <meta name="twitter:image" content="https://r-computing-lab.github.io/handbook//assets/logo.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
-<link rel="prev" href="attribution.html"/>
-<link rel="next" href="colophon.html"/>
+<link rel="prev" href="showcase.html"/>
+<link rel="next" href="browsersinternet.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -405,50 +405,121 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="license" class="section level1 unnumbered">
-<h1>License</h1>
-<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
-<center>
-<i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i>
-</center>
-<p><em>This information is a human-readable summary of (and not a substitute for) the license.
-Please see <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" class="uri">https://creativecommons.org/licenses/by-sa/4.0/legalcode</a> for the full legal text.</em></p>
-<p><strong>You are free to:</strong></p>
+<div id="statistics" class="section level1" number="13">
+<h1><span class="header-section-number">13</span> Statistics</h1>
+<div id="r-rstudio" class="section level2" number="13.1">
+<h2><span class="header-section-number">13.1</span> R &amp; Rstudio</h2>
+<div id="software" class="section level3" number="13.1.1">
+<h3><span class="header-section-number">13.1.1</span> Software</h3>
+<div id="base-r" class="section level4" number="13.1.1.1">
+<h4><span class="header-section-number">13.1.1.1</span> Base R</h4>
+</div>
+<div id="r-studio" class="section level4" number="13.1.1.2">
+<h4><span class="header-section-number">13.1.1.2</span> R studio</h4>
+</div>
+</div>
+<div id="r-code" class="section level3" number="13.1.2">
+<h3><span class="header-section-number">13.1.2</span> R Code</h3>
+<p>This subsection contains R code that I have googled more than once</p>
+<div id="how-do-i-export-a-dataframe" class="section level4" number="13.1.2.1">
+<h4><span class="header-section-number">13.1.2.1</span> How do I export a dataframe?</h4>
+<p>Description: export a dataframe to specific data type?</p>
+<p>Source: <a href="https://www.statmethods.net/input/exportingdata.html">Quick-R</a></p>
 <ul>
-<li><p><strong>Share</strong>—copy and redistribute the material in any medium or
-format</p></li>
-<li><p><strong>Remix</strong>—remix, transform, and build upon the material for any
-purpose, even commercially.</p></li>
+<li>dat</li>
 </ul>
-<p>The licensor cannot revoke these freedoms as long as you follow the
-license terms.</p>
-<p><strong>Under the following terms:</strong></p>
+<blockquote>
+<p>write.table(mydata, “mydata.dat,” sep=")</p>
+</blockquote>
 <ul>
-<li><p><strong>Attribution</strong>—You must give appropriate credit, provide a link
-to the license, and indicate if changes were made. You may do so in
-any reasonable manner, but not in any way that suggests the licensor
-endorses you or your use.</p></li>
-<li><p><strong>ShareAlike</strong>—If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p></li>
-<li><p><strong>No additional restrictions</strong>—You may not apply legal terms or
-technological measures that legally restrict others from doing
-anything the license permits.</p></li>
+<li>csv
+&gt; write.csv(mydata,“mydata.csv,” row.names = FALSE)</li>
 </ul>
-<p><strong>Notices:</strong></p>
-<p>You do not have to comply with the license for elements of the
-material in the public domain or where your use is permitted by an
-applicable exception or limitation.</p>
-<p>No warranties are given. The license may not give you all of the
-permissions necessary for your intended use. For example, other rights
-such as publicity, privacy, or moral rights may limit how you use the
-material.</p>
+</div>
+<div id="how-do-i-merge-a-list-of-dataframes" class="section level4" number="13.1.2.2">
+<h4><span class="header-section-number">13.1.2.2</span> How do I merge a list of dataframes?</h4>
+<p>Description: Merges list of dataframes into a single dataframe</p>
+<p>Source: <a href="https://stackoverflow.com/questions/2851327/convert-a-list-of-data-frames-into-one-data-frame/38509685">stackoverflow</a></p>
+<blockquote>
+<p>bind_rows(list_of_dataframes, .id = “column_label”)</p>
+</blockquote>
+<p>Note: .id = “column_label” adds the unique row names based on the list element names</p>
+</div>
+<div id="how-do-i-produce-all-combinations-of-list-elements" class="section level4" number="13.1.2.3">
+<h4><span class="header-section-number">13.1.2.3</span> How do I produce all combinations of list elements?</h4>
+<p>Description: produce all combinations of list elements</p>
+<p>Source: <a href="https://rdrr.io/r/base/expand.grid.html">rdrr.io</a></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="statistics.html#cb2-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">require</span>(utils)</span>
+<span id="cb2-2"><a href="statistics.html#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="statistics.html#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">expand.grid</span>(<span class="at">height =</span> <span class="fu">seq</span>(<span class="dv">60</span>, <span class="dv">80</span>, <span class="dv">5</span>), <span class="at">weight =</span> <span class="fu">seq</span>(<span class="dv">100</span>, <span class="dv">300</span>, <span class="dv">50</span>), <span class="at">type =</span> <span class="fu">c</span>(<span class="st">&quot;Cat&quot;</span>,<span class="st">&quot;Dog&quot;</span>))</span>
+<span id="cb2-4"><a href="statistics.html#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;    height weight type</span></span>
+<span id="cb2-5"><a href="statistics.html#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 1      60    100  Cat</span></span>
+<span id="cb2-6"><a href="statistics.html#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 2      65    100  Cat</span></span>
+<span id="cb2-7"><a href="statistics.html#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 3      70    100  Cat</span></span>
+<span id="cb2-8"><a href="statistics.html#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 4      75    100  Cat</span></span>
+<span id="cb2-9"><a href="statistics.html#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 5      80    100  Cat</span></span>
+<span id="cb2-10"><a href="statistics.html#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 6      60    150  Cat</span></span>
+<span id="cb2-11"><a href="statistics.html#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 7      65    150  Cat</span></span>
+<span id="cb2-12"><a href="statistics.html#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 8      70    150  Cat</span></span>
+<span id="cb2-13"><a href="statistics.html#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 9      75    150  Cat</span></span>
+<span id="cb2-14"><a href="statistics.html#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 10     80    150  Cat</span></span>
+<span id="cb2-15"><a href="statistics.html#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 11     60    200  Cat</span></span>
+<span id="cb2-16"><a href="statistics.html#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 12     65    200  Cat</span></span>
+<span id="cb2-17"><a href="statistics.html#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 13     70    200  Cat</span></span>
+<span id="cb2-18"><a href="statistics.html#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 14     75    200  Cat</span></span>
+<span id="cb2-19"><a href="statistics.html#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 15     80    200  Cat</span></span>
+<span id="cb2-20"><a href="statistics.html#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 16     60    250  Cat</span></span>
+<span id="cb2-21"><a href="statistics.html#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 17     65    250  Cat</span></span>
+<span id="cb2-22"><a href="statistics.html#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 18     70    250  Cat</span></span>
+<span id="cb2-23"><a href="statistics.html#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 19     75    250  Cat</span></span>
+<span id="cb2-24"><a href="statistics.html#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 20     80    250  Cat</span></span>
+<span id="cb2-25"><a href="statistics.html#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 21     60    300  Cat</span></span>
+<span id="cb2-26"><a href="statistics.html#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 22     65    300  Cat</span></span>
+<span id="cb2-27"><a href="statistics.html#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 23     70    300  Cat</span></span>
+<span id="cb2-28"><a href="statistics.html#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 24     75    300  Cat</span></span>
+<span id="cb2-29"><a href="statistics.html#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 25     80    300  Cat</span></span>
+<span id="cb2-30"><a href="statistics.html#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 26     60    100  Dog</span></span>
+<span id="cb2-31"><a href="statistics.html#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 27     65    100  Dog</span></span>
+<span id="cb2-32"><a href="statistics.html#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 28     70    100  Dog</span></span>
+<span id="cb2-33"><a href="statistics.html#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 29     75    100  Dog</span></span>
+<span id="cb2-34"><a href="statistics.html#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 30     80    100  Dog</span></span>
+<span id="cb2-35"><a href="statistics.html#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 31     60    150  Dog</span></span>
+<span id="cb2-36"><a href="statistics.html#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 32     65    150  Dog</span></span>
+<span id="cb2-37"><a href="statistics.html#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 33     70    150  Dog</span></span>
+<span id="cb2-38"><a href="statistics.html#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 34     75    150  Dog</span></span>
+<span id="cb2-39"><a href="statistics.html#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 35     80    150  Dog</span></span>
+<span id="cb2-40"><a href="statistics.html#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 36     60    200  Dog</span></span>
+<span id="cb2-41"><a href="statistics.html#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 37     65    200  Dog</span></span>
+<span id="cb2-42"><a href="statistics.html#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 38     70    200  Dog</span></span>
+<span id="cb2-43"><a href="statistics.html#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 39     75    200  Dog</span></span>
+<span id="cb2-44"><a href="statistics.html#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 40     80    200  Dog</span></span>
+<span id="cb2-45"><a href="statistics.html#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 41     60    250  Dog</span></span>
+<span id="cb2-46"><a href="statistics.html#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 42     65    250  Dog</span></span>
+<span id="cb2-47"><a href="statistics.html#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 43     70    250  Dog</span></span>
+<span id="cb2-48"><a href="statistics.html#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 44     75    250  Dog</span></span>
+<span id="cb2-49"><a href="statistics.html#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 45     80    250  Dog</span></span>
+<span id="cb2-50"><a href="statistics.html#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 46     60    300  Dog</span></span>
+<span id="cb2-51"><a href="statistics.html#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 47     65    300  Dog</span></span>
+<span id="cb2-52"><a href="statistics.html#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 48     70    300  Dog</span></span>
+<span id="cb2-53"><a href="statistics.html#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 49     75    300  Dog</span></span>
+<span id="cb2-54"><a href="statistics.html#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; 50     80    300  Dog</span></span></code></pre></div>
+</div>
+<div id="how-to-disable-scientific-notation" class="section level4" number="13.1.2.4">
+<h4><span class="header-section-number">13.1.2.4</span> How to disable scientific notation?</h4>
+<p>Description: Stop R from printing tiny decimals as strings</p>
+<p>Source: <a href="https://stackoverflow.com/questions/5352099/how-to-disable-scientific-notation">stackoverflow</a></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="statistics.html#cb3-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">options</span>(<span class="at">scipen=</span><span class="dv">999</span>)</span></code></pre></div>
+</div>
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="attribution.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="colophon.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="showcase.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="browsersinternet.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -479,7 +550,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/R-Computing-Lab/handbook/edit/main/0000_front.Rmd",
+"link": "https://github.com/R-Computing-Lab/handbook/edit/main/0400_usefulthings.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -490,7 +561,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["https://github.com/R-Computing-Lab/handbook/raw/main/0000_front.Rmd", "RLabHandbook.epub"],
+"download": ["https://github.com/R-Computing-Lab/handbook/raw/main/0400_usefulthings.Rmd", "RLabHandbook.epub"],
 "search": {
 "engine": "fuse",
 "options": null
