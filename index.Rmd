@@ -22,7 +22,7 @@ favicon: assets/favicon.ico
 
 # (PART\*) Front Matter {-}
 
-# Welcome to our R Computing Lab and R Lab Handbook {-}
+# Preamble  {-}
 
 
 ```{r include = FALSE}
@@ -42,24 +42,22 @@ embed_url("https://www.youtube.com/watch?v=yPr-Vm6Ji0E") %>%
   use_align("center")
 
 ```
+## Welcome to our R Lab Handbook {-}
 
-The R Computing Lab houses scientists who conduct biometrically-informed research in R. Our research addresses a mixture of substantive and methodological questions. We're part of the MegaLab with Veronica Cole!
+My goal is to foster an environment of consistent scientific excellence and personal development that supports every lab member in reaching their full potential, and helps us have fun while doing great science. I want you to be happy and productive while you are here. This handbook is a first point of reference for current lab members as we strive to achieve these goals, and
+serves as a general introduction for prospective members. You can also find the lab elsewhere:
 
-Our substantive work focuses understanding the relationships between socioeconomic status, health & well-being, and individual differences (personality, intelligence). Our methodological work focuses on developing and improving biometrically-informed designs, such as behavior genetic and discordant kin models. 
+• Lab Github: https://github.com/R-Computing-Lab
+- Lab Wiki
 
-Students in the laboratory work on projects covering a wide range of topics including inter-generational consequences of divorce, vaccination willingness, R package development.
+## How to use this handbook  {-}
 
-# Preamble
 
-This lab handbook is constantly changing and often in active development. I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
+This handbook is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and often in active development. I encourage you to contribute to the [lab source code](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. 
 
-I encourage you to contribute to the [lab code](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. 
+I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
 
-## How to use these notes
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester.
-
-Although these notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give you all a set of common materials on which to draw during the course. In class, we will sometimes do things outside the notes. The idea here is that you will read the materials and try to learn from them, just as you would attend classes and try to learn from them.
 
 
 ```{r links, child="links.md"}
