@@ -24,7 +24,7 @@
 <meta name="author" content="S. Mason Garrison" />
 
 
-<meta name="date" content="2021-11-15" />
+<meta name="date" content="2021-11-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -311,9 +311,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="14.2.1" data-path="browsersinternet.html"><a href="browsersinternet.html#wfu-related"><i class="fa fa-check"></i><b>14.2.1</b> WFU Related</a></li>
 <li class="chapter" data-level="14.2.2" data-path="browsersinternet.html"><a href="browsersinternet.html#google-related"><i class="fa fa-check"></i><b>14.2.2</b> Google Related</a></li>
-<li class="chapter" data-level="14.2.3" data-path="browsersinternet.html"><a href="browsersinternet.html#google-cache"><i class="fa fa-check"></i><b>14.2.3</b> Google Cache</a></li>
-<li class="chapter" data-level="14.2.4" data-path="browsersinternet.html"><a href="browsersinternet.html#google-translate"><i class="fa fa-check"></i><b>14.2.4</b> Google Translate</a></li>
-<li class="chapter" data-level="14.2.5" data-path="browsersinternet.html"><a href="browsersinternet.html#not-otherwise-specified"><i class="fa fa-check"></i><b>14.2.5</b> Not Otherwise Specified</a></li>
+<li class="chapter" data-level="14.2.3" data-path="browsersinternet.html"><a href="browsersinternet.html#google-translate"><i class="fa fa-check"></i><b>14.2.3</b> Google Translate</a></li>
+<li class="chapter" data-level="14.2.4" data-path="browsersinternet.html"><a href="browsersinternet.html#not-otherwise-specified"><i class="fa fa-check"></i><b>14.2.4</b> Not Otherwise Specified</a></li>
 </ul></li>
 <li class="chapter" data-level="14.3" data-path="browsersinternet.html"><a href="browsersinternet.html#userscripts"><i class="fa fa-check"></i><b>14.3</b> Userscripts</a></li>
 </ul></li>
@@ -453,25 +452,33 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="google-related" class="section level3" number="14.2.2">
 <h3><span class="header-section-number">14.2.2</span> Google Related</h3>
+<p>Code:</p>
+<div id="switch-google-accounts" class="section level4" number="14.2.2.1">
+<h4><span class="header-section-number">14.2.2.1</span> Switch google accounts</h4>
+<p>If you have multiple google accounts, you can add “?authuser=1” to switch to your 2nd account.</p>
+<blockquote>
+<p><a href="javascript:window.location.href=window.location.href+" class="uri">javascript:window.location.href=window.location.href+</a>‘?authuser=1’</p>
+</blockquote>
 </div>
-<div id="google-cache" class="section level3" number="14.2.3">
-<h3><span class="header-section-number">14.2.3</span> Google Cache</h3>
+<div id="google-cache" class="section level4" number="14.2.2.2">
+<h4><span class="header-section-number">14.2.2.2</span> Google Cache</h4>
 <p>Description: Text-only version of google Cache</p>
 <blockquote>
 <p><a href="javascript:(function" class="uri">javascript:(function</a>(){var loc=window.location;if (window.location.protocol != “https:”){loc=window.location.toString().replace(/<sup><a href="http:\/\//" class="uri">http:\/\//</a>,‘<a href="http://webcache.googleusercontent.com/search?q=cache" class="uri">http://webcache.googleusercontent.com/search?q=cache</a>:’);}else{loc=window.location.toString().replace(/</sup><a href="https:\/\//" class="uri">https:\/\//</a>,‘<a href="https://webcache.googleusercontent.com/search?q=cache" class="uri">https://webcache.googleusercontent.com/search?q=cache</a>:’);}window.location.replace(loc + ‘&amp;num=1&amp;strip=1&amp;vwsrc=0’)})()</p>
 </blockquote>
 <p>Source: <a href="https://www.online-tech-tips.com/cool-websites/the-12-best-bookmarklets-every-browser-should-have/">Online Techtips</a></p>
 </div>
-<div id="google-translate" class="section level3" number="14.2.4">
-<h3><span class="header-section-number">14.2.4</span> Google Translate</h3>
+</div>
+<div id="google-translate" class="section level3" number="14.2.3">
+<h3><span class="header-section-number">14.2.3</span> Google Translate</h3>
 <p>Description: Autodetect language and translate into English</p>
 <blockquote>
 <p><a href="javascript:var" class="uri">javascript:var</a> t=((window.getSelection&amp;&amp;window.getSelection())||(document.getSelection&amp;&amp;document.getSelection())||(document.selection &amp;&amp;document.selection.createRange&amp;&amp;document.selection.createRange().text));var e=(document.charset||document.characterSet);if(t!=’‘){location.href=’<a href="http://translate.google.com/translate_t?text=" class="uri">http://translate.google.com/translate_t?text=</a>’ t ‘&amp;hl=en&amp;langpair=auto|en&amp;tbb=1&amp;ie=’ e;}else{location.href=‘<a href="http://translate.google.com/translate?u=" class="uri">http://translate.google.com/translate?u=</a>’ escape(location.href) ‘&amp;hl=en&amp;langpair=auto|en&amp;tbb=1&amp;ie=’ e;};</p>
 </blockquote>
 <p>Source: <a href="https://www.online-tech-tips.com/cool-websites/the-12-best-bookmarklets-every-browser-should-have/">Online Techtips</a></p>
 </div>
-<div id="not-otherwise-specified" class="section level3" number="14.2.5">
-<h3><span class="header-section-number">14.2.5</span> Not Otherwise Specified</h3>
+<div id="not-otherwise-specified" class="section level3" number="14.2.4">
+<h3><span class="header-section-number">14.2.4</span> Not Otherwise Specified</h3>
 <p>Waybackmachine</p>
 <p>Description: “If the webpage you’re wanting to read is no longer available, is throwing an error, or the website as a whole has been taken down, you might still have luck finding it on Wayback Machine.”</p>
 <blockquote>
