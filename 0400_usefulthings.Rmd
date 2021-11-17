@@ -132,7 +132,16 @@ Source: Mason
 
 ### Google Related
 
-### Google Cache 
+Code: 
+
+#### Switch google accounts
+
+
+If you have multiple google accounts, you can add "?authuser=1" to switch to your 2nd account.
+
+> javascript:window.location.href=window.location.href+'?authuser=1'
+
+#### Google Cache 
 
 Description: Text-only version of google Cache
 
