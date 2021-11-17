@@ -104,6 +104,14 @@ include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075")
 - [Indeed](https://www.indeed.com/)
 - [USA Jobs (US Government Jobs)](https://www.usajobs.gov/)
 
+## Nagotiating
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/samclab/status/1460959264936239108")
+
+```
+
+
 
 ## Data / Research
 
