@@ -12,12 +12,22 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 ```{r links, child="links.md"}
 ```
 
+
 # Glossary
 
 ## PI (principal investigator)
 
 In the context of a grant, the PI is the person responsible for making sure the proposed research gets done. More broadly it refers to a researcher who has their own research group or lab (i.e., someone who would be in a position to be a PI on a grant, regardless of whether or not they are currently funded).
 
+
+
+
+
+# Frequently asked questions
+
+## Where are all the FAQs?
+
+No one has asked any questions yet.
 
 
 
