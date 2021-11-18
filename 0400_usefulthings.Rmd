@@ -25,7 +25,7 @@ This wikipage contains the collective lab knowledge about software and coding. S
 
 ### R Code
 
-This subsection contains R code that I have googled more than once
+This subsection contains R code that I have googled more than once.
 
 #### How do I export a dataframe?
 
@@ -39,6 +39,7 @@ Source: [Quick-R](https://www.statmethods.net/input/exportingdata.html)
 > write.table(mydata, "mydata.dat", sep="\t")
     
  - csv
+ 
 > write.csv(mydata,"mydata.csv", row.names = FALSE)
 
 
@@ -62,19 +63,23 @@ Description: produce all combinations of list elements
 Source: [rdrr.io](https://rdrr.io/r/base/expand.grid.html)
 
 ```{r}
-    require(utils)
+require(utils)
 
-    expand.grid(height = seq(60, 80, 5), weight = seq(100, 300, 50), type = c("Cat","Dog"))
+expand.grid(height = seq(60, 80, 5), 
+            weight = seq(100, 300, 50), 
+            type = c("Cat","Dog"))
 ```
 
-#### How to disable scientific notation?
+#### How to remove scientific notation?
 
 Description: Stop R from printing tiny decimals as strings
 
 Source: [stackoverflow](https://stackoverflow.com/questions/5352099/how-to-disable-scientific-notation)
 
 ```{r}
-    options(scipen=999)
+
+options(scipen=999)
+
 ```
 
 
@@ -87,31 +92,38 @@ This section contains google-related code that I have googled more than once
 [Source]( https://ahrefs.com/blog/google-advanced-search-operators/)
 
 
-Returns the most recent cached version of a web page 
+#### cache
+
+Description: Returns the most recent cached version of a web page 
  
 > cache:
-    
-Restrict results to those of a certain filetype. E.g., PDF, DOCX, TXT, PPT, etc.
+
+
+#### filetype
+
+Description: Restrict results to those of a certain filetype. e.g., PDF, DOCX, TXT, PPT, etc.
 
 > filetype:
-    
-
-Limit results to those from a specific website.
+ 
+#### site    
+Description: Limit results to those from a specific website.
 
 > site:
     
-
-Find sites related to a given domain.
+#### related
+Description: Find sites related to a given domain.
 
 > related:
 
-Find pages with a certain word (or words) in the title. 
+
+#### intitle
+Description: Find pages with a certain word (or words) in the title. 
 
 > intitle:
 
 
-
-Proximity search. Find pages containing two words or phrases within X words of each other.
+#### Proximity
+Description: Proximity search. Find pages containing two words or phrases within X words of each other.
 
 > AROUND(X)
 
@@ -120,7 +132,7 @@ Proximity search. Find pages containing two words or phrases within X words of e
 ## Javascript Bookmarklets
 
 A bookmarklet is a bookmark stored in a web browser that contains JavaScript commands that add new features to the browser. 
-(Source: [Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet#:~:text=A%20bookmarklet%20is%20a%20bookmark,Bookmarklets%20are%20usually%20JavaScript%20programs))
+(Source: [Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet))
 
 ### WFU Related
 
@@ -132,14 +144,16 @@ Source: Mason
 
 ### Google Related
 
-Code: 
+
 
 #### Switch google accounts
 
 
-If you have multiple google accounts, you can add "?authuser=1" to switch to your 2nd account.
+Description: If you have multiple google accounts, you can add "?authuser=1" to switch to your 2nd account.
 
 > javascript:window.location.href=window.location.href+'?authuser=1'
+
+Source: Mason
 
 #### Google Cache 
 
@@ -161,7 +175,7 @@ Source: [Online Techtips](https://www.online-tech-tips.com/cool-websites/the-12-
 
 ### Not Otherwise Specified
 
-Waybackmachine
+#### Waybackmachine
 
 Description: "If the webpage you're wanting to read is no longer available, is throwing an error, or the website as a whole has been taken down, you might still have luck finding it on Wayback Machine." 
 
