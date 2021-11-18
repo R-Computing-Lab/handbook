@@ -1,0 +1,46 @@
+# (PART) Lab Documents {-}
+
+```{r include = FALSE}
+source("common.R")
+# install.packages("devtools")
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+```
+
+
+
+# Lab Documents and Resources
+
+
+## Recommended Reading
+PDFs are in the folder and there's a lab zotero folder.
+
+### Professional Development
+
+Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology, 46(3), 260–266. https://doi.org/10.1177/0098628319853942
+
+Jaremka, L. M., Ackerman, J. M., Gawronski, B., Rule, N. O., Sweeny, K., Tropp, L. R., Metz, M. A., Molina, L., Ryan, W. S., & Vick, S. B. (2020). Common Academic Experiences No One Talks About: Repeated Rejection, Impostor Syndrome, and Burnout. Perspectives on psychological science : a journal of the Association for Psychological Science, 15(3), 519–543. https://doi-org.go.libproxy.wakehealth.edu/10.1177/1745691619898848
+
+
+### Intro to Personality Playlist
+
+https://www.youtube.com/playlist?list=PLKrrdtYgOUYZpENpYddjG8n_q3bfbx8Kr
+
+
+
+
+## Data Sets
+
+[Wikipage](https://osf.io/av8ed/wiki/home/)
+
+
+## Sources of Funding
+
+[Wikipage]( https://osf.io/v9dmp/wiki/home/)
+
+
+## Ways to get ahold of Mason
+
+Here are my secret [Calendly links](https://calendly.com/smasongarrison/).
+
+

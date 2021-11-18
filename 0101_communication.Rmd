@@ -26,11 +26,15 @@ The lab wiki is our shared collection of knowledge about how to get things done 
 
 
 ## Communication outside the lab
-### Manuscripts
-### Abstracts
+
+This section concerns general suggests and wisdom in communication. In the practical science section, I've included rmarkdown templates and practical advice.
+
+### Social Media
+### Presentations
 #### Talks
 #### Posters
 
+### Manuscripts
 
 ## Conferences
 
