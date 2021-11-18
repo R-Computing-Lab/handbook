@@ -1,6 +1,6 @@
 --- 
-title: "R Lab Handbook"
-subtitle: "for the R Computing Lab"
+title: "Lab Handbook"
+subtitle: "Our R Computing Lab"
 author: 
 - S. Mason Garrison
 date: "`r Sys.Date()`"
