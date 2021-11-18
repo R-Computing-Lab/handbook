@@ -59,6 +59,8 @@ Association for Research in Personality ( https://www.personality-arp.org/ )
 
 ### BGA
 
+Annual Meeting of Behavior Genetics Association (BGA)
+
 Behavior Genetics Association ( http://bga.org/ )
 
 Submission Deadline General: Submissions are typically due in March
@@ -116,7 +118,9 @@ Conference Data General
 
 Typical Costs
 
-### Annual Meeting of the Society for Personality and Social Psychology (SPSP)
+### SPSP
+
+Name: Annual Meeting of the Society for Personality and Social Psychology (SPSP)
 
 Sponsoring Organization: Society for Personality and Social Psychology ( http://meeting.spsp.org/ )
 
@@ -124,7 +128,7 @@ Submission Deadline General: Submissions are typically due in July
 
 - Prior Specific Deadlines
 
-Conference Data General: Conference is generally in Winter (Ranges from Late Jan to Early Feb)
+Conference Date General: Conference is generally in Winter (Ranges from Late Jan to Early Feb)
 
 - Specific Example
 
@@ -133,18 +137,21 @@ Typical Costs:
 ### SSSP
 
 Society for Southeastern Social Psychology ( http://southeast.spsp.org/upcoming-and-past-meetings )
+
 Submission Deadline General
 
 - Prior Specific Deadlines
 
-Conference Data General
+Conference Date General
 
 - Specific Example
 
 Typical Costs
 
 
-### Name ( Abbreviation )
+###  Abbreviation
+
+Name ( Abbreviation )
 
 Sponsoring Organization ( URL )
 
@@ -152,7 +159,7 @@ Submission Deadline General
 
 - Prior Specific Deadlines
 
-Conference Data General
+Conference Date General
 
 - Specific Example
 
