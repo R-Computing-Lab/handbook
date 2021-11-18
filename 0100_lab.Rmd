@@ -1,4 +1,3 @@
-# (PART) Being in the lab {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -13,6 +12,7 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 ```{r links, child="links.md"}
 ```
 
+# (PART) Being in the lab {-}
 
 
 # Being in the lab
@@ -22,6 +22,7 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 
 ## Mason
 You can expect me to:
+
 - Have a vision of where the lab is going.
 - Care about your happiness.
 - Obtain the funding to support the science and the people in the lab.
@@ -49,14 +50,14 @@ I expect graduate students to:
 - Seek out and apply for fellowships and awards (including travel awards, etc.).
 - Realize there are (extraordinarily rare) times for pulling all nighters, and times for leaving early to go to the park and enjoy the sunshine.
 
-By the time you're done, you will have to know how to do statistics and plots in R, share your work with me using Rmarkdown, use mplus for latent variable modeling and use github and osf for version control analyses.
+By the time you're done, you will have to know how to do statistics and plots in R, share your work with me using Rmarkdown, use mplus for latent variable modeling and use github for version control analyses.
 
 The learning curve can be a little steep on these but it's well worth it. (If these learning outcomes aren't compatible with your goals or interests, my lab is probably not a good fit for you!)
 
 
 ### General Timeline
 
-The timeline below is intended to help you structure your time during the WFU graduate program-- to stay on track with: 
+The timeline below is intended to help you structure your time during the WFU graduate program -- to stay on track with: 
 - non-coursework program requirements, 
 - professional development opportunities (conferences), and 
 - PhD applications, if you plan to apply. 
@@ -150,6 +151,7 @@ July
 
 
 #### Year 2
+
 August
 - Review Grad Handbook expectations for MAP
 - Create complete outline of MAP

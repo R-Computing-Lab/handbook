@@ -1,4 +1,4 @@
-# (PART) Onboarding {-}
+
 
 ```{r include = FALSE}
 source("common.R")
@@ -18,20 +18,20 @@ library(tweetrmd) #... embedding tweets
 
 # Onboarding
 
- ## Things You'll Need
+## Things You'll Need
  
  
- ## Github
+## Github
  
 - Github Membership
 - Added to the lab repo
 - Added to the DS class
  
- ## Google Group
+## Google Group
  
  Primarily, this google group serves as an easy way for me to transmit information/opportunties to the lab. You can opt opt of the emails or consolidate them as a digest.
 
 https://groups.google.com/g/rcomputinglab 
  
- ## R
+## R
 
