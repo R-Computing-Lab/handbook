@@ -13,15 +13,17 @@ library(tweetrmd) #... embedding tweets
 
 This wikipage contains the collective lab knowledge about software and coding. Sections are kind of organized logically.
 
-# Statistics
+# Software
 
 ## R & Rstudio
 
-### Software
+There are tons more stuff about R in my [Data Science for Psychologists class.](https://datascience4psych.github.io/DataScience4Psych/)
 
-#### Base R
 
-#### R studio
+
+### Base R
+
+### R studio
 
 ### R Code
 
