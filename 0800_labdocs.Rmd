@@ -1,4 +1,4 @@
-# (PART) Lab Documents {-}
+# (PART) Internal Lab Documents {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -38,9 +38,5 @@ https://www.youtube.com/playlist?list=PLKrrdtYgOUYZpENpYddjG8n_q3bfbx8Kr
 
 [Wikipage]( https://osf.io/v9dmp/wiki/home/)
 
-
-## Ways to get ahold of Mason
-
-Here are my secret [Calendly links](https://calendly.com/smasongarrison/).
 
 
