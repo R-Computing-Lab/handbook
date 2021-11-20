@@ -31,7 +31,7 @@ Here are an incomplete collection of resources for students interested in applyi
 ## Aimed at Psychology
 
 ### Resources
-- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for PHD applicants including:
+- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for Clinical Psychology PHD applicants including:
     - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
     - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
     - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
@@ -83,7 +83,13 @@ Here are an incomplete collection of resources for students interested in applyi
 
 - [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
 
+### Recommendation Letters
 
+
+```{r, echo=FALSE}
+embed_url("https://www.youtube.com/watch?v=PJZwQZsoqE0") %>%
+  use_align("center")
+```
 
 ### Contacting Professors
 ```{r, echo=FALSE}
@@ -95,7 +101,7 @@ include_tweet("https://twitter.com/DrBKelleher/status/1455202559988273155")
 
 ### My Materials
 
-I've included my materials for my application to quantitative psychology graduate programs. You can find them in the [source code for the handbook](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/gradapps). Specifically, here is my CV when I applied(file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.pdf);  and statement of purpose (file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.pdf).
+I've included my materials for my application to quantitative psychology graduate programs. You can find them in the [source code for the handbook](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/gradapps). Specifically, here is my CV when I applied (file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.pdf));  and statement of purpose (file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.pdf)).
 
 
 
