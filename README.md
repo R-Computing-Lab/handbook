@@ -6,10 +6,6 @@ Please look at the lab website for [specifics](https://r-computing-lab.github.io
 
 # FAQ
 
-## How do I download this material and keep up to date with any changes?
-
-Please note that this is a work in progress, with new material being added whenever
-
 
 ## I've spotted a mistake or would like to contribute
 
