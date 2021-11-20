@@ -8,10 +8,7 @@ library(tweetrmd) #... embedding tweets
 
 ```
 
-# Graduate School Life Advice
-
-
-## Sources of Funding
+# Sources of Funding
 
 
 ### Internal Wake Forest
