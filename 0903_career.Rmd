@@ -13,29 +13,24 @@ library(tweetrmd) #... embedding tweets
 
 # Career Resources
 
-This project gathers together all the resources I've gathered related to the Academic Job Search. 
-
-
-
-
-
-
-
-## Quantitative Methods Psych Jobs 
-
-### Motivation
-
+## Motivation
 I had a tough time finding examples of job materials for quantitatively-inclined candidates. Here are representative examples from my own materials. Hopefully, they'll be able to help inspire your own materials. In addition, I've added some of the other resources and information that I found helpful. Although this collection has focused on academic jobs, I also considered industry jobs in my search.
 
+## Recommended Reading
 
-## Resources
-This is an incomplete list. Suggestions are very much encouraged.
+Jaremka, L. M., Ackerman, J. M., Gawronski, B., Rule, N. O., Sweeny, K., Tropp, L. R., Metz, M. A., Molina, L., Ryan, W. S., & Vick, S. B. (2020). Common Academic Experiences No One Talks About: Repeated Rejection, Impostor Syndrome, and Burnout. Perspectives on psychological science : a journal of the Association for Psychological Science, 15(3), 519–543. https://doi-org.go.libproxy.wakehealth.edu/10.1177/1745691619898848
+
+## Academic Jobs
 
 ### General Advice
 
 - The Professor Is In: [Blog](http://theprofessorisin.com/) and [Book](https://smile.amazon.com/gp/product/0553419420)
 
 - American Psychological Association [APA Career Resources](https://www.apa.org/careers/resources/academic/)
+
+- Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology, 46(3), 260–266. https://doi.org/10.1177/0098628319853942
+
+
 
 ### Materials
 
@@ -53,6 +48,17 @@ This is an incomplete list. Suggestions are very much encouraged.
 - [The Effective Diversity Statement from InsideHigherEd](https://www.insidehighered.com/advice/2016/06/10/how-write-effective-diversity-statement-essay)
 - [Beck, S. L., (2018). Developing and writing a diversity statement. Vanderbilt University Center for Teaching](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/)
 
+### Nagotiating
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/samclab/status/1460959264936239108")
+```
+
+### Professional Development
+
+
+
+
 #### Example Materials
 
 - UCSF [Samples for Academic Positions](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
@@ -63,6 +69,15 @@ This is an incomplete list. Suggestions are very much encouraged.
 include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683?s=20")
 
 ```
+
+## Industry
+
+
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075")
+```
+
 ## Finding Jobs
 
 ### Academic
@@ -75,12 +90,10 @@ include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683?s=2
 - [SPSP](https://my.spsp.org/Careers/Job-Search)
 - [Times Higher Education](https://www.timeshighereducation.com/unijobs/en-us/listings/psychology/)
 
+
+
 ### Industry
 Most data-savvy companies have a careers page. I've included some of those pages here of companies I applied to, were recruited by, or would be interested in working for. There are also job boards, which companies post positions on. There's some overlap, but not 100%.
-
-```{r, echo=FALSE}
-include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075")
-```
 
 #### Specific Companies
 - [23andMe](https://www.23andme.com/careers/)
@@ -104,12 +117,7 @@ include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075")
 - [Indeed](https://www.indeed.com/)
 - [USA Jobs (US Government Jobs)](https://www.usajobs.gov/)
 
-## Nagotiating
 
-```{r, echo=FALSE}
-include_tweet("https://twitter.com/samclab/status/1460959264936239108")
-
-```
 
 
 
