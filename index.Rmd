@@ -44,20 +44,17 @@ embed_url("https://www.youtube.com/watch?v=yPr-Vm6Ji0E") %>%
 
 ## Welcome to our R Lab Handbook {-}
 
-My goal is to foster an environment of consistent scientific excellence and personal development that supports every lab member in reaching their full potential, and helps us have fun while doing great science. I want you to be happy and productive while you are here. This handbook is a first point of reference for current lab members as we strive to achieve these goals, and
-serves as a general introduction for prospective members. You can also find the lab elsewhere:
+My goal is to foster an environment of consistent scientific excellence and personal development that supports every lab member in reaching their full potential, and helps us have fun while doing great science. I want you to be happy and productive while you are here. This handbook is a first point of reference for current lab members as we strive to achieve these goals, and serves as a general introduction for prospective members. You can also find the lab resources elsewhere:
 
-• Lab Github: https://github.com/R-Computing-Lab
-- Lab Wiki
+- Lab Github: https://github.com/R-Computing-Lab
+
 
 ## How to use this handbook  {-}
 
 
-This handbook is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and often in active development. I encourage you to contribute to the [lab source code](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. 
+This handbook is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and in active development. Some sections may be empty. I encourage you to contribute to the [lab github](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. 
 
 I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
-
-
 
 
 ```{r links, child="links.md"}

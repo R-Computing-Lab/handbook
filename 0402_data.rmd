@@ -2,10 +2,7 @@
 # Data
 
 
-This page contains some of the incalculable number of datasets available. 
-
-
-
+This lab doesn't collect fresh data. We use archival data that others have collected. 
 
 ## Publicly Available Data
 I have a sampling listed here. The main list is in the [Secondary Dataset Repositories][https://osf.io/ra8yg/wiki/home/]
@@ -16,18 +13,18 @@ I have a sampling listed here. The main list is in the [Secondary Dataset Reposi
 
 
 
-
 ### Government Data
 
 
 #### NLSY
 
-[National Longitudinal Surveys of Youth (NLSY)][https://osf.io/t3cfq/wiki/home/]
+[National Longitudinal Surveys of Youth (NLSY)] contains 4 generations of data and a replication sample that is nationally representative of the united states. It's got tons of good stuff in it. And is a staple data set in the lab for sibling comparison designs.  
 
-This paper has a nice description: 
-
-Garrison, S. M., & Rodgers, J. L. (2016). Casting doubt on the causal link between intelligence and age at first intercourse: A cross-generational sibling comparison design using the NLSY. Intelligence, 59, 139-156.
+The [NLSY79 topical guide](https://www.nlsinfo.org/content/cohorts/nlsy79/topical-guide) is a good place to get started.
 
 
-### Limited Access Data
+
+
+## Limited Access Data
+
 - Kelly/Connolly Longitudinal Study (KCLS)
