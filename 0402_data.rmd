@@ -1,0 +1,33 @@
+
+# Data
+
+
+This page contains some of the incalculable number of datasets available. 
+
+
+
+
+## Publicly Available Data
+I have a sampling listed here. The main list is in the [Secondary Dataset Repositories][https://osf.io/ra8yg/wiki/home/]
+
+### University Archives
+- [Harvard Dataverse][http://dataverse.harvard.edu/]
+- [Inter-university Consortium for Political and Social Research (ICPSR)][https://www.icpsr.umich.edu/icpsrweb]
+
+
+
+
+### Government Data
+
+
+#### NLSY
+
+[National Longitudinal Surveys of Youth (NLSY)][https://osf.io/t3cfq/wiki/home/]
+
+This paper has a nice description: 
+
+Garrison, S. M., & Rodgers, J. L. (2016). Casting doubt on the causal link between intelligence and age at first intercourse: A cross-generational sibling comparison design using the NLSY. Intelligence, 59, 139-156.
+
+
+### Limited Access Data
+- Kelly/Connolly Longitudinal Study (KCLS)

@@ -1,4 +1,4 @@
-# (PART) Useful Software {-}
+# (PART) Useful Things {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -10,10 +10,11 @@ library(tweetrmd) #... embedding tweets
 ```{r links, child="links.md"}
 ```
 
+# Software
 
 This wikipage contains the collective lab knowledge about software and coding. Sections are kind of organized logically.
 
-# Software
+
 
 ## R & Rstudio
 
