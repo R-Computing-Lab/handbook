@@ -48,9 +48,12 @@ Members are listed by seniority (in the order they joined the lab).
 * Emma Sims (Jayawickreme)
 * Jonathan Trattner
 
+
+
 ### Undergraduate Students
 * Kennon Later
 * Hannah Robertson
+* Rachel Good
 * out of date
 
 
@@ -73,6 +76,7 @@ Members are listed by seniority (in the order they joined the lab).
 
 
 # Lab Philosophy
+
 
 ## You won't know everything
 
