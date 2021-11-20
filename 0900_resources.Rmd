@@ -1,4 +1,4 @@
-# (PART) Resources {-}
+# (PART) The Future! {-}
 
 ```{r include = FALSE}
 source("common.R")
