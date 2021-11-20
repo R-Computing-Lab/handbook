@@ -1,4 +1,4 @@
-# (PART) Internal Lab Documents {-}
+# (PART) Lab Documents {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -32,11 +32,4 @@ https://www.youtube.com/playlist?list=PLKrrdtYgOUYZpENpYddjG8n_q3bfbx8Kr
 ## Data Sets
 
 [Wikipage](https://osf.io/av8ed/wiki/home/)
-
-
-## Sources of Funding
-
-[Wikipage]( https://osf.io/v9dmp/wiki/home/)
-
-
 
