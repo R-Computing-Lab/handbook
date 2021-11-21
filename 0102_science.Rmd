@@ -17,6 +17,11 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 # Science
 ## Big picture science
 ### Scientific integrity
+
+
+You have a responsibility to me, the institutions that support our work, and the broader scientific community to uphold the highest standards of scientiϐic accuracy and integrity. By being in the lab you agree to adhere to professional ethical standards. There is never an excuse for fabricating or misrepresenting data. If you have any questions, or in the unlikely event that you have concerns about a research practice you have seen in the lab, please talk to me immediately. It is also important that you prioritize the accuracy of your work while in the lab. Unintentional errors due to inattentiveness or rushing can be extremely damaging and produce results that turn out to be incorrect. Although there is always a pressure for a high quantity of research, it is critical that everything we do is of the highest quality. Please double-check your work frequently. In many cases multiple people will double-check a data set to ensure no mistakes have crept in along the way.
+
+
 ### Open, accurate, and reproducible science
 #### Open science
 #### Accurate science
