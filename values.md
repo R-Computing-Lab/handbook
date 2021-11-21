@@ -1,0 +1,1 @@
+My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY memember of the lab can thrive. I strongly believe that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected.  I want you to thrive. 
