@@ -16,7 +16,18 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 
 
 # Being in the lab
+
+Ok, so what does it mean to be part of the R computing lab? Well, let's start with my goals and expectations.
+
+My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY memember of the lab can thrive. I strongly believe that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected.  I want you to thrive. 
+
+This handbook is a first point of reference for current lab members as we strive to achieve these goals, and serves as a general introduction for prospective members. 
+
+
 ## Everyone
+
+Generally, don't be an asshole. 
+
 ### Big Picture
 ### Small Picture
 
@@ -24,7 +35,7 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 You can expect me to:
 
 - Have a vision of where the lab is going.
-- Care about your happiness.
+- Care about your happiness, health, and well-being.
 - Obtain the funding to support the science and the people in the lab.
 - Track down interesting sources of data.
 - Support you in your career development (regardless of whether you plan to stay in research), including: 
@@ -46,7 +57,7 @@ You can expect me to:
 ## Graduate Students
 
 I expect graduate students to:
-- Know the literature related to their topic like the back of their hand.
+- Know the literature related to their topic.
 - Seek out and apply for fellowships and awards (including travel awards, etc.).
 - Realize there are (extraordinarily rare) times for pulling all nighters, and times for leaving early to go to the park and enjoy the sunshine.
 
