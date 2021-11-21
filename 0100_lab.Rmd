@@ -15,6 +15,7 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 # (PART) Being in the lab {-}
 
 
+
 # Being in the lab
 
 Ok, so what does it mean to be part of the R computing lab? Well, let's start with my goals and expectations.
@@ -29,8 +30,14 @@ This handbook is a first point of reference for current lab members as we strive
 
 Generally, don't be an asshole. 
 
-### Big Picture
-### Small Picture
+### You won't know everything
+
+Ask questions! It is ok to not know something. I don't know everything. It is the sign of a good scholar to ask questions and it is the sign of a confident scholar to be willing to say that they don't know.
+
+### Work-Life Balance
+
+We value work-life balance.
+
 
 ## Mason
 You can expect me to:

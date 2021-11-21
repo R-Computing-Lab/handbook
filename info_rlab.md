@@ -1,0 +1,1 @@
+The R Computing Lab is directed by Prof. Mason Garrison. Our lab houses scientists who conduct biometrically-informed research in R. Our research addresses a mixture of substantive and methodological questions. We're part of the MegaLab with Prof. Veronica Cole!

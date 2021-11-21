@@ -24,7 +24,9 @@ favicon: assets/favicon.ico
 
 # Preamble  {-}
 
-The R Computing Lab houses scientists who conduct biometrically-informed research in R. Our research addresses a mixture of substantive and methodological questions. We're part of the MegaLab with Veronica Cole!
+
+```{r child="info_rlab.md"}
+```
 
 ```{r include = FALSE}
 source("common.R")
@@ -48,8 +50,3 @@ embed_url("https://www.youtube.com/watch?v=yPr-Vm6Ji0E") %>%
 
 This handbook is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and in active development. Some sections may be empty. I encourage you to contribute to the [lab github](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. 
 
-I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
-
-
-```{r links, child="links.md"}
-```
