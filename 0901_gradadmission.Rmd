@@ -63,6 +63,7 @@ embed_url("https://www.youtube.com/watch?v=PJZwQZsoqE0") %>%
 ```
 
 ### Contacting Professors
+
 ```{r, echo=FALSE}
 
 include_tweet("https://twitter.com/crisbanksleite/status/1453753460357218306")

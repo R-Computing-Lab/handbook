@@ -24,7 +24,7 @@
 <meta name="author" content="S. Mason Garrison" />
 
 
-<meta name="date" content="2021-11-20" />
+<meta name="date" content="2021-11-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -58,16 +58,16 @@
 <link href="libs/vembedr-0.1.4/css/vembedr.css" rel="stylesheet" />
 <script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.19/datatables.js"></script>
-<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="libs/datatables-binding-0.20/datatables.js"></script>
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
 <link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
 <script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
 <link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
 <script src="libs/selectize-0.12.0/selectize.min.js"></script>
-<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 <script src="libs/twitter-widget-0.0.1/widgets.js"></script>
 <html>
 
@@ -175,7 +175,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="part"><span><b>Front Matter</b></span></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preamble</a>
 <ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#welcome-to-our-r-lab-handbook"><i class="fa fa-check"></i>Welcome to our R Lab Handbook</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-use-this-handbook"><i class="fa fa-check"></i>How to use this handbook</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="attribution.html"><a href="attribution.html"><i class="fa fa-check"></i>Attribution</a>
@@ -225,11 +224,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.1.2" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#small-picture"><i class="fa fa-check"></i><b>4.1.2</b> Small Picture</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#mason"><i class="fa fa-check"></i><b>4.2</b> Mason</a></li>
-<li class="chapter" data-level="4.3" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#graduate-students-2"><i class="fa fa-check"></i><b>4.3</b> Graduate Students</a>
-<ul>
-<li class="chapter" data-level="4.3.1" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#general-timeline"><i class="fa fa-check"></i><b>4.3.1</b> General Timeline</a></li>
-<li class="chapter" data-level="4.3.2" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#useful-websites"><i class="fa fa-check"></i><b>4.3.2</b> Useful Websites</a></li>
-</ul></li>
+<li class="chapter" data-level="4.3" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#graduate-students-2"><i class="fa fa-check"></i><b>4.3</b> Graduate Students</a></li>
 <li class="chapter" data-level="4.4" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#undergraduate-students-2"><i class="fa fa-check"></i><b>4.4</b> Undergraduate Students</a>
 <ul>
 <li class="chapter" data-level="4.4.1" data-path="being-in-the-lab.html"><a href="being-in-the-lab.html#honors-students"><i class="fa fa-check"></i><b>4.4.1</b> Honors Students</a></li>
@@ -284,113 +279,115 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.2.3" data-path="science.html"><a href="science.html#authorship"><i class="fa fa-check"></i><b>6.2.3</b> Authorship</a></li>
 </ul></li>
 </ul></li>
-<li class="part"><span><b>III Useful Things</b></span></li>
-<li class="chapter" data-level="7" data-path="software.html"><a href="software.html"><i class="fa fa-check"></i><b>7</b> Software</a>
+<li class="part"><span><b>III Lab Documents</b></span></li>
+<li class="chapter" data-level="7" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html"><i class="fa fa-check"></i><b>7</b> Lab Documents and Resources</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="software.html"><a href="software.html#r-rstudio"><i class="fa fa-check"></i><b>7.1</b> R &amp; Rstudio</a>
+<li class="chapter" data-level="7.1" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#course-materials"><i class="fa fa-check"></i><b>7.1</b> Course Materials</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="software.html"><a href="software.html#base-r"><i class="fa fa-check"></i><b>7.1.1</b> Base R</a></li>
-<li class="chapter" data-level="7.1.2" data-path="software.html"><a href="software.html#r-studio"><i class="fa fa-check"></i><b>7.1.2</b> R studio</a></li>
-<li class="chapter" data-level="7.1.3" data-path="software.html"><a href="software.html#r-code"><i class="fa fa-check"></i><b>7.1.3</b> R Code</a></li>
+<li class="chapter" data-level="7.1.1" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#data-science-for-psychologists"><i class="fa fa-check"></i><b>7.1.1</b> Data Science for Psychologists</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="browsersinternet.html"><a href="browsersinternet.html"><i class="fa fa-check"></i><b>8</b> Browsers/Internet</a>
+<li class="chapter" data-level="8" data-path="sources-of-funding.html"><a href="sources-of-funding.html"><i class="fa fa-check"></i><b>8</b> Sources of Funding</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="browsersinternet.html"><a href="browsersinternet.html#google"><i class="fa fa-check"></i><b>8.1</b> Google</a>
+<li class="chapter" data-level="8.0.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#internal-wake-forest"><i class="fa fa-check"></i><b>8.0.1</b> Internal Wake Forest</a></li>
+<li class="chapter" data-level="8.0.2" data-path="sources-of-funding.html"><a href="sources-of-funding.html#externals"><i class="fa fa-check"></i><b>8.0.2</b> Externals</a></li>
+<li class="chapter" data-level="8.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#sample-materials"><i class="fa fa-check"></i><b>8.1</b> Sample Materials</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="browsersinternet.html"><a href="browsersinternet.html#search-operators"><i class="fa fa-check"></i><b>8.1.1</b> Search Operators</a></li>
+<li class="chapter" data-level="8.1.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#nsfgrfp"><i class="fa fa-check"></i><b>8.1.1</b> NSFGRFP</a></li>
 </ul></li>
-<li class="chapter" data-level="8.2" data-path="browsersinternet.html"><a href="browsersinternet.html#javascript-bookmarklets"><i class="fa fa-check"></i><b>8.2</b> Javascript Bookmarklets</a>
-<ul>
-<li class="chapter" data-level="8.2.1" data-path="browsersinternet.html"><a href="browsersinternet.html#wfu-related"><i class="fa fa-check"></i><b>8.2.1</b> WFU Related</a></li>
-<li class="chapter" data-level="8.2.2" data-path="browsersinternet.html"><a href="browsersinternet.html#google-related"><i class="fa fa-check"></i><b>8.2.2</b> Google Related</a></li>
-<li class="chapter" data-level="8.2.3" data-path="browsersinternet.html"><a href="browsersinternet.html#google-translate"><i class="fa fa-check"></i><b>8.2.3</b> Google Translate</a></li>
-<li class="chapter" data-level="8.2.4" data-path="browsersinternet.html"><a href="browsersinternet.html#not-otherwise-specified"><i class="fa fa-check"></i><b>8.2.4</b> Not Otherwise Specified</a></li>
 </ul></li>
-<li class="chapter" data-level="8.3" data-path="browsersinternet.html"><a href="browsersinternet.html#userscripts"><i class="fa fa-check"></i><b>8.3</b> Userscripts</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="template.html"><a href="template.html"><i class="fa fa-check"></i><b>9</b> Template</a>
+<li class="chapter" data-level="9" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>9</b> Data</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="template.html"><a href="template.html#name"><i class="fa fa-check"></i><b>9.1</b> Name</a></li>
-</ul></li>
-<li class="chapter" data-level="10" data-path="remote-access.html"><a href="remote-access.html"><i class="fa fa-check"></i><b>10</b> Remote Access</a>
+<li class="chapter" data-level="9.1" data-path="data.html"><a href="data.html#publicly-available-data"><i class="fa fa-check"></i><b>9.1</b> Publicly Available Data</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="remote-access.html"><a href="remote-access.html#steps"><i class="fa fa-check"></i><b>10.1</b> Steps</a></li>
+<li class="chapter" data-level="9.1.1" data-path="data.html"><a href="data.html#university-archives"><i class="fa fa-check"></i><b>9.1.1</b> University Archives</a></li>
+<li class="chapter" data-level="9.1.2" data-path="data.html"><a href="data.html#government-data"><i class="fa fa-check"></i><b>9.1.2</b> Government Data</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>11</b> Data</a>
-<ul>
-<li class="chapter" data-level="11.1" data-path="data.html"><a href="data.html#publicly-available-data"><i class="fa fa-check"></i><b>11.1</b> Publicly Available Data</a>
-<ul>
-<li class="chapter" data-level="11.1.1" data-path="data.html"><a href="data.html#university-archives"><i class="fa fa-check"></i><b>11.1.1</b> University Archives</a></li>
-<li class="chapter" data-level="11.1.2" data-path="data.html"><a href="data.html#government-data"><i class="fa fa-check"></i><b>11.1.2</b> Government Data</a></li>
-<li class="chapter" data-level="11.1.3" data-path="data.html"><a href="data.html#limited-access-data"><i class="fa fa-check"></i><b>11.1.3</b> Limited Access Data</a></li>
+<li class="chapter" data-level="9.2" data-path="data.html"><a href="data.html#limited-access-data"><i class="fa fa-check"></i><b>9.2</b> Limited Access Data</a></li>
 </ul></li>
+<li class="chapter" data-level="10" data-path="graduate-student-professional-development.html"><a href="graduate-student-professional-development.html"><i class="fa fa-check"></i><b>10</b> Graduate Student Professional Development</a>
+<ul>
+<li class="chapter" data-level="10.0.1" data-path="graduate-student-professional-development.html"><a href="graduate-student-professional-development.html#general-timeline"><i class="fa fa-check"></i><b>10.0.1</b> General Timeline</a></li>
+<li class="chapter" data-level="10.0.2" data-path="graduate-student-professional-development.html"><a href="graduate-student-professional-development.html#graduation-requirement-checklist"><i class="fa fa-check"></i><b>10.0.2</b> Graduation Requirement Checklist</a></li>
 </ul></li>
 <li class="part"><span><b>IV Projects</b></span></li>
-<li class="chapter" data-level="12" data-path="active-projects.html"><a href="active-projects.html"><i class="fa fa-check"></i><b>12</b> Active Projects</a></li>
-<li class="chapter" data-level="13" data-path="showcase.html"><a href="showcase.html"><i class="fa fa-check"></i><b>13</b> Showcase</a></li>
-<li class="part"><span><b>V Lab Documents</b></span></li>
-<li class="chapter" data-level="14" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html"><i class="fa fa-check"></i><b>14</b> Lab Documents and Resources</a>
+<li class="chapter" data-level="11" data-path="active-projects.html"><a href="active-projects.html"><i class="fa fa-check"></i><b>11</b> Active Projects</a></li>
+<li class="chapter" data-level="12" data-path="showcase.html"><a href="showcase.html"><i class="fa fa-check"></i><b>12</b> Showcase</a></li>
+<li class="part"><span><b>V Useful Things</b></span></li>
+<li class="chapter" data-level="13" data-path="software.html"><a href="software.html"><i class="fa fa-check"></i><b>13</b> Software</a>
 <ul>
-<li class="chapter" data-level="14.1" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#course-materials"><i class="fa fa-check"></i><b>14.1</b> Course Materials</a>
+<li class="chapter" data-level="13.1" data-path="software.html"><a href="software.html#r-rstudio"><i class="fa fa-check"></i><b>13.1</b> R &amp; Rstudio</a>
 <ul>
-<li class="chapter" data-level="14.1.1" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#data-science-for-psychologists"><i class="fa fa-check"></i><b>14.1.1</b> Data Science for Psychologists</a></li>
+<li class="chapter" data-level="13.1.1" data-path="software.html"><a href="software.html#base-r"><i class="fa fa-check"></i><b>13.1.1</b> Base R</a></li>
+<li class="chapter" data-level="13.1.2" data-path="software.html"><a href="software.html#r-studio"><i class="fa fa-check"></i><b>13.1.2</b> R studio</a></li>
+<li class="chapter" data-level="13.1.3" data-path="software.html"><a href="software.html#r-code"><i class="fa fa-check"></i><b>13.1.3</b> R Code</a></li>
 </ul></li>
-<li class="chapter" data-level="14.2" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#data-sets"><i class="fa fa-check"></i><b>14.2</b> Data Sets</a></li>
 </ul></li>
-<li class="chapter" data-level="15" data-path="sources-of-funding.html"><a href="sources-of-funding.html"><i class="fa fa-check"></i><b>15</b> Sources of Funding</a>
+<li class="chapter" data-level="14" data-path="browsersinternet.html"><a href="browsersinternet.html"><i class="fa fa-check"></i><b>14</b> Browsers/Internet</a>
 <ul>
-<li class="chapter" data-level="15.0.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#internal-wake-forest"><i class="fa fa-check"></i><b>15.0.1</b> Internal Wake Forest</a></li>
-<li class="chapter" data-level="15.0.2" data-path="sources-of-funding.html"><a href="sources-of-funding.html#externals"><i class="fa fa-check"></i><b>15.0.2</b> Externals</a></li>
-<li class="chapter" data-level="15.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#sample-materials"><i class="fa fa-check"></i><b>15.1</b> Sample Materials</a>
+<li class="chapter" data-level="14.1" data-path="browsersinternet.html"><a href="browsersinternet.html#google"><i class="fa fa-check"></i><b>14.1</b> Google</a>
 <ul>
-<li class="chapter" data-level="15.1.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#nsfgrfp"><i class="fa fa-check"></i><b>15.1.1</b> NSFGRFP</a></li>
+<li class="chapter" data-level="14.1.1" data-path="browsersinternet.html"><a href="browsersinternet.html#search-operators"><i class="fa fa-check"></i><b>14.1.1</b> Search Operators</a></li>
 </ul></li>
+<li class="chapter" data-level="14.2" data-path="browsersinternet.html"><a href="browsersinternet.html#javascript-bookmarklets"><i class="fa fa-check"></i><b>14.2</b> Javascript Bookmarklets</a>
+<ul>
+<li class="chapter" data-level="14.2.1" data-path="browsersinternet.html"><a href="browsersinternet.html#wfu-related"><i class="fa fa-check"></i><b>14.2.1</b> WFU Related</a></li>
+<li class="chapter" data-level="14.2.2" data-path="browsersinternet.html"><a href="browsersinternet.html#google-related"><i class="fa fa-check"></i><b>14.2.2</b> Google Related</a></li>
+<li class="chapter" data-level="14.2.3" data-path="browsersinternet.html"><a href="browsersinternet.html#google-translate"><i class="fa fa-check"></i><b>14.2.3</b> Google Translate</a></li>
+<li class="chapter" data-level="14.2.4" data-path="browsersinternet.html"><a href="browsersinternet.html#not-otherwise-specified"><i class="fa fa-check"></i><b>14.2.4</b> Not Otherwise Specified</a></li>
+</ul></li>
+<li class="chapter" data-level="14.3" data-path="browsersinternet.html"><a href="browsersinternet.html#userscripts"><i class="fa fa-check"></i><b>14.3</b> Userscripts</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="template.html"><a href="template.html"><i class="fa fa-check"></i><b>15</b> Template</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="template.html"><a href="template.html#name"><i class="fa fa-check"></i><b>15.1</b> Name</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="remote-access.html"><a href="remote-access.html"><i class="fa fa-check"></i><b>16</b> Remote Access</a>
+<ul>
+<li class="chapter" data-level="16.1" data-path="remote-access.html"><a href="remote-access.html#steps"><i class="fa fa-check"></i><b>16.1</b> Steps</a></li>
 </ul></li>
 <li class="part"><span><b>VI The Future!</b></span></li>
-<li class="chapter" data-level="16" data-path="motivation.html"><a href="motivation.html"><i class="fa fa-check"></i><b>16</b> Motivation</a></li>
-<li class="chapter" data-level="17" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html"><i class="fa fa-check"></i><b>17</b> Graduation Admissions Advice</a>
+<li class="chapter" data-level="17" data-path="future-directions.html"><a href="future-directions.html"><i class="fa fa-check"></i><b>17</b> Future Directions!</a></li>
+<li class="chapter" data-level="18" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html"><i class="fa fa-check"></i><b>18</b> Graduate School Admissions Advice</a>
 <ul>
-<li class="chapter" data-level="17.1" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#motivation-1"><i class="fa fa-check"></i><b>17.1</b> Motivation</a></li>
-<li class="chapter" data-level="17.2" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#general-advice"><i class="fa fa-check"></i><b>17.2</b> General Advice</a>
+<li class="chapter" data-level="18.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#motivation"><i class="fa fa-check"></i><b>18.1</b> Motivation</a></li>
+<li class="chapter" data-level="18.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#general-advice"><i class="fa fa-check"></i><b>18.2</b> General Advice</a>
 <ul>
-<li class="chapter" data-level="17.2.1" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#should-you-go"><i class="fa fa-check"></i><b>17.2.1</b> Should you go?</a></li>
+<li class="chapter" data-level="18.2.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#should-you-go"><i class="fa fa-check"></i><b>18.2.1</b> Should you go?</a></li>
+<li class="chapter" data-level="18.2.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#clinical-psychology-specific"><i class="fa fa-check"></i><b>18.2.2</b> Clinical Psychology Specific</a></li>
 </ul></li>
-<li class="chapter" data-level="17.3" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#aimed-at-psychology"><i class="fa fa-check"></i><b>17.3</b> Aimed at Psychology</a>
+<li class="chapter" data-level="18.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#application"><i class="fa fa-check"></i><b>18.3</b> Application</a>
 <ul>
-<li class="chapter" data-level="17.3.1" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#resources"><i class="fa fa-check"></i><b>17.3.1</b> Resources</a></li>
-<li class="chapter" data-level="17.3.2" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#what-area-of-psychology"><i class="fa fa-check"></i><b>17.3.2</b> What area of psychology?</a></li>
+<li class="chapter" data-level="18.3.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#resumes-and-cvs"><i class="fa fa-check"></i><b>18.3.1</b> Resumes and CVs</a></li>
+<li class="chapter" data-level="18.3.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#recommendation-letters"><i class="fa fa-check"></i><b>18.3.2</b> Recommendation Letters</a></li>
+<li class="chapter" data-level="18.3.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#contacting-professors"><i class="fa fa-check"></i><b>18.3.3</b> Contacting Professors</a></li>
+<li class="chapter" data-level="18.3.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#my-materials"><i class="fa fa-check"></i><b>18.3.4</b> My Materials</a></li>
 </ul></li>
-<li class="chapter" data-level="17.4" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#programs"><i class="fa fa-check"></i><b>17.4</b> Programs</a>
+<li class="chapter" data-level="18.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#programs"><i class="fa fa-check"></i><b>18.4</b> Programs</a>
 <ul>
-<li class="chapter" data-level="17.4.1" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#lists"><i class="fa fa-check"></i><b>17.4.1</b> Lists</a></li>
-<li class="chapter" data-level="17.4.2" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#subfield"><i class="fa fa-check"></i><b>17.4.2</b> Subfield</a></li>
+<li class="chapter" data-level="18.4.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#lists"><i class="fa fa-check"></i><b>18.4.1</b> Lists</a></li>
+<li class="chapter" data-level="18.4.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#subfield"><i class="fa fa-check"></i><b>18.4.2</b> Subfield</a></li>
 </ul></li>
-<li class="chapter" data-level="17.5" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#subreddits"><i class="fa fa-check"></i><b>17.5</b> Subreddits</a></li>
-<li class="chapter" data-level="17.6" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#application"><i class="fa fa-check"></i><b>17.6</b> Application</a>
+<li class="chapter" data-level="18.5" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#subreddits"><i class="fa fa-check"></i><b>18.5</b> Subreddits</a></li>
+</ul></li>
+<li class="chapter" data-level="19" data-path="career-resources.html"><a href="career-resources.html"><i class="fa fa-check"></i><b>19</b> Career Resources</a>
 <ul>
-<li class="chapter" data-level="17.6.1" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#contacting-professors"><i class="fa fa-check"></i><b>17.6.1</b> Contacting Professors</a></li>
-<li class="chapter" data-level="17.6.2" data-path="graduation-admissions-advice.html"><a href="graduation-admissions-advice.html#my-materials"><i class="fa fa-check"></i><b>17.6.2</b> My Materials</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="18" data-path="career-resources.html"><a href="career-resources.html"><i class="fa fa-check"></i><b>18</b> Career Resources</a>
+<li class="chapter" data-level="19.1" data-path="career-resources.html"><a href="career-resources.html#motivation-1"><i class="fa fa-check"></i><b>19.1</b> Motivation</a></li>
+<li class="chapter" data-level="19.2" data-path="career-resources.html"><a href="career-resources.html#recommended-reading"><i class="fa fa-check"></i><b>19.2</b> Recommended Reading</a></li>
+<li class="chapter" data-level="19.3" data-path="career-resources.html"><a href="career-resources.html#academic-jobs"><i class="fa fa-check"></i><b>19.3</b> Academic Jobs</a>
 <ul>
-<li class="chapter" data-level="18.1" data-path="career-resources.html"><a href="career-resources.html#motivation-2"><i class="fa fa-check"></i><b>18.1</b> Motivation</a></li>
-<li class="chapter" data-level="18.2" data-path="career-resources.html"><a href="career-resources.html#recommended-reading"><i class="fa fa-check"></i><b>18.2</b> Recommended Reading</a></li>
-<li class="chapter" data-level="18.3" data-path="career-resources.html"><a href="career-resources.html#academic-jobs"><i class="fa fa-check"></i><b>18.3</b> Academic Jobs</a>
-<ul>
-<li class="chapter" data-level="18.3.1" data-path="career-resources.html"><a href="career-resources.html#general-advice-1"><i class="fa fa-check"></i><b>18.3.1</b> General Advice</a></li>
-<li class="chapter" data-level="18.3.2" data-path="career-resources.html"><a href="career-resources.html#materials"><i class="fa fa-check"></i><b>18.3.2</b> Materials</a></li>
-<li class="chapter" data-level="18.3.3" data-path="career-resources.html"><a href="career-resources.html#nagotiating"><i class="fa fa-check"></i><b>18.3.3</b> Nagotiating</a></li>
-<li class="chapter" data-level="18.3.4" data-path="career-resources.html"><a href="career-resources.html#professional-development"><i class="fa fa-check"></i><b>18.3.4</b> Professional Development</a></li>
+<li class="chapter" data-level="19.3.1" data-path="career-resources.html"><a href="career-resources.html#general-advice-1"><i class="fa fa-check"></i><b>19.3.1</b> General Advice</a></li>
+<li class="chapter" data-level="19.3.2" data-path="career-resources.html"><a href="career-resources.html#materials"><i class="fa fa-check"></i><b>19.3.2</b> Materials</a></li>
+<li class="chapter" data-level="19.3.3" data-path="career-resources.html"><a href="career-resources.html#nagotiating"><i class="fa fa-check"></i><b>19.3.3</b> Nagotiating</a></li>
+<li class="chapter" data-level="19.3.4" data-path="career-resources.html"><a href="career-resources.html#professional-development"><i class="fa fa-check"></i><b>19.3.4</b> Professional Development</a></li>
 </ul></li>
-<li class="chapter" data-level="18.4" data-path="career-resources.html"><a href="career-resources.html#industry"><i class="fa fa-check"></i><b>18.4</b> Industry</a></li>
-<li class="chapter" data-level="18.5" data-path="career-resources.html"><a href="career-resources.html#finding-jobs"><i class="fa fa-check"></i><b>18.5</b> Finding Jobs</a>
+<li class="chapter" data-level="19.4" data-path="career-resources.html"><a href="career-resources.html#industry"><i class="fa fa-check"></i><b>19.4</b> Industry</a></li>
+<li class="chapter" data-level="19.5" data-path="career-resources.html"><a href="career-resources.html#finding-jobs"><i class="fa fa-check"></i><b>19.5</b> Finding Jobs</a>
 <ul>
-<li class="chapter" data-level="18.5.1" data-path="career-resources.html"><a href="career-resources.html#academic"><i class="fa fa-check"></i><b>18.5.1</b> Academic</a></li>
-<li class="chapter" data-level="18.5.2" data-path="career-resources.html"><a href="career-resources.html#industry-1"><i class="fa fa-check"></i><b>18.5.2</b> Industry</a></li>
+<li class="chapter" data-level="19.5.1" data-path="career-resources.html"><a href="career-resources.html#academic"><i class="fa fa-check"></i><b>19.5.1</b> Academic</a></li>
+<li class="chapter" data-level="19.5.2" data-path="career-resources.html"><a href="career-resources.html#industry-1"><i class="fa fa-check"></i><b>19.5.2</b> Industry</a></li>
 </ul></li>
-<li class="chapter" data-level="18.6" data-path="career-resources.html"><a href="career-resources.html#data-research"><i class="fa fa-check"></i><b>18.6</b> Data / Research</a></li>
+<li class="chapter" data-level="19.6" data-path="career-resources.html"><a href="career-resources.html#data-research"><i class="fa fa-check"></i><b>19.6</b> Data / Research</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -426,19 +423,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The book style adapted from designs by <a href="https://desiree.rbind.io/">Desirée De Leon</a>.</p>
 <p>This version of the notes was built with:</p>
 <pre><code>#&gt; Finding R package dependencies ... Done!
-#&gt;  setting  value                       
+#&gt;  setting  value
 #&gt;  version  R version 4.0.5 (2021-03-31)
-#&gt;  os       Windows 10 x64              
-#&gt;  system   x86_64, mingw32             
-#&gt;  ui       RTerm                       
-#&gt;  language (EN)                        
-#&gt;  collate  English_United States.1252  
-#&gt;  ctype    English_United States.1252  
-#&gt;  tz       America/New_York            
-#&gt;  date     2021-11-20</code></pre>
+#&gt;  os       Windows 10 x64 (build 19043)
+#&gt;  system   x86_64, mingw32
+#&gt;  ui       RTerm
+#&gt;  language (EN)
+#&gt;  collate  English_United States.1252
+#&gt;  ctype    English_United States.1252
+#&gt;  tz       America/New_York
+#&gt;  date     2021-11-21
+#&gt;  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)</code></pre>
 <p>Along with these packages:</p>
-<div id="htmlwidget-fc199f48624992347463" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-fc199f48624992347463">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.28","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.2","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.1.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.5","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.26","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-09-22","2021-10-29","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-09-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-09-27","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-09-30","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-10-27","2021-04-29","2021-10-13","2021-04-13","2021-09-14","2021-09-14","2019-08-28","2021-04-18","2021-09-14","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-5beb81ba6ef172b2e95b" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5beb81ba6ef172b2e95b">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.28","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.5.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.0","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.12","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.28","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-11-03","2021-10-29","2021-07-25","2021-11-04","2021-02-15","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-11-15","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-11-07","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-11","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-10-18","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-11-02","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-10","2021-09-14","2019-08-28","2021-04-18","2021-11-04","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 
 </div>
 

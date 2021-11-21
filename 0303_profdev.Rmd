@@ -7,7 +7,7 @@ The timeline below is intended to help you structure your time during the WFU gr
 - professional development opportunities (conferences), and 
 - PhD applications, if you plan to apply. 
 
-It likely not comprehensive for your unique situation, and it is expected that you will personalize it. This timeline was orinally written by [The AMAZING Shannon Brady](https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/). I've tweaked it and added to it. But she really deserves credit for it.
+It likely not comprehensive for your unique situation, and it is expected that you will personalize it. This timeline was originally written by [The AMAZING Shannon Brady](https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/). I've tweaked it and added to it. But she really deserves credit for it.
 
 #### Year 1
 
@@ -96,6 +96,7 @@ July
 #### Year 2
 
 August
+
 - Review Grad Handbook expectations for MAP
 - Create complete outline of MAP
     - get feedback
@@ -107,13 +108,15 @@ August
 
 
 September
-- Schedule MAP feedback mtg
+
+- Schedule MAP feedback meeting
 - Send MAP to all committee members
 - Contact letter writers
 - Discuss SOP with mentors/peers/friends
 
 October
-- Have MAP feedback mtg
+
+- Have MAP feedback meeting
     - If needed: revise MAP
 - Review Grad Handbook expectations for thesis
 - Finalize thesis idea
@@ -125,22 +128,75 @@ October
 
 November
 
+- Draft thesis prospectus; get feedback; revise
+- Schedule thesis prospectus mtg 
+- If needed, identify new “mentor texts” 
+- Get feedback on other materials; finalize
+- Submit applications (if due this early)
+
+
+
 December
+
+- Have thesis prospectus mtg 
+- If needed: Secure IRB approval for thesis
+- Draft/refine thesis timeline
+- Submit applications
+
+
 
 January
 
+- File intent to graduate
+- At latest: Begin data collection OR begin data cleaning/analysis
+- Find, contact, and confirm outside member for thesis committee
+- Maybe: interview(s)
+
+
+
 February
+
+- Collect data and/or clean and analyze data 
+
 
 March
 
+- If needed: revise thesis timeline
+- Collect data and/or clean and analyze data 
+- Schedule thesis defense
+- Revise prospectus into thesis draft
+- Submit format thesis to Grad Office
+- Maybe: interview(s)
+
+
+
 April
+
+- Write, write, write!
+- Get feedback and revise
+- Defend thesis 
+- Submit thesis 
+- Complete graduation logistics
+- Hopefully: Choose PhD program; inform all programs of decision 
+
 
 May
 
+- Graduate!
+- Organize and annotate all research files
+- Make sure advisor has copy of all research files (materials, data, code, notes, etc.) 
+
+
+
 June
+
+- Write/revise projects for publication
 
 July
 
-### Useful Websites
+- Write/revise projects for publication; submit
+
+
+### Graduation Requirement Checklist
 
 https://graduate.wfu.edu/graduation-requirement-checklist-reynolda-campus/

@@ -45,8 +45,9 @@ Members are listed by seniority (in the order they joined the lab).
 
 #### Affiliated (Primary Lab)
 
-* Emma Sims (Jayawickreme)
 * Jonathan Trattner (Kishida)
+* Emma Sims (Jayawickreme)
+
 
 
 
