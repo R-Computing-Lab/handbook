@@ -21,8 +21,3 @@ https://datascience4psych.github.io/DataScience4Psych/
 
 
 
-
-## Data Sets
-
-[Wikipage](https://osf.io/av8ed/wiki/home/)
-
