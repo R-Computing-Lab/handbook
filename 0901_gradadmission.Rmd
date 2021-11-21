@@ -8,7 +8,7 @@ library(tweetrmd) #... embedding tweets
 
 ```
 
-# Graduation Admissions Advice
+# Graduate School Admissions Advice
 
 ## Motivation
 
