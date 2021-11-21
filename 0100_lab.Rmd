@@ -19,7 +19,8 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 
 Ok, so what does it mean to be part of the R computing lab? Well, let's start with my goals and expectations.
 
-My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY memember of the lab can thrive. I strongly believe that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected.  I want you to thrive. 
+```{r child="values.md"}
+```
 
 This handbook is a first point of reference for current lab members as we strive to achieve these goals, and serves as a general introduction for prospective members. 
 
