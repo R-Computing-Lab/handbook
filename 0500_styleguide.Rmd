@@ -1,0 +1,27 @@
+# (PART) Style Guide {-}
+
+```{r include = FALSE}
+source("common.R")
+# install.packages("devtools")
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+```
+
+```{r links, child="links.md"}
+```
+
+# Style Guide
+
+## NLSY Variable Names
+
+Please use the variable renamer function
+
+### Armed Services Vocational Apptitude Battery
+
+( WORD_KNOWLEDGE | WORDKNOW ) = WK
+
+( ARITHMETIC_REASONING | ARITHREASON ) = AR
+
+( WORD_KNOWLEDGE | WORDKNOW ) = WK
+
+( PARACOMP | PARAGRAPH_COMPREHENSION ) = PC
