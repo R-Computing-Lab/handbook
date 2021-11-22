@@ -10,7 +10,9 @@ library(tweetrmd) #... embedding tweets
 ```{r links, child="links.md"}
 ```
 
-# Style Guide
+# R Style Guide
+
+The goal of this Programming Style Guide is to make the lab's R code more consistent and easier to work with. This guide is based on the Tidyverse Style Guide by Hadley Wickham [license](https://creativecommons.org/licenses/by-sa/2.0/). It differs in a few ways, and provides much more detail on variables names for the NLSY.
 
 ## NLSY Variable Names
 
