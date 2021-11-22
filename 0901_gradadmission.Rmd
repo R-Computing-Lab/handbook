@@ -67,6 +67,8 @@ embed_url("https://www.youtube.com/watch?v=PJZwQZsoqE0") %>%
 
 include_tweet("https://twitter.com/crisbanksleite/status/1453753435594047494")
 
+include_tweet("https://twitter.com/crisbanksleite/status/1453753463494610952")
+
 include_tweet("https://twitter.com/DrBKelleher/status/1455202559988273155")
 ```
 
