@@ -55,6 +55,9 @@ embed_url("https://youtu.be/42ifhBbyu8A") %>%
 
 ### Recommendation Letters
 
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/DrBKelleher/status/1455202559988273155")
+```
 
 ```{r, echo=FALSE}
 embed_url("https://www.youtube.com/watch?v=PJZwQZsoqE0") %>%
@@ -68,8 +71,6 @@ embed_url("https://www.youtube.com/watch?v=PJZwQZsoqE0") %>%
 include_tweet("https://twitter.com/crisbanksleite/status/1453753435594047494")
 
 include_tweet("https://twitter.com/crisbanksleite/status/1453753463494610952")
-
-include_tweet("https://twitter.com/DrBKelleher/status/1455202559988273155")
 ```
 
 ### My Materials
