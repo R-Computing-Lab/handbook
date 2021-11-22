@@ -26,6 +26,11 @@ You have a responsibility to me, the institutions that support our work, and the
 #### Open science
 #### Accurate science
 
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/meriahdejoseph/status/1461484970074152960")
+
+```
+
 ## Practical science
 
 ### Writing
