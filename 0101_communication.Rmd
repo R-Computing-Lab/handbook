@@ -49,7 +49,18 @@ This section concerns general suggests and wisdom in communication. In the pract
 
 Conferences are excellent opportunities to present your research, make connections, and learn about new research and methods from others. If possible, I recommend attending two or more conferences while you are a graduate student at Wake Forest and presenting your research at one or more of the conferences you attend.  
 
+
+```{r, echo=FALSE}
+library(tweetrmd) #... embedding tweets
+
+include_tweet("https://twitter.com/ec_leininger/status/1462603702670344192")
+```
+
+
 Here are some conferences that are worth considering
+
+
+
 
 ### ARP
 
