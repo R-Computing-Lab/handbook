@@ -9,8 +9,6 @@ library(tweetrmd) #... embedding tweets
 ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 ```
 
-```{r links, child="links.md"}
-```
 
 # (PART) Being in the lab {-}
 
@@ -20,7 +18,7 @@ ds4p_urls <- read.csv("./data/ds4p_urls.csv")
 
 Ok, so what does it mean to be part of the R computing lab? Well, let's start with my goals and expectations.
 
-```{r child="values.md"}
+```{r child="info_values.md"}
 ```
 
 This handbook is a first point of reference for current lab members as we strive to achieve these goals, and serves as a general introduction for prospective members. 
