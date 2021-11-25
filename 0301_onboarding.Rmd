@@ -20,6 +20,10 @@ library(tweetrmd) #... embedding tweets
 
 ## Things You'll Need
  
+```{r, echo=FALSE}
+library(tweetrmd) #... embedding tweets
+include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
+```
  
 ## Github
  
