@@ -14,11 +14,19 @@ library(tweetrmd) #... embedding tweets
 ### Internal Wake Forest
 https://ureca.wfu.edu/student-resources/starr-travel-grant
 
-### Externals
+
+
+### External
+
+#### International Alliance for Ability in Science
+
+https://iafais.org/scholarships
+
+
 #### SMEP
 https://smep.org/resources/underrepresented-fellowships Support for Students from Underrepresented Groups to Attend Methodological Workshop
 
-#### SPSP Travel Awards
+#### SPSP
 
 SPSP has travel awards
 
