@@ -60,6 +60,8 @@ include_tweet("https://twitter.com/ec_leininger/status/1462603702670344192")
 Here are some conferences that are worth considering
 
 
+https://psychology.ucmerced.edu/graduate-program/resources-current-students/conferences-psychological-sciences
+
 
 
 ### ARP
