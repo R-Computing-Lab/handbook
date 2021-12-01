@@ -77,7 +77,12 @@ include_tweet("https://twitter.com/crisbanksleite/status/1453753463494610952")
 
 I've included my materials for my application to quantitative psychology graduate programs. You can find them in the [source code for the handbook](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/gradapps). Specifically, here is my CV when I applied (file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.pdf));  and statement of purpose (file: [docx](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.docx); [pdf](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.pdf)).
 
+## Interviews
 
+```{r, echo=FALSE}
+
+include_tweet("https://twitter.com/julie_cristello/status/1466047527518679043")
+```
 
 
 
