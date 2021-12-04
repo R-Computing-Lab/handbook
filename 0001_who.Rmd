@@ -16,7 +16,7 @@ library(knitr)
 ```{r child="info_rlab.md"}
 ```
 
-Our substantive work focuses understanding the relationships between socioeconomic status, health & well-being, and individual differences (personality, intelligence). Our methodological work focuses on developing and improving biometrically-informed designs, such as behavior genetic and discordant kin models. 
+Our substantive work focuses understanding the relationships between socioeconomic status, health & well-being, and individual differences (personality, intelligence). Our methodological work focuses on developing and improving biometrically-informed designs, such as behavior genetic and discordant kin models. Much of the research in my lab is student-driven, so the specific content questions will meander within that broad topic. :)
 
 Students in the laboratory work on projects covering a wide range of topics, including inter-generational consequences of divorce, vaccination willingness, R package development.
 
