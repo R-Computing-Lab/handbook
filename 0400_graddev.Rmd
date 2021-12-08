@@ -1,6 +1,8 @@
-# Graduate Student Professional Development
+# (PART) Professional Development {-}
 
-### General Timeline
+# Graduate Students
+
+## General Timeline
 
 The timeline below is intended to help you structure your time during the WFU graduate program -- to stay on track with: 
 - non-coursework program requirements, 
@@ -9,7 +11,7 @@ The timeline below is intended to help you structure your time during the WFU gr
 
 It likely not comprehensive for your unique situation, and it is expected that you will personalize it. This timeline was originally written by [The AMAZING Shannon Brady](https://psychology.wfu.edu/about-the-department/faculty-and-staff/shannon-brady/). I've tweaked it and added to it. But she really deserves credit for it.
 
-#### Year 1
+### Year 1
 
 August
 
@@ -93,7 +95,7 @@ July
 - Consider submitting to SPSP
 
 
-#### Year 2
+### Year 2
 
 August
 
