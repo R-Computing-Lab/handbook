@@ -4,19 +4,22 @@
 
 This lab doesn't collect fresh data. We use archival data that others have collected. 
 
-## Publicly Available Data
+## Sources in general
+
+### Publicly Available Data
+
 I have a sampling listed here. The main list is in the [Secondary Dataset Repositories][https://osf.io/ra8yg/wiki/home/]
 
-### University Archives
+#### University Archives
 - [Harvard Dataverse][http://dataverse.harvard.edu/]
 - [Inter-university Consortium for Political and Social Research (ICPSR)][https://www.icpsr.umich.edu/icpsrweb]
 
 
 
-### Government Data
+#### Government Data
 
 
-#### NLSY
+##### NLSY
 
 [National Longitudinal Surveys of Youth (NLSY)] contains 4 generations of data and a replication sample that is nationally representative of the united states. It's got tons of good stuff in it. And is a staple data set in the lab for sibling comparison designs.  
 
@@ -25,6 +28,10 @@ The [NLSY79 topical guide](https://www.nlsinfo.org/content/cohorts/nlsy79/topica
 
 
 
-## Limited Access Data
+### Limited Access Data
 
 - Kelly/Connolly Longitudinal Study (KCLS)
+
+## Genetically Informed Data
+
+https://vipbg.vcu.edu/research/datasets-projects/
