@@ -16,9 +16,6 @@ library(tweetrmd) #... embedding tweets
 ## Motivation
 I had a tough time finding examples of job materials for quantitatively-inclined candidates. Here are representative examples from my own materials. Hopefully, they'll be able to help inspire your own materials. In addition, I've added some of the other resources and information that I found helpful. Although this collection has focused on academic jobs, I also considered industry jobs in my search.
 
-## Recommended Reading
-
-Jaremka, L. M., Ackerman, J. M., Gawronski, B., Rule, N. O., Sweeny, K., Tropp, L. R., Metz, M. A., Molina, L., Ryan, W. S., & Vick, S. B. (2020). Common Academic Experiences No One Talks About: Repeated Rejection, Impostor Syndrome, and Burnout. Perspectives on psychological science : a journal of the Association for Psychological Science, 15(3), 519–543. https://doi-org.go.libproxy.wakehealth.edu/10.1177/1745691619898848
 
 ## Academic Jobs
 
@@ -28,9 +25,16 @@ Jaremka, L. M., Ackerman, J. M., Gawronski, B., Rule, N. O., Sweeny, K., Tropp, 
 
 - American Psychological Association [APA Career Resources](https://www.apa.org/careers/resources/academic/)
 
-- Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology, 46(3), 260–266. https://doi.org/10.1177/0098628319853942
+- [Pennycook, G. & Thompson, V. A. (2018). An analysis of the Canadian cognitive psychology job market (2006-2016). Canadian Journal of Experimental Psychology, 72, 71-80.](https://psyarxiv.com/mxa35)
+- Jaremka, L. M., Ackerman, J. M., Gawronski, B., Rule, N. O., Sweeny, K., Tropp, L. R., Metz, M. A., Molina, L., Ryan, W. S., & Vick, S. B. (2020). Common Academic Experiences No One Talks About: Repeated Rejection, Impostor Syndrome, and Burnout. Perspectives on psychological science : a journal of the Association for Psychological Science, 15(3), 519–543. https://doi-org.go.libproxy.wakehealth.edu/10.1177/1745691619898848
+- [Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology, 46(3), 260–266. ](https://journals.sagepub.com/doi/abs/10.1177/0098628319853942)
 
+- Bureau of Labor Statistics on [STEM crisis or STEM surplus? Yes and yes](https://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm)
+- [What are the chances of becoming a Psychology Professor?](http://geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/stem-surplus-yes-and-yes.htm)
+    - [(archived link)](http://webcache.googleusercontent.com/search?q=cache:M-P4L1Xj8XoJ:geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/&hl=en&gl=us&strip=0&vwsrc=0)
 
+- Washington Post on [The academic job market is a nightmare](https://www.washingtonpost.com/outlook/2019/04/15/job-market-academics-is-nightmare-heres-one-way-fix-it/)
+- Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took](https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took)
 
 ### Materials
 
@@ -48,17 +52,6 @@ Jaremka, L. M., Ackerman, J. M., Gawronski, B., Rule, N. O., Sweeny, K., Tropp, 
 - [The Effective Diversity Statement from InsideHigherEd](https://www.insidehighered.com/advice/2016/06/10/how-write-effective-diversity-statement-essay)
 - [Beck, S. L., (2018). Developing and writing a diversity statement. Vanderbilt University Center for Teaching](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/)
 
-### Nagotiating
-
-```{r, echo=FALSE}
-include_tweet("https://twitter.com/samclab/status/1460959264936239108")
-```
-
-### Professional Development
-
-
-
-
 #### Example Materials
 
 - UCSF [Samples for Academic Positions](https://career.ucsf.edu/grad-students-postdocs/career-planning/academic-jobs/applying/academic-samples)
@@ -68,6 +61,23 @@ include_tweet("https://twitter.com/samclab/status/1460959264936239108")
 ```{r, echo=FALSE}
 include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683")
 ```
+
+### Interviews
+
+-  UConn's Common Academic Interview Questions (https://career.uconn.edu/wp-content/uploads/sites/7/2014/12/common-academic-inteview-questions.pdf)
+
+### Job Talk
+
+- [Boysen, G. A., Jones, C., Kaltwasser, R., & Thompson, E. (2018). Keys to a successful job talk: Perceptions of psychology faculty. Teaching of Psychology, 45(3), 270-277.](https://journals.sagepub.com/doi/full/10.1177/0098628318779277)
+
+
+### Negotiating
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/samclab/status/1460959264936239108")
+```
+
+
 
 ## Industry
 
@@ -114,20 +124,3 @@ Most data-savvy companies have a careers page. I've included some of those pages
 - [Glassdoor](https://www.glassdoor.com)
 - [Indeed](https://www.indeed.com/)
 - [USA Jobs (US Government Jobs)](https://www.usajobs.gov/)
-
-
-
-
-
-## Data / Research
-
- - [Edyburn, Dave (August 21, 2020). [An Onboarding Guide for Postdoctoral Researchers. Inside Higher Ed](https://www.insidehighered.com/advice/2020/08/21/advice-postdocs-during-start-phase-their-appointments-opinion)
- 
-- Bureau of Labor Statistics on [STEM crisis or STEM surplus? Yes and yes](https://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm)
-- [What are the chances of becoming a Psychology Professor?](http://geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/stem-surplus-yes-and-yes.htm)
-    -[(archived link)](http://webcache.googleusercontent.com/search?q=cache:M-P4L1Xj8XoJ:geekpsychologist.com/what-are-the-chances-of-becoming-a-psychology-professor/&hl=en&gl=us&strip=0&vwsrc=0)
-- [Boysen, G. A., Morton, J., & Nieves, T. (2019). Kisses of Death in the Psychology Faculty Hiring Process. Teaching of Psychology](https://journals.sagepub.com/doi/abs/10.1177/0098628319853942)
-- [Boysen, G. A., Jones, C., Kaltwasser, R., & Thompson, E. (2018). Keys to a successful job talk: Perceptions of psychology faculty. Teaching of Psychology, 45(3), 270-277.](https://journals.sagepub.com/doi/full/10.1177/0098628318779277)
-- [Pennycook, G. & Thompson, V. A. (2018). An analysis of the Canadian cognitive psychology job market (2006-2016). Canadian Journal of Experimental Psychology, 72, 71-80.](https://psyarxiv.com/mxa35)
-- Washington Post on [The academic job market is a nightmare](https://www.washingtonpost.com/outlook/2019/04/15/job-market-academics-is-nightmare-heres-one-way-fix-it/)
-- Jeremy Yoder on [I Found a Tenure-Track Job. Here's What it Took](https://chroniclevitae.com/news/1775-i-found-a-tenure-track-job-here-s-what-it-took)
