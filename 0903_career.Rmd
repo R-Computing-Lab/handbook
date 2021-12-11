@@ -65,7 +65,8 @@ include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683")
 ### Interviews
 
 -  UConn's Common Academic Interview Questions (https://career.uconn.edu/wp-content/uploads/sites/7/2014/12/common-academic-inteview-questions.pdf)
-
+- https://www.vitae.ac.uk/researcher-careers/pursuing-an-academic-career/applying-for-academic-jobs/commonly-asked-questions-in-academic-interviews#general-research-questions
+- 
 ### Job Talk
 
 - [Boysen, G. A., Jones, C., Kaltwasser, R., & Thompson, E. (2018). Keys to a successful job talk: Perceptions of psychology faculty. Teaching of Psychology, 45(3), 270-277.](https://journals.sagepub.com/doi/full/10.1177/0098628318779277)
