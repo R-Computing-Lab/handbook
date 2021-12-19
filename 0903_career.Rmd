@@ -125,3 +125,11 @@ Most data-savvy companies have a careers page. I've included some of those pages
 - [Glassdoor](https://www.glassdoor.com)
 - [Indeed](https://www.indeed.com/)
 - [USA Jobs (US Government Jobs)](https://www.usajobs.gov/)
+
+
+## Random Wisdom
+
+```{r, echo=FALSE}
+"https://twitter.com/ma_salmon/status/1471375120941916161?s=20%" %>%
+include_tweet()
+```
