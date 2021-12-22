@@ -25,7 +25,7 @@ favicon: assets/favicon.ico
 # Preamble  {-}
 
 
-```{r child="info_rlab.md"}
+```{r child="content/info_rlab.md"}
 ```
 
 ```{r include = FALSE}
@@ -40,7 +40,8 @@ library(readr)
 
 
 ```{r, echo=FALSE}
-embed_url("https://www.youtube.com/watch?v=yPr-Vm6Ji0E") %>%
+"https://www.youtube.com/watch?v=yPr-Vm6Ji0E" %>%
+embed_url() %>%
   use_align("center")
 ```
 
@@ -48,5 +49,5 @@ embed_url("https://www.youtube.com/watch?v=yPr-Vm6Ji0E") %>%
 ## How to use this handbook  {-}
 
 
-This handbook is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and in active development. Some sections may be empty. I encourage you to contribute to the [lab github](https://github.com/R-Computing-Lab). If you catch typos, errors, please issue a pull request with the fixes. 
+This handbook is broken down into multiple section and chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and in active development. Some sections may be empty. I encourage you to contribute to the [lab github][labgit]. If you catch typos, errors, please issue a pull request with the fixes. 
 

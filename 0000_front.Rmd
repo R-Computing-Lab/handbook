@@ -9,18 +9,18 @@ library(vembedr)
 library(knitr)
 ```
 
-```{r links, child="links.md"}
+```{r links, child="content/links.md"}
 ```
 
 
 # Attribution {-}
 I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
 
-This document leans heavily on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/r-computing-lab//handbook/commits/main)
+This document leans heavily on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo][commits]
 
 ## Major Attributions  {-}
 
-* Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
+* Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat545]
 * [Candice Morey's lab handbook](https://github.com/CCMorey/labHandbook)
 * [Jonathan Peelle's lab manual](http://jpeelle.net/peellelab_manual.pdf)
 * [Joshua Hartshorne's Language Learning Lab Manual](http://l3atbc.org/L3Manual.pdf)
