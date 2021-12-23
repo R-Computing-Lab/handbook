@@ -10,7 +10,7 @@ library(tweetrmd) #... embedding tweets
 
 ```
 
-```{r links, child="links.md"}
+```{r links, child="content/links.md"}
 ```
 
 
@@ -22,7 +22,9 @@ library(tweetrmd) #... embedding tweets
  
 ```{r, echo=FALSE}
 library(tweetrmd) #... embedding tweets
+if(FALSE){# Forbidden (HTTP 403)
 include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
+}        
 ```
  
 ## Github
@@ -33,7 +35,7 @@ include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
  
 ## Google Group
  
- Primarily, this google group serves as an easy way for me to transmit information/opportunties to the lab. You can opt opt of the emails or consolidate them as a digest.
+ Primarily, this google group serves as an easy way for me to transmit information/opportunities to the lab. You can opt opt of the emails or consolidate them as a digest.
 
 https://groups.google.com/g/rcomputinglab 
  

@@ -18,7 +18,7 @@ library(tweetrmd) #... embedding tweets
 
 Ok, so what does it mean to be part of the R computing lab? Well, let's start with my goals and expectations.
 
-```{r child="info_values.md"}
+```{r child="content/info_values.md"}
 ```
 
 This handbook is a first point of reference for current lab members as we strive to achieve these goals, and serves as a general introduction for prospective members. 

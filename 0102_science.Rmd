@@ -9,7 +9,7 @@ library(tweetrmd) #... embedding tweets
 
 ```
 
-```{r links, child="links.md"}
+```{r links, child="content/links.md"}
 ```
 
 
