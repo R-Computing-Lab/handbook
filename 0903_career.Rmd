@@ -14,6 +14,7 @@ library(tweetrmd) #... embedding tweets
 # Career Resources
 
 ## Motivation
+
 I had a tough time finding examples of job materials for quantitatively-inclined candidates. Here are representative examples from my own materials. Hopefully, they'll be able to help inspire your own materials. In addition, I've added some of the other resources and information that I found helpful. Although this collection has focused on academic jobs, I also considered industry jobs in my search.
 
 
