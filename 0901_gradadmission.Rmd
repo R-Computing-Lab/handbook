@@ -26,18 +26,12 @@ Here are an incomplete collection of resources for students interested in applyi
 
 
 
-### Clinical Psychology Specific
-- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for Clinical Psychology PHD applicants including:
-    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
-    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
-    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
-
-- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
-- [Craig Rodriguez-Seijas's](https://sites.lsa.umich.edu/splat-lab/) [FAQ](https://sites.lsa.umich.edu/splat-lab/faqs/)
 
 
 
 
+
+## 
 ## Application
 
 - [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
@@ -85,7 +79,35 @@ include_tweet("https://twitter.com/julie_cristello/status/1466047527518679043")
 ```
 
 
+## Field Specific Things
 
+### Clinical Psychology
+
+- [Mitch Prinstein](http://mitch.web.unc.edu/info-for-phd-applicants/)'s collection of info for Clinical Psychology PHD applicants including:
+    - [Mitch's Uncensored Advice for Applying to Graduate School in Clinical Psychology](http://mitch.web.unc.edu/files/2017/02/MitchGradSchoolAdvice.pdf) 
+    - [Tips on Applying to Graduate School](http://mitch.web.unc.edu/files/2013/10/TipsForApplyingToGradSchool.pdf) by Sophie Choukas-Bradley
+    - [Before You Apply](http://mitch.web.unc.edu/files/2013/10/BeforeYouApply.pdf) by Casey Calhoun
+- [Craig Rodriguez-Seijas's](https://sites.lsa.umich.edu/splat-lab/) [FAQ](https://sites.lsa.umich.edu/splat-lab/faqs/)
+
+- [American Psychological Association](https://www.apa.org/index)'s [List of APA-Accredited Programs](https://www.apa.org/ed/accreditation/programs/)
+
+
+### Individual Differences (Personality, Intelligence, etc)
+
+- [Bill Revelle](https://www.personality-project.org)'s [Website has a collection of info](https://www.personality-project.org/org.html#howtoapply) 
+
+- [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs](https://www.personality-project.org/org.html#gradpsych)
+
+
+### Social Psychology
+
+- [Social Psychology Network Ranked List](https://www.socialpsychology.org/gsocial.htm)
+- [SPSP's Social and Personality Graduate Program Directory](http://spsp.org/resources/student/grad-directory)
+
+### Quantitative Psychology
+
+- [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
+	
 ## Programs
  
 
@@ -100,20 +122,14 @@ include_tweet("https://twitter.com/julie_cristello/status/1466047527518679043")
 
 ### Subfield
 
-- Clinical Psychology
-    - [American Psychological Association](https://www.apa.org/index)'s [List of APA-Accredited Programs](https://www.apa.org/ed/accreditation/programs/)
 
-
-- Individual Differences (Personality, Intelligence, etc)
-    - [Bill Revelle](https://www.personality-project.org)'s List of [Graduate Departments of Psychology with Personality Programs](https://www.personality-project.org/org.html#gradpsych)
 
 
 - Quantitative Psychology
-    - [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
+
 
 - Social Psychology
-    - [Social Psychology Network Ranked List](https://www.socialpsychology.org/gsocial.htm)
-    - [SPSP's Social and Personality Graduate Program Directory](http://spsp.org/resources/student/grad-directory)
+
 
 ## Subreddits
 - [/r/Gradadmissions](https://www.reddit.com/r/gradadmissions/)
