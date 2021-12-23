@@ -28,6 +28,9 @@ favicon: assets/favicon.ico
 ```{r child="content/info_rlab.md"}
 ```
 
+```{r links, child="content/links.md"}
+```
+
 ```{r include = FALSE}
 source("common.R")
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
@@ -49,5 +52,5 @@ embed_url() %>%
 ## How to use this handbook  {-}
 
 
-This handbook is broken down into multiple section and chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and in active development. Some sections may be empty. I encourage you to contribute to the [lab github][labgit]. If you catch typos, errors, please issue a pull request with the fixes. 
+This handbook is broken down into multiple section and chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. This lab handbook is constantly changing and in active development. Some sections may be empty. I encourage you to contribute to the [lab github][git_lab]. If you catch typos or errors, please issue a pull request with the fixes. 
 

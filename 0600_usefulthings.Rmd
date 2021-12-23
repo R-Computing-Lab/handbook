@@ -7,7 +7,7 @@ if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
 library(tweetrmd) #... embedding tweets
 ```
 
-```{r links, child="links.md"}
+```{r links, child="content/links.md"}
 ```
 
 # Software
@@ -81,7 +81,7 @@ Source: [stackoverflow](https://stackoverflow.com/questions/5352099/how-to-disab
 
 ```{r}
 
-options(scipen=999)
+options(scipen = 999)
 
 ```
 
@@ -200,6 +200,7 @@ User scripts put you in control of your browsing experience. Once installed, the
 (Source: [GreasyFork](https://greasyfork.org/en/help/installing-user-scripts))
 
 
+<!--
 # Template
 
 ## Name
@@ -211,3 +212,5 @@ Description:
 Note: Additional comments
 
 Source: [URL](https://google.com)
+
+-->
