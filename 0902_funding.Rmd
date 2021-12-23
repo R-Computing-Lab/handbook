@@ -1,0 +1,43 @@
+```{r include = FALSE}
+source("common.R")
+
+# install.packages("devtools")
+
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+
+```
+
+# Sources of Funding
+
+
+## Internal Wake Forest
+
+https://ureca.wfu.edu/student-resources/starr-travel-grant
+
+
+
+## External
+
+### General Advise
+
+https://twitter.com/RohacsTibor/status/1468678482897084426
+
+
+### International Alliance for Ability in Science
+
+https://iafais.org/scholarships
+
+
+### SMEP
+https://smep.org/resources/underrepresented-fellowships Support for Students from Underrepresented Groups to Attend Methodological Workshop
+
+### SPSP
+
+SPSP has travel awards
+
+# Sample Materials
+
+## NSFGRFP
+
+I've included my National Science Foundation Graduate Fellowship materials. You can find them in the [source code for the handbook](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/nsfgrfp). I applied twice. Here's my personal statement [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/unsuccessful/MG_NOWIN_personal_submitted.pdf), research proposal[(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/unsuccessful/MG_NOWIN_research.pdf), and reviewer feedback [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/unsuccessful/MG_NOTWIN_ViewApplReview.pdf) for my unsuccessful first attempt . And here are those same things (personal statement [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/successful/mg.personal_2014.pdf), research proposal[(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/successful/mg.research.pdf), and reviewer feedback [(pdf)](https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/nsfgrfp/successful/mg.ViewApplReview.pdf)) for my successful 2nd attempt. 
