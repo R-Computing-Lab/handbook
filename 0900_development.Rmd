@@ -1,4 +1,4 @@
-# (PART) Resources {-}
+# (PART) Professional Development {-}
 
 ```{r include = FALSE}
 source("common.R")
