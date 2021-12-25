@@ -108,27 +108,14 @@ include_tweet("https://twitter.com/julie_cristello/status/1466047527518679043")
 
 - [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
 	
-## Programs
+## Bonus Stuff
  
 
-### Lists
-
-#### Funded Terminal Master's Programs (Incomplete List)
+### Funded Terminal Master's Programs (Incomplete List)
 
 - [College of William and Mary](https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php)
 - [Villanova University](https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html)
 - [Wake Forest University](http://psychology.wfu.edu/graduate-program/graduate-financial-aid-2/)
-
-
-### Subfield
-
-
-
-
-- Quantitative Psychology
-
-
-- Social Psychology
 
 
 ## Subreddits
@@ -136,4 +123,7 @@ include_tweet("https://twitter.com/julie_cristello/status/1466047527518679043")
 - [/r/GradSchool](https://www.reddit.com/r/GradSchool/)
 - [/r/AskAcademia](https://www.reddit.com/r/AskAcademia)
 
+## Grad Cafe
 
+- [gradcafe admission results](https://www.thegradcafe.com/survey/index.php)
+- [Data Visualization of Timelines](https://www.reddit.com/r/gradadmissions/comments/7srxxy/decision_timelines_for_particular_universities/)
