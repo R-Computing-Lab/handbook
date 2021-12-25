@@ -1,4 +1,4 @@
-# (PART) Style Guide {-}
+# (PART) Style Guides {-}
 
 ```{r include = FALSE}
 source("common.R")
@@ -6,6 +6,24 @@ source("common.R")
 if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
 library(tweetrmd) #... embedding tweets
 ```
+
+# APA
+
+
+## Bias-Free Language
+
+> The American Psychological Association emphasizes the need to talk about all people with inclusivity and respect. Writers using APA Style must strive to use language that is free of bias and avoid perpetuating prejudicial beliefs or demeaning attitudes in their writing. Just as you have learned to check what you write for spelling, grammar, and wordiness, practice reading your work for bias.
+> 
+> The guidelines for bias-free language contain both general guidelines for writing about people without bias across a range of topics and specific guidelines that address the individual characteristics of age, disability, gender, participation in research, racial and ethnic identity, sexual orientation, socioeconomic status, and intersectionality. These guidelines and recommendations were crafted by panels of experts on APA’s bias-free language committees.
+Inclusive and bias free-language. 
+
+(Source)[https://apastyle.apa.org/style-grammar-guidelines/bias-free-language]
+
+
+## Inclusive Writing
+
+See this recent document from the APA about using [inclusive language)[https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf]
+
 
 # R Style Guide
 
