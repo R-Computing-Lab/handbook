@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Steps
 
-1. You will need to be sure you have the WFU VPN Client software (Cisco Anyconnect Mobility) installed - if you don't already have it, you can install it from software.wfu.edu. 
+1. You will need to be sure you have the WFU VPN Client software (Cisco Anyconnect Mobility) installed - if you don't already have it, you can install it from software.wfu.edu (and probably this specific link: https://software.wfu.edu/download/wfu-vpn/). 
 
 
 2. You will also need to have the Microsoft Remote Desktop software installed. You should already have this as part of MS Office. If on a Mac, you won't have it probably, but can get it free through the app store. 
@@ -22,3 +22,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 5. Once connected through VPN, you need to open the Microsoft Remote Desktop software and key in the IP address that you already received.
+
+## Troubleshooting
+
+In case Cisco Anyconnect isn't working, try these resources. 
+
+- https://is.wfu.edu/services/vpn/
+
+- https://help.wfu.edu/support/solutions/articles/13000033253
