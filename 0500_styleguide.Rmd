@@ -17,13 +17,14 @@ library(tweetrmd) #... embedding tweets
 > The guidelines for bias-free language contain both general guidelines for writing about people without bias across a range of topics and specific guidelines that address the individual characteristics of age, disability, gender, participation in research, racial and ethnic identity, sexual orientation, socioeconomic status, and intersectionality. These guidelines and recommendations were crafted by panels of experts on APA’s bias-free language committees.
 Inclusive and bias free-language. 
 
-(Source)[https://apastyle.apa.org/style-grammar-guidelines/bias-free-language]
+[Source](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language)
 
 
 ## Inclusive Writing
 
-See this recent document from the APA about using [inclusive language)[https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf]
+See this recent document from the APA about using [inclusive](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) and [bias-free](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/general-principles) language. The APA recently added an entire section on the [disability-community](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability)
 
+Moreover, I strongly recommend that you check out the specific sections on disabilitiy, 
 
 # R Style Guide
 
