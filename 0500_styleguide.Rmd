@@ -22,7 +22,7 @@ Inclusive and bias free-language.
 
 ## Inclusive Writing
 
-See this recent document from the APA about using [inclusive](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) and [bias-free](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/general-principles) language. The APA recently added an entire section on the [disability-community](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability)
+See this recent document from the APA about using [inclusive](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) and [bias-free](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/general-principles) language. The APA recently added an entire section on the [disability-community](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability). Also, the National Center on Disability and Journalism has an inclusive [style guide](https://ncdj.org/style-guide/).
 
 Moreover, I strongly recommend that you check out the specific sections on disabilitiy, 
 
