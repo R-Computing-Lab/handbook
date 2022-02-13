@@ -24,7 +24,10 @@ Here are an incomplete collection of resources for students interested in applyi
 - The Economist on [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb)
 - Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
 
-
+```{r, echo=FALSE}
+"https://twitter.com/jaxwendy/status/1492553462302707714" %>%
+include_tweet()
+```
 
 
 ## Application
