@@ -9,7 +9,6 @@ library(tweetrmd) #... embedding tweets
 
 # APA
 
-
 ## Bias-Free Language
 
 > The American Psychological Association emphasizes the need to talk about all people with inclusivity and respect. Writers using APA Style must strive to use language that is free of bias and avoid perpetuating prejudicial beliefs or demeaning attitudes in their writing. Just as you have learned to check what you write for spelling, grammar, and wordiness, practice reading your work for bias.
@@ -24,7 +23,18 @@ Inclusive and bias free-language.
 
 See this recent document from the APA about using [inclusive](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) and [bias-free](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/general-principles) language. The APA recently added an entire section on the [disability-community](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability). Also, the National Center on Disability and Journalism has an inclusive [style guide](https://ncdj.org/style-guide/).
 
-Moreover, I strongly recommend that you check out the specific sections on disabilitiy, 
+# Useful Copy-editing Resources
+
+These resources are useful for copyediting, readability, and academic phrasing. Often these use NLP.
+
+## Software and Widgets
+- Grammarly
+- [Writefull](https://www.writefull.com/)
+- [Writefull's Title Generator](https://x.writefull.com/title-generator/index.html)
+- [Writefull's Academic Paraphraser](https://x.writefull.com/paraphraser/index.html)
+- [Hemingway App](https://hemingwayapp.com/)
+
+
 
 # R Style Guide
 
