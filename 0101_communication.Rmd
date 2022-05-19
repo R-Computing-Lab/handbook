@@ -59,9 +59,7 @@ include_tweet("https://twitter.com/ec_leininger/status/1462603702670344192")
 
 Here are some conferences that are worth considering
 
-
 https://psychology.ucmerced.edu/graduate-program/resources-current-students/conferences-psychological-sciences
-
 
 
 ### ARP
@@ -80,7 +78,7 @@ Submission Deadline General: Submissions are typically due in March
 
 - Prior Specific Deadlines
 
-Conference Data General: Conference is generally in June
+Conference Date General: Conference is generally in June
 
 - Specific Example
 
@@ -118,14 +116,13 @@ Typical Costs
 
 ### SMEP
 
-
 Society for Multivariate Experimental Psychology ( https://smep.org/ )
 
 Submission Deadline General
 
 - Prior Specific Deadlines
 
-Conference Data General
+Conference Date General
 
 - Specific Example
 
