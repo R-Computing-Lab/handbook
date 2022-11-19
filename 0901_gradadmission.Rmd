@@ -37,6 +37,14 @@ include_tweet()
 - [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
 
 
+### Personal Statements
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/cblatts/status/1593606505340801024")
+```
+
+
+
 ### Resumes and CVs
 
 ```{r, echo=FALSE}
