@@ -27,7 +27,7 @@ You have a responsibility to me, the institutions that support our work, and the
 #### Accurate science
 
 ```{r, echo=FALSE}
-include_tweet("https://twitter.com/meriahdejoseph/status/1461484970074152960")
+try(include_tweet("https://twitter.com/meriahdejoseph/status/1461484970074152960"))
 
 ```
 
@@ -38,7 +38,7 @@ include_tweet("https://twitter.com/meriahdejoseph/status/1461484970074152960")
 #### Abstracts
 
 ```{r, echo=FALSE}
-include_tweet("https://twitter.com/DrasmaJabeen1/status/1459448488048140294")
+try(include_tweet("https://twitter.com/DrasmaJabeen1/status/1459448488048140294"))
 
 ```
 ### Computers and data

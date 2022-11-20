@@ -60,7 +60,7 @@ I had a tough time finding examples of job materials for quantitatively-inclined
 - [Mine](https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials)
 
 ```{r, echo=FALSE}
-include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683")
+try(include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683"))
 ```
 
 ### Interviews
@@ -76,7 +76,7 @@ include_tweet("https://twitter.com/SMasonGarrison/status/1311458554101063683")
 ### Negotiating
 
 ```{r, echo=FALSE}
-include_tweet("https://twitter.com/samclab/status/1460959264936239108")
+try(include_tweet("https://twitter.com/samclab/status/1460959264936239108"))
 ```
 
 
@@ -85,7 +85,7 @@ include_tweet("https://twitter.com/samclab/status/1460959264936239108")
 
 
 ```{r, echo=FALSE}
-include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075")
+try(include_tweet("https://twitter.com/BecomingDataSci/status/1458893898324099075"))
 ```
 
 ## Finding Jobs

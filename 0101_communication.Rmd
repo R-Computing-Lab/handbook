@@ -53,7 +53,7 @@ Conferences are excellent opportunities to present your research, make connectio
 ```{r, echo=FALSE}
 library(tweetrmd) #... embedding tweets
 
-include_tweet("https://twitter.com/ec_leininger/status/1462603702670344192")
+try(include_tweet("https://twitter.com/ec_leininger/status/1462603702670344192"))
 ```
 
 

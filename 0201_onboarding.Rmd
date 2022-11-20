@@ -23,7 +23,7 @@ library(tweetrmd) #... embedding tweets
 ```{r, echo=FALSE}
 library(tweetrmd) #... embedding tweets
 if(FALSE){# Forbidden (HTTP 403)
-include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
+try(include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480"))
 }        
 ```
  
