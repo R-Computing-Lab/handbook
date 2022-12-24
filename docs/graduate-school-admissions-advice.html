@@ -4,19 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>18 Graduate School Admissions Advice | Lab Handbook</title>
+  <title>19 Graduate School Admissions Advice | Lab Handbook</title>
   <meta name="description" content="Handbook for the R Computing Lab" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="18 Graduate School Admissions Advice | Lab Handbook" />
+  <meta property="og:title" content="19 Graduate School Admissions Advice | Lab Handbook" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://r-computing-lab.github.io/handbook/" />
   <meta property="og:image" content="https://r-computing-lab.github.io/handbook//assets/logo.png" />
   <meta property="og:description" content="Handbook for the R Computing Lab" />
   <meta name="github-repo" content="R-Computing-Lab/handbook" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="18 Graduate School Admissions Advice | Lab Handbook" />
+  <meta name="twitter:title" content="19 Graduate School Admissions Advice | Lab Handbook" />
   <meta name="twitter:site" content="@smasongarrison" />
   <meta name="twitter:description" content="Handbook for the R Computing Lab" />
   <meta name="twitter:image" content="https://r-computing-lab.github.io/handbook//assets/logo.png" />
@@ -24,7 +23,7 @@
 <meta name="author" content="S. Mason Garrison" />
 
 
-<meta name="date" content="2022-01-10" />
+<meta name="date" content="2022-12-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,6 @@
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
 <link rel="prev" href="future-directions.html"/>
 <link rel="next" href="sources-of-funding.html"/>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -51,17 +49,18 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <link href="libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link href="libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet" />
-<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/htmlwidgets-1.6.0/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.20/datatables.js"></script>
-<link href="libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="libs/datatables-binding-0.26/datatables.js"></script>
+<link href="libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.12.1/js/jquery.dataTables.min.js"></script>
 <link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
 <script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
 <link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
@@ -128,7 +127,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -141,7 +140,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -177,9 +176,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-use-this-handbook"><i class="fa fa-check"></i>How to use this handbook</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="attribution.html"><a href="attribution.html"><i class="fa fa-check"></i>Attribution</a>
+<li class="chapter" data-level="" data-path="attributions.html"><a href="attributions.html"><i class="fa fa-check"></i>Attributions</a>
 <ul>
-<li class="chapter" data-level="" data-path="attribution.html"><a href="attribution.html#major-attributions"><i class="fa fa-check"></i>Major Attributions</a></li>
+<li class="chapter" data-level="" data-path="attributions.html"><a href="attributions.html#major-attributions"><i class="fa fa-check"></i>Major Attributions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="license.html"><a href="license.html"><i class="fa fa-check"></i>License</a></li>
 <li class="chapter" data-level="" data-path="colophon.html"><a href="colophon.html"><i class="fa fa-check"></i>Colophon</a></li>
@@ -272,6 +271,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="5.1" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#course-materials"><i class="fa fa-check"></i><b>5.1</b> Course Materials</a>
 <ul>
 <li class="chapter" data-level="5.1.1" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#data-science-for-psychologists"><i class="fa fa-check"></i><b>5.1.1</b> Data Science for Psychologists</a></li>
+<li class="chapter" data-level="5.1.2" data-path="lab-documents-and-resources.html"><a href="lab-documents-and-resources.html#behavior-genetics"><i class="fa fa-check"></i><b>5.1.2</b> Behavior Genetics</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>6</b> Onboarding</a>
@@ -313,107 +313,122 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="12.1" data-path="apa.html"><a href="apa.html#bias-free-language"><i class="fa fa-check"></i><b>12.1</b> Bias-Free Language</a></li>
 <li class="chapter" data-level="12.2" data-path="apa.html"><a href="apa.html#inclusive-writing"><i class="fa fa-check"></i><b>12.2</b> Inclusive Writing</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="r-style-guide.html"><a href="r-style-guide.html"><i class="fa fa-check"></i><b>13</b> R Style Guide</a>
+<li class="chapter" data-level="13" data-path="useful-copy-editing-resources.html"><a href="useful-copy-editing-resources.html"><i class="fa fa-check"></i><b>13</b> Useful Copy-editing Resources</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="r-style-guide.html"><a href="r-style-guide.html#nlsy-variable-names"><i class="fa fa-check"></i><b>13.1</b> NLSY Variable Names</a>
+<li class="chapter" data-level="13.1" data-path="useful-copy-editing-resources.html"><a href="useful-copy-editing-resources.html#software-and-widgets"><i class="fa fa-check"></i><b>13.1</b> Software and Widgets</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="r-style-guide.html"><a href="r-style-guide.html"><i class="fa fa-check"></i><b>14</b> R Style Guide</a>
 <ul>
-<li class="chapter" data-level="13.1.1" data-path="r-style-guide.html"><a href="r-style-guide.html#armed-services-vocational-apptitude-battery"><i class="fa fa-check"></i><b>13.1.1</b> Armed Services Vocational Apptitude Battery</a></li>
+<li class="chapter" data-level="14.1" data-path="r-style-guide.html"><a href="r-style-guide.html#nlsy-variable-names"><i class="fa fa-check"></i><b>14.1</b> NLSY Variable Names</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="r-style-guide.html"><a href="r-style-guide.html#armed-services-vocational-apptitude-battery"><i class="fa fa-check"></i><b>14.1.1</b> Armed Services Vocational Apptitude Battery</a></li>
 </ul></li>
 </ul></li>
 <li class="part"><span><b>VII Useful Things</b></span></li>
-<li class="chapter" data-level="14" data-path="software.html"><a href="software.html"><i class="fa fa-check"></i><b>14</b> Software</a>
+<li class="chapter" data-level="15" data-path="software.html"><a href="software.html"><i class="fa fa-check"></i><b>15</b> Software</a>
 <ul>
-<li class="chapter" data-level="14.1" data-path="software.html"><a href="software.html#r-rstudio"><i class="fa fa-check"></i><b>14.1</b> R &amp; Rstudio</a>
+<li class="chapter" data-level="15.1" data-path="software.html"><a href="software.html#r-rstudio"><i class="fa fa-check"></i><b>15.1</b> R &amp; Rstudio</a>
 <ul>
-<li class="chapter" data-level="14.1.1" data-path="software.html"><a href="software.html#base-r"><i class="fa fa-check"></i><b>14.1.1</b> Base R</a></li>
-<li class="chapter" data-level="14.1.2" data-path="software.html"><a href="software.html#r-studio"><i class="fa fa-check"></i><b>14.1.2</b> R studio</a></li>
-<li class="chapter" data-level="14.1.3" data-path="software.html"><a href="software.html#r-code"><i class="fa fa-check"></i><b>14.1.3</b> R Code</a></li>
+<li class="chapter" data-level="15.1.1" data-path="software.html"><a href="software.html#base-r"><i class="fa fa-check"></i><b>15.1.1</b> Base R</a></li>
+<li class="chapter" data-level="15.1.2" data-path="software.html"><a href="software.html#r-studio"><i class="fa fa-check"></i><b>15.1.2</b> R studio</a></li>
+<li class="chapter" data-level="15.1.3" data-path="software.html"><a href="software.html#r-code"><i class="fa fa-check"></i><b>15.1.3</b> R Code</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="15" data-path="browsersinternet.html"><a href="browsersinternet.html"><i class="fa fa-check"></i><b>15</b> Browsers/Internet</a>
+<li class="chapter" data-level="16" data-path="browsersinternet.html"><a href="browsersinternet.html"><i class="fa fa-check"></i><b>16</b> Browsers/Internet</a>
 <ul>
-<li class="chapter" data-level="15.1" data-path="browsersinternet.html"><a href="browsersinternet.html#google"><i class="fa fa-check"></i><b>15.1</b> Google</a>
+<li class="chapter" data-level="16.1" data-path="browsersinternet.html"><a href="browsersinternet.html#google"><i class="fa fa-check"></i><b>16.1</b> Google</a>
 <ul>
-<li class="chapter" data-level="15.1.1" data-path="browsersinternet.html"><a href="browsersinternet.html#search-operators"><i class="fa fa-check"></i><b>15.1.1</b> Search Operators</a></li>
+<li class="chapter" data-level="16.1.1" data-path="browsersinternet.html"><a href="browsersinternet.html#search-operators"><i class="fa fa-check"></i><b>16.1.1</b> Search Operators</a></li>
 </ul></li>
-<li class="chapter" data-level="15.2" data-path="browsersinternet.html"><a href="browsersinternet.html#javascript-bookmarklets"><i class="fa fa-check"></i><b>15.2</b> Javascript Bookmarklets</a>
+<li class="chapter" data-level="16.2" data-path="browsersinternet.html"><a href="browsersinternet.html#javascript-bookmarklets"><i class="fa fa-check"></i><b>16.2</b> Javascript Bookmarklets</a>
 <ul>
-<li class="chapter" data-level="15.2.1" data-path="browsersinternet.html"><a href="browsersinternet.html#wfu-related"><i class="fa fa-check"></i><b>15.2.1</b> WFU Related</a></li>
-<li class="chapter" data-level="15.2.2" data-path="browsersinternet.html"><a href="browsersinternet.html#google-related"><i class="fa fa-check"></i><b>15.2.2</b> Google Related</a></li>
-<li class="chapter" data-level="15.2.3" data-path="browsersinternet.html"><a href="browsersinternet.html#google-translate"><i class="fa fa-check"></i><b>15.2.3</b> Google Translate</a></li>
-<li class="chapter" data-level="15.2.4" data-path="browsersinternet.html"><a href="browsersinternet.html#not-otherwise-specified"><i class="fa fa-check"></i><b>15.2.4</b> Not Otherwise Specified</a></li>
+<li class="chapter" data-level="16.2.1" data-path="browsersinternet.html"><a href="browsersinternet.html#wfu-related"><i class="fa fa-check"></i><b>16.2.1</b> WFU Related</a></li>
+<li class="chapter" data-level="16.2.2" data-path="browsersinternet.html"><a href="browsersinternet.html#google-related"><i class="fa fa-check"></i><b>16.2.2</b> Google Related</a></li>
+<li class="chapter" data-level="16.2.3" data-path="browsersinternet.html"><a href="browsersinternet.html#google-translate"><i class="fa fa-check"></i><b>16.2.3</b> Google Translate</a></li>
+<li class="chapter" data-level="16.2.4" data-path="browsersinternet.html"><a href="browsersinternet.html#not-otherwise-specified"><i class="fa fa-check"></i><b>16.2.4</b> Not Otherwise Specified</a></li>
 </ul></li>
-<li class="chapter" data-level="15.3" data-path="browsersinternet.html"><a href="browsersinternet.html#userscripts"><i class="fa fa-check"></i><b>15.3</b> Userscripts</a></li>
+<li class="chapter" data-level="16.3" data-path="browsersinternet.html"><a href="browsersinternet.html#userscripts"><i class="fa fa-check"></i><b>16.3</b> Userscripts</a></li>
 </ul></li>
-<li class="chapter" data-level="16" data-path="remote-access.html"><a href="remote-access.html"><i class="fa fa-check"></i><b>16</b> Remote Access</a>
+<li class="chapter" data-level="17" data-path="remote-access.html"><a href="remote-access.html"><i class="fa fa-check"></i><b>17</b> Remote Access</a>
 <ul>
-<li class="chapter" data-level="16.1" data-path="remote-access.html"><a href="remote-access.html#steps"><i class="fa fa-check"></i><b>16.1</b> Steps</a></li>
-<li class="chapter" data-level="16.2" data-path="remote-access.html"><a href="remote-access.html#troubleshooting"><i class="fa fa-check"></i><b>16.2</b> Troubleshooting</a></li>
+<li class="chapter" data-level="17.1" data-path="remote-access.html"><a href="remote-access.html#steps"><i class="fa fa-check"></i><b>17.1</b> Steps</a></li>
+<li class="chapter" data-level="17.2" data-path="remote-access.html"><a href="remote-access.html#troubleshooting"><i class="fa fa-check"></i><b>17.2</b> Troubleshooting</a></li>
 </ul></li>
 <li class="part"><span><b>VIII Professional Development</b></span></li>
-<li class="chapter" data-level="17" data-path="future-directions.html"><a href="future-directions.html"><i class="fa fa-check"></i><b>17</b> Future Directions!</a></li>
-<li class="chapter" data-level="18" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html"><i class="fa fa-check"></i><b>18</b> Graduate School Admissions Advice</a>
+<li class="chapter" data-level="18" data-path="future-directions.html"><a href="future-directions.html"><i class="fa fa-check"></i><b>18</b> Future Directions!</a></li>
+<li class="chapter" data-level="19" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html"><i class="fa fa-check"></i><b>19</b> Graduate School Admissions Advice</a>
 <ul>
-<li class="chapter" data-level="18.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#motivation"><i class="fa fa-check"></i><b>18.1</b> Motivation</a></li>
-<li class="chapter" data-level="18.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#general-advice"><i class="fa fa-check"></i><b>18.2</b> General Advice</a>
+<li class="chapter" data-level="19.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#motivation"><i class="fa fa-check"></i><b>19.1</b> Motivation</a></li>
+<li class="chapter" data-level="19.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#general-advice"><i class="fa fa-check"></i><b>19.2</b> General Advice</a>
 <ul>
-<li class="chapter" data-level="18.2.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#should-you-go"><i class="fa fa-check"></i><b>18.2.1</b> Should you go?</a></li>
+<li class="chapter" data-level="19.2.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#should-you-go"><i class="fa fa-check"></i><b>19.2.1</b> Should you go?</a></li>
 </ul></li>
-<li class="chapter" data-level="18.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#section"><i class="fa fa-check"></i><b>18.3</b> </a></li>
-<li class="chapter" data-level="18.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#application"><i class="fa fa-check"></i><b>18.4</b> Application</a>
+<li class="chapter" data-level="19.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#application"><i class="fa fa-check"></i><b>19.3</b> Application</a>
 <ul>
-<li class="chapter" data-level="18.4.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#resumes-and-cvs"><i class="fa fa-check"></i><b>18.4.1</b> Resumes and CVs</a></li>
-<li class="chapter" data-level="18.4.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#recommendation-letters"><i class="fa fa-check"></i><b>18.4.2</b> Recommendation Letters</a></li>
-<li class="chapter" data-level="18.4.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#contacting-professors"><i class="fa fa-check"></i><b>18.4.3</b> Contacting Professors</a></li>
-<li class="chapter" data-level="18.4.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#my-materials"><i class="fa fa-check"></i><b>18.4.4</b> My Materials</a></li>
+<li class="chapter" data-level="19.3.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#personal-statements"><i class="fa fa-check"></i><b>19.3.1</b> Personal Statements</a></li>
+<li class="chapter" data-level="19.3.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#resumes-and-cvs"><i class="fa fa-check"></i><b>19.3.2</b> Resumes and CVs</a></li>
+<li class="chapter" data-level="19.3.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#recommendation-letters"><i class="fa fa-check"></i><b>19.3.3</b> Recommendation Letters</a></li>
+<li class="chapter" data-level="19.3.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#contacting-professors"><i class="fa fa-check"></i><b>19.3.4</b> Contacting Professors</a></li>
+<li class="chapter" data-level="19.3.5" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#my-materials"><i class="fa fa-check"></i><b>19.3.5</b> My Materials</a></li>
 </ul></li>
-<li class="chapter" data-level="18.5" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#interviews"><i class="fa fa-check"></i><b>18.5</b> Interviews</a></li>
-<li class="chapter" data-level="18.6" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#field-specific-things"><i class="fa fa-check"></i><b>18.6</b> Field Specific Things</a>
+<li class="chapter" data-level="19.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#interviews"><i class="fa fa-check"></i><b>19.4</b> Interviews</a>
 <ul>
-<li class="chapter" data-level="18.6.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#clinical-psychology"><i class="fa fa-check"></i><b>18.6.1</b> Clinical Psychology</a></li>
-<li class="chapter" data-level="18.6.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#individual-differences-personality-intelligence-etc"><i class="fa fa-check"></i><b>18.6.2</b> Individual Differences (Personality, Intelligence, etc)</a></li>
-<li class="chapter" data-level="18.6.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#social-psychology"><i class="fa fa-check"></i><b>18.6.3</b> Social Psychology</a></li>
-<li class="chapter" data-level="18.6.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#quantitative-psychology"><i class="fa fa-check"></i><b>18.6.4</b> Quantitative Psychology</a></li>
+<li class="chapter" data-level="19.4.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#motivations"><i class="fa fa-check"></i><b>19.4.1</b> Motivations</a></li>
+<li class="chapter" data-level="19.4.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#the-programinstitution"><i class="fa fa-check"></i><b>19.4.2</b> The Program/Institution</a></li>
+<li class="chapter" data-level="19.4.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#previous-research"><i class="fa fa-check"></i><b>19.4.3</b> Previous Research</a></li>
+<li class="chapter" data-level="19.4.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#currentfuture-research"><i class="fa fa-check"></i><b>19.4.4</b> Current/Future Research</a></li>
+<li class="chapter" data-level="19.4.5" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#if-you-have-a-specific-project-in-mind"><i class="fa fa-check"></i><b>19.4.5</b> If you have a specific project in mind…</a></li>
+<li class="chapter" data-level="19.4.6" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#teaching"><i class="fa fa-check"></i><b>19.4.6</b> Teaching</a></li>
+<li class="chapter" data-level="19.4.7" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#questions-for-you-to-ask-current-grad-students"><i class="fa fa-check"></i><b>19.4.7</b> Questions for you to ask current grad students</a></li>
+<li class="chapter" data-level="19.4.8" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#questions-for-you-to-to-ask-potential-pis"><i class="fa fa-check"></i><b>19.4.8</b> Questions for you to to ask potential PI’s</a></li>
+<li class="chapter" data-level="19.4.9" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#questions-for-you-to-ask-other-interviewers"><i class="fa fa-check"></i><b>19.4.9</b> Questions for you to ask other interviewers</a></li>
 </ul></li>
-<li class="chapter" data-level="18.7" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#bonus-stuff"><i class="fa fa-check"></i><b>18.7</b> Bonus Stuff</a>
+<li class="chapter" data-level="19.5" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#field-specific-things"><i class="fa fa-check"></i><b>19.5</b> Field Specific Things</a>
 <ul>
-<li class="chapter" data-level="18.7.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#funded-terminal-masters-programs-incomplete-list"><i class="fa fa-check"></i><b>18.7.1</b> Funded Terminal Master’s Programs (Incomplete List)</a></li>
+<li class="chapter" data-level="19.5.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#clinical-psychology"><i class="fa fa-check"></i><b>19.5.1</b> Clinical Psychology</a></li>
+<li class="chapter" data-level="19.5.2" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#individual-differences-personality-intelligence-etc"><i class="fa fa-check"></i><b>19.5.2</b> Individual Differences (Personality, Intelligence, etc)</a></li>
+<li class="chapter" data-level="19.5.3" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#social-psychology"><i class="fa fa-check"></i><b>19.5.3</b> Social Psychology</a></li>
+<li class="chapter" data-level="19.5.4" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#quantitative-psychology"><i class="fa fa-check"></i><b>19.5.4</b> Quantitative Psychology</a></li>
 </ul></li>
-<li class="chapter" data-level="18.8" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#subreddits"><i class="fa fa-check"></i><b>18.8</b> Subreddits</a></li>
-<li class="chapter" data-level="18.9" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#grad-cafe"><i class="fa fa-check"></i><b>18.9</b> Grad Cafe</a></li>
-</ul></li>
-<li class="chapter" data-level="19" data-path="sources-of-funding.html"><a href="sources-of-funding.html"><i class="fa fa-check"></i><b>19</b> Sources of Funding</a>
+<li class="chapter" data-level="19.6" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#bonus-stuff"><i class="fa fa-check"></i><b>19.6</b> Bonus Stuff</a>
 <ul>
-<li class="chapter" data-level="19.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#internal-wake-forest"><i class="fa fa-check"></i><b>19.1</b> Internal Wake Forest</a></li>
-<li class="chapter" data-level="19.2" data-path="sources-of-funding.html"><a href="sources-of-funding.html#external"><i class="fa fa-check"></i><b>19.2</b> External</a>
-<ul>
-<li class="chapter" data-level="19.2.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#general-advise"><i class="fa fa-check"></i><b>19.2.1</b> General Advise</a></li>
-<li class="chapter" data-level="19.2.2" data-path="sources-of-funding.html"><a href="sources-of-funding.html#international-alliance-for-ability-in-science"><i class="fa fa-check"></i><b>19.2.2</b> International Alliance for Ability in Science</a></li>
-<li class="chapter" data-level="19.2.3" data-path="sources-of-funding.html"><a href="sources-of-funding.html#smep-1"><i class="fa fa-check"></i><b>19.2.3</b> SMEP</a></li>
-<li class="chapter" data-level="19.2.4" data-path="sources-of-funding.html"><a href="sources-of-funding.html#spsp-1"><i class="fa fa-check"></i><b>19.2.4</b> SPSP</a></li>
+<li class="chapter" data-level="19.6.1" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#funded-terminal-masters-programs-incomplete-list"><i class="fa fa-check"></i><b>19.6.1</b> Funded Terminal Master’s Programs (Incomplete List)</a></li>
 </ul></li>
+<li class="chapter" data-level="19.7" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#subreddits"><i class="fa fa-check"></i><b>19.7</b> Subreddits</a></li>
+<li class="chapter" data-level="19.8" data-path="graduate-school-admissions-advice.html"><a href="graduate-school-admissions-advice.html#grad-cafe"><i class="fa fa-check"></i><b>19.8</b> Grad Cafe</a></li>
 </ul></li>
-<li class="chapter" data-level="20" data-path="sample-materials.html"><a href="sample-materials.html"><i class="fa fa-check"></i><b>20</b> Sample Materials</a>
+<li class="chapter" data-level="20" data-path="sources-of-funding.html"><a href="sources-of-funding.html"><i class="fa fa-check"></i><b>20</b> Sources of Funding</a>
 <ul>
-<li class="chapter" data-level="20.1" data-path="sample-materials.html"><a href="sample-materials.html#nsfgrfp"><i class="fa fa-check"></i><b>20.1</b> NSFGRFP</a></li>
+<li class="chapter" data-level="20.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#internal-wake-forest"><i class="fa fa-check"></i><b>20.1</b> Internal Wake Forest</a></li>
+<li class="chapter" data-level="20.2" data-path="sources-of-funding.html"><a href="sources-of-funding.html#external"><i class="fa fa-check"></i><b>20.2</b> External</a>
+<ul>
+<li class="chapter" data-level="20.2.1" data-path="sources-of-funding.html"><a href="sources-of-funding.html#general-advise"><i class="fa fa-check"></i><b>20.2.1</b> General Advise</a></li>
+<li class="chapter" data-level="20.2.2" data-path="sources-of-funding.html"><a href="sources-of-funding.html#international-alliance-for-ability-in-science"><i class="fa fa-check"></i><b>20.2.2</b> International Alliance for Ability in Science</a></li>
 </ul></li>
-<li class="chapter" data-level="21" data-path="career-resources.html"><a href="career-resources.html"><i class="fa fa-check"></i><b>21</b> Career Resources</a>
-<ul>
-<li class="chapter" data-level="21.1" data-path="career-resources.html"><a href="career-resources.html#motivation-1"><i class="fa fa-check"></i><b>21.1</b> Motivation</a></li>
-<li class="chapter" data-level="21.2" data-path="career-resources.html"><a href="career-resources.html#academic-jobs"><i class="fa fa-check"></i><b>21.2</b> Academic Jobs</a>
-<ul>
-<li class="chapter" data-level="21.2.1" data-path="career-resources.html"><a href="career-resources.html#general-advice-1"><i class="fa fa-check"></i><b>21.2.1</b> General Advice</a></li>
-<li class="chapter" data-level="21.2.2" data-path="career-resources.html"><a href="career-resources.html#materials"><i class="fa fa-check"></i><b>21.2.2</b> Materials</a></li>
-<li class="chapter" data-level="21.2.3" data-path="career-resources.html"><a href="career-resources.html#interviews-1"><i class="fa fa-check"></i><b>21.2.3</b> Interviews</a></li>
-<li class="chapter" data-level="21.2.4" data-path="career-resources.html"><a href="career-resources.html#negotiating"><i class="fa fa-check"></i><b>21.2.4</b> Negotiating</a></li>
+<li class="chapter" data-level="20.3" data-path="sources-of-funding.html"><a href="sources-of-funding.html#behavior-genetics-association"><i class="fa fa-check"></i><b>20.3</b> Behavior Genetics Association</a></li>
+<li class="chapter" data-level="20.4" data-path="sources-of-funding.html"><a href="sources-of-funding.html#council-of-graduate-departments-of-psychology-cogdop"><i class="fa fa-check"></i><b>20.4</b> Council of Graduate Departments of Psychology (COGDOP)</a></li>
 </ul></li>
-<li class="chapter" data-level="21.3" data-path="career-resources.html"><a href="career-resources.html#industry"><i class="fa fa-check"></i><b>21.3</b> Industry</a></li>
-<li class="chapter" data-level="21.4" data-path="career-resources.html"><a href="career-resources.html#finding-jobs"><i class="fa fa-check"></i><b>21.4</b> Finding Jobs</a>
+<li class="chapter" data-level="21" data-path="sample-materials.html"><a href="sample-materials.html"><i class="fa fa-check"></i><b>21</b> Sample Materials</a>
 <ul>
-<li class="chapter" data-level="21.4.1" data-path="career-resources.html"><a href="career-resources.html#academic"><i class="fa fa-check"></i><b>21.4.1</b> Academic</a></li>
-<li class="chapter" data-level="21.4.2" data-path="career-resources.html"><a href="career-resources.html#industry-1"><i class="fa fa-check"></i><b>21.4.2</b> Industry</a></li>
+<li class="chapter" data-level="21.1" data-path="sample-materials.html"><a href="sample-materials.html#nsfgrfp"><i class="fa fa-check"></i><b>21.1</b> NSFGRFP</a></li>
 </ul></li>
-<li class="chapter" data-level="21.5" data-path="career-resources.html"><a href="career-resources.html#random-wisdom"><i class="fa fa-check"></i><b>21.5</b> Random Wisdom</a></li>
+<li class="chapter" data-level="22" data-path="career-resources.html"><a href="career-resources.html"><i class="fa fa-check"></i><b>22</b> Career Resources</a>
+<ul>
+<li class="chapter" data-level="22.1" data-path="career-resources.html"><a href="career-resources.html#motivation-1"><i class="fa fa-check"></i><b>22.1</b> Motivation</a></li>
+<li class="chapter" data-level="22.2" data-path="career-resources.html"><a href="career-resources.html#academic-jobs"><i class="fa fa-check"></i><b>22.2</b> Academic Jobs</a>
+<ul>
+<li class="chapter" data-level="22.2.1" data-path="career-resources.html"><a href="career-resources.html#general-advice-1"><i class="fa fa-check"></i><b>22.2.1</b> General Advice</a></li>
+<li class="chapter" data-level="22.2.2" data-path="career-resources.html"><a href="career-resources.html#materials"><i class="fa fa-check"></i><b>22.2.2</b> Materials</a></li>
+<li class="chapter" data-level="22.2.3" data-path="career-resources.html"><a href="career-resources.html#interviews-1"><i class="fa fa-check"></i><b>22.2.3</b> Interviews</a></li>
+<li class="chapter" data-level="22.2.4" data-path="career-resources.html"><a href="career-resources.html#negotiating"><i class="fa fa-check"></i><b>22.2.4</b> Negotiating</a></li>
+</ul></li>
+<li class="chapter" data-level="22.3" data-path="career-resources.html"><a href="career-resources.html#industry"><i class="fa fa-check"></i><b>22.3</b> Industry</a></li>
+<li class="chapter" data-level="22.4" data-path="career-resources.html"><a href="career-resources.html#finding-jobs"><i class="fa fa-check"></i><b>22.4</b> Finding Jobs</a>
+<ul>
+<li class="chapter" data-level="22.4.1" data-path="career-resources.html"><a href="career-resources.html#academic"><i class="fa fa-check"></i><b>22.4.1</b> Academic</a></li>
+<li class="chapter" data-level="22.4.2" data-path="career-resources.html"><a href="career-resources.html#industry-1"><i class="fa fa-check"></i><b>22.4.2</b> Industry</a></li>
+</ul></li>
+<li class="chapter" data-level="22.5" data-path="career-resources.html"><a href="career-resources.html#random-wisdom"><i class="fa fa-check"></i><b>22.5</b> Random Wisdom</a></li>
 </ul></li>
 <li class="part"><span><b>IX Back Matter</b></span></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -444,41 +459,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="graduate-school-admissions-advice" class="section level1" number="18">
-<h1><span class="header-section-number">18</span> Graduate School Admissions Advice</h1>
-<div id="motivation" class="section level2" number="18.1">
-<h2><span class="header-section-number">18.1</span> Motivation</h2>
+<div id="graduate-school-admissions-advice" class="section level1 hasAnchor" number="19">
+<h1><span class="header-section-number">19</span> Graduate School Admissions Advice<a href="graduate-school-admissions-advice.html#graduate-school-admissions-advice" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="motivation" class="section level2 hasAnchor" number="19.1">
+<h2><span class="header-section-number">19.1</span> Motivation<a href="graduate-school-admissions-advice.html#motivation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Here are an incomplete collection of resources for students interested in applying to graduate school in psychology. I’ve included my application materials that I used for the PhD program I enrolled in. NOTE: I really feel that I was accepted in spite of my application essay. However, in the spirit of transparency, I’ve included it anyway.</p>
 </div>
-<div id="general-advice" class="section level2" number="18.2">
-<h2><span class="header-section-number">18.2</span> General Advice</h2>
-<div id="should-you-go" class="section level3" number="18.2.1">
-<h3><span class="header-section-number">18.2.1</span> Should you go?</h3>
+<div id="general-advice" class="section level2 hasAnchor" number="19.2">
+<h2><span class="header-section-number">19.2</span> General Advice<a href="graduate-school-admissions-advice.html#general-advice" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="should-you-go" class="section level3 hasAnchor" number="19.2.1">
+<h3><span class="header-section-number">19.2.1</span> Should you go?<a href="graduate-school-admissions-advice.html#should-you-go" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li>The Economist on <a href="https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb">Why doing a PhD is often a waste of time</a></li>
 <li>Richard Z on <a href="https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd">Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree</a></li>
 </ul>
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">A big part of my job is mentoring undergraduate students in research programs in the humanities, arts, and social sciences and so I have conversations with students who are thinking about getting PhDs every single week of my life. Here is what I tell them.</p>&mdash; Jacquelyn Ardam (@jaxwendy) <a href="https://twitter.com/jaxwendy/status/1492553462302707714?ref_src=twsrc%5Etfw">February 12, 2022</a></blockquote>
+
 </div>
 </div>
-<div id="section" class="section level2" number="18.3">
-<h2><span class="header-section-number">18.3</span> </h2>
-</div>
-<div id="application" class="section level2" number="18.4">
-<h2><span class="header-section-number">18.4</span> Application</h2>
+<div id="application" class="section level2 hasAnchor" number="19.3">
+<h2><span class="header-section-number">19.3</span> Application<a href="graduate-school-admissions-advice.html#application" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li><p><a href="https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf">Appleby, D. C., &amp; Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.</a></p></li>
 <li><p><a href="http://www.pgbovine.net/index.html">Philip Guo’s</a> <a href="http://www.pgbovine.net/PhD-application-tips.htm">A Five-Minute Guide to Ph.D. Program Applications</a></p></li>
 </ul>
-<div id="resumes-and-cvs" class="section level3" number="18.4.1">
-<h3><span class="header-section-number">18.4.1</span> Resumes and CVs</h3>
+<div id="personal-statements" class="section level3 hasAnchor" number="19.3.1">
+<h3><span class="header-section-number">19.3.1</span> Personal Statements<a href="graduate-school-admissions-advice.html#personal-statements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">With PhD applications due soon, thousands of young people are currently beginning their statements of purpose with the same cliché story, or the same anodyne statement<br><br>Stop right now!<br><br>Here are 10 thoughts for doing this right. Helps you, and helps admissions committees.👇</p>&mdash; Chris Blattman (@cblatts) <a href="https://twitter.com/cblatts/status/1593606505340801024?ref_src=twsrc%5Etfw">November 18, 2022</a></blockquote>
+
+</div>
+<div id="resumes-and-cvs" class="section level3 hasAnchor" number="19.3.2">
+<h3><span class="header-section-number">19.3.2</span> Resumes and CVs<a href="graduate-school-admissions-advice.html#resumes-and-cvs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div class="vembedr" align="center">
 <div>
 <iframe src="https://www.youtube.com/embed/42ifhBbyu8A" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
 </div>
 </div>
 </div>
-<div id="recommendation-letters" class="section level3" number="18.4.2">
-<h3><span class="header-section-number">18.4.2</span> Recommendation Letters</h3>
+<div id="recommendation-letters" class="section level3 hasAnchor" number="19.3.3">
+<h3><span class="header-section-number">19.3.3</span> Recommendation Letters<a href="graduate-school-admissions-advice.html#recommendation-letters" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">It&#39;s rec letter season! A few tips: (1) include all materials in one batch and one email thread, (2) include a table of due dates/instructions, and keep up-to-date in most recent email; (3) send reminders; (4) let us know if you are now NOT submitting. What did I miss? Good luck!</p>&mdash; Dr. Bridgette Kelleher (@DrBKelleher) <a href="https://twitter.com/DrBKelleher/status/1455202559988273155?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote>
 
 <div class="vembedr" align="center">
@@ -487,27 +506,213 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div id="contacting-professors" class="section level3" number="18.4.3">
-<h3><span class="header-section-number">18.4.3</span> Contacting Professors</h3>
+<div id="contacting-professors" class="section level3 hasAnchor" number="19.3.4">
+<h3><span class="header-section-number">19.3.4</span> Contacting Professors<a href="graduate-school-admissions-advice.html#contacting-professors" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I just got 5 emails from prospective PhD students and there is a definite right and wrong way of approaching a potential supervisor/PI. This is not innate knowledge so here goes a thread. Starting from worst examples (1/n) <a href="https://twitter.com/hashtag/AcademicChatter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicChatter</a> <a href="https://twitter.com/hashtag/phdchat?src=hash&amp;ref_src=twsrc%5Etfw">#phdchat</a></p>&mdash; Cristina Banks-Leite (@crisbanksleite) <a href="https://twitter.com/crisbanksleite/status/1453753435594047494?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
 
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">How to write to a potential PI?<br><br>1-Dear [correct] title and name<br>2-Brief parag., who you are and what you want <br>3-Long parag., explaining your BSc, MSc, title of dissertation, previous experience and skills<br>4-Mid/long parag, explain in detail why work with PI<br>5-Funding (5/n)</p>&mdash; Cristina Banks-Leite (@crisbanksleite) <a href="https://twitter.com/crisbanksleite/status/1453753463494610952?ref_src=twsrc%5Etfw">October 28, 2021</a></blockquote>
 
 </div>
-<div id="my-materials" class="section level3" number="18.4.4">
-<h3><span class="header-section-number">18.4.4</span> My Materials</h3>
+<div id="my-materials" class="section level3 hasAnchor" number="19.3.5">
+<h3><span class="header-section-number">19.3.5</span> My Materials<a href="graduate-school-admissions-advice.html#my-materials" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>I’ve included my materials for my application to quantitative psychology graduate programs. You can find them in the <a href="https://github.com/R-Computing-Lab/handbook/tree/main/admin/masonmaterials/gradapps">source code for the handbook</a>. Specifically, here is my CV when I applied (file: <a href="https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.docx">docx</a>; <a href="https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/SMGarrisonCVNOV.pdf">pdf</a>); and statement of purpose (file: <a href="https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.docx">docx</a>; <a href="https://github.com/R-Computing-Lab/handbook/blob/main/admin/masonmaterials/gradapps/VanderbiltStatementofPurpose.pdf">pdf</a>).</p>
 </div>
 </div>
-<div id="interviews" class="section level2" number="18.5">
-<h2><span class="header-section-number">18.5</span> Interviews</h2>
+<div id="interviews" class="section level2 hasAnchor" number="19.4">
+<h2><span class="header-section-number">19.4</span> Interviews<a href="graduate-school-admissions-advice.html#interviews" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just submitted psychology graduate school applications? Time to start prepping for interviews! Here’s a list of sample questions that may be helpful when preparing. Feel free to distribute or add! <a href="https://twitter.com/AcademicChatter?ref_src=twsrc%5Etfw">@AcademicChatter</a> <a href="https://twitter.com/PsychChatter?ref_src=twsrc%5Etfw">@PsychChatter</a> <a href="https://t.co/CnirQ6nCbu">pic.twitter.com/CnirQ6nCbu</a></p>&mdash; Julie Cristello (@julie_cristello) <a href="https://twitter.com/julie_cristello/status/1466047527518679043?ref_src=twsrc%5Etfw">December 1, 2021</a></blockquote>
 
+<p>This collection of questions comes from <a href="https://www.reddit.com/r/gradadmissions/comments/rxizvp/master_list_of_interview_questions/">this reddit post</a></p>
+<div id="motivations" class="section level3 hasAnchor" number="19.4.1">
+<h3><span class="header-section-number">19.4.1</span> Motivations<a href="graduate-school-admissions-advice.html#motivations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>What motivated you to apply to grad school?</li>
+<li>Why do you feel prepared to start graduate school?</li>
+<li>What areas of research interest you?</li>
+<li>Why do you want to pursue a PhD in your area of interest?</li>
+<li>Do you have any reservations/worries about entering a PhD program?</li>
+<li>What are you looking to gain from your graduate school experience?</li>
+<li>Why do you need a PhD to achieve your career goal?</li>
+<li>Where do you see your field going in the next 5-10 years?</li>
+<li>Where do you see yourself in 15 years?</li>
+<li>What is unique about you that gives you a competitive edge over other applicants?</li>
+</ul>
 </div>
-<div id="field-specific-things" class="section level2" number="18.6">
-<h2><span class="header-section-number">18.6</span> Field Specific Things</h2>
-<div id="clinical-psychology" class="section level3" number="18.6.1">
-<h3><span class="header-section-number">18.6.1</span> Clinical Psychology</h3>
+<div id="the-programinstitution" class="section level3 hasAnchor" number="19.4.2">
+<h3><span class="header-section-number">19.4.2</span> The Program/Institution<a href="graduate-school-admissions-advice.html#the-programinstitution" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Why are you specifically drawn to this program?</li>
+<li>Why do you think this program would be a good fit for you?</li>
+<li>What specific resources does this institution offer to enhance your scientific trajectory?</li>
+<li>How do you think your interests will fit in with the program?</li>
+<li>What do you think you will contribute to the program?</li>
+<li>Which faculty members’ work particularly interests you and why?</li>
+<li>Have you established a relationship with one or more faculty members within the program?</li>
+<li>What interests you about the city the institution is in?</li>
+<li>What would make you choose this institution over other programs?</li>
+</ul>
+</div>
+<div id="previous-research" class="section level3 hasAnchor" number="19.4.3">
+<h3><span class="header-section-number">19.4.3</span> Previous Research<a href="graduate-school-admissions-advice.html#previous-research" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Please list the different research experiences you have had.</li>
+<li>How many total years of research experience do you have?</li>
+<li>How has your research experience prepared you for graduate school?</li>
+<li>What questions did your research help answer?</li>
+<li>What was your role in developing research ideas?</li>
+<li>How did you manage your research project?</li>
+<li>What was innovative about your research?</li>
+<li>What was your favorite technique that you used in your undergraduate research?</li>
+<li>What was the biggest challenge you encountered in your undergraduate research, and how did you deal with it?</li>
+<li>How is your work distinct from your supervisor’s/principal investigator’s?</li>
+<li>What do you think are your most significant research accomplishments?</li>
+<li>What do you consider to be your best paper/work and why?</li>
+<li>What has been the impact of your research?</li>
+<li>Do you expect to publish before starting graduate school?</li>
+<li>If you were starting your project again today, what would you do differently?</li>
+</ul>
+</div>
+<div id="currentfuture-research" class="section level3 hasAnchor" number="19.4.4">
+<h3><span class="header-section-number">19.4.4</span> Current/Future Research<a href="graduate-school-admissions-advice.html#currentfuture-research" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>What are your research interests?</li>
+<li>What are the big picture questions you want to investigate?</li>
+<li>What are the biggest challenges/questions in your field of research?</li>
+<li>How do you plan to approach your questions?</li>
+<li>How do you see this work impacting the field?</li>
+<li>How does the work you propose follow on from what you are already doing?</li>
+<li>What skills do you want to develop at this institution?</li>
+<li>Do you plan to apply for additional funding?</li>
+<li>What funding opportunities are you aware of, or what would you like to apply for?</li>
+<li>How would you convince a funding body that they should fund your research?</li>
+<li>How would you fit with the existing activities in the department?</li>
+<li>If we gave you unlimited resources, what would you do with them?</li>
+<li>Who do would you expect to collaborate with in the institution?
+<ul>
+<li>Why do you want to collaborate with them?</li>
+</ul></li>
+<li>What is an interesting paper you have read lately?</li>
+</ul>
+</div>
+<div id="if-you-have-a-specific-project-in-mind" class="section level3 hasAnchor" number="19.4.5">
+<h3><span class="header-section-number">19.4.5</span> If you have a specific project in mind…<a href="graduate-school-admissions-advice.html#if-you-have-a-specific-project-in-mind" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>What is the overall importance of this project?</li>
+<li>Can you see any of your research proposal failing?</li>
+<li>What will you do if your hypothesis is proved wrong?</li>
+<li>What resources will you need?</li>
+<li>What opportunities for multi-disciplinary work does your research offer?</li>
+<li><h3 id="potential-advisors" class="hasAnchor">Potential Advisors<a href="graduate-school-admissions-advice.html#potential-advisors" class="anchor-section" aria-label="Anchor link to header"></a></h3></li>
+<li>What do you want to work on in my lab?</li>
+<li>What interests you about my research?</li>
+<li>What do you know about my research?</li>
+<li>Who are you interested in working with?</li>
+<li>What techniques have you learned that you could use in my lab?</li>
+</ul>
+</div>
+<div id="teaching" class="section level3 hasAnchor" number="19.4.6">
+<h3><span class="header-section-number">19.4.6</span> Teaching<a href="graduate-school-admissions-advice.html#teaching" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Do you have any teaching experience?</li>
+<li>How do you feel about teaching?</li>
+<li>How do you feel about mentoring undergrads?</li>
+<li>How would you deal with any conflict/disagreement within the research group?</li>
+<li>Do you have an example of when you have had to deal with a disagreement?</li>
+<li><h3 id="personal" class="hasAnchor">Personal<a href="graduate-school-admissions-advice.html#personal" class="anchor-section" aria-label="Anchor link to header"></a></h3></li>
+<li>What do you do in your free time (not in the lab)?</li>
+<li>What motivates you?</li>
+<li>What drives you as a scientist?</li>
+<li>Who has influenced you the most?</li>
+<li>How do you work best – independently, or with a team, at home?</li>
+<li>How do your interests fit with the strengths and goals of the program?</li>
+<li>What do you expect to be challenging about graduate school? What are your plans for managing those challenges?</li>
+<li>Graduate school often involves a combination of intense days, long nights, and high expectations. What strategies will you use to manage this combination of demands?</li>
+<li>What are your strengths and weaknesses?</li>
+<li>Tell us about a time when things didn’t go the way you wanted. How did you handle it, and what did you learn from the experience?</li>
+<li>Tell us about your most successful or interesting research experience in a lab environment. Which of your qualities helped facilitate this success?</li>
+<li>Describe a time that you encountered a significant personal obstacle? How did you handle it?</li>
+<li>Is there any information pertinent to your application that you would like to add?</li>
+<li>In what ways, other than research and teaching could you contribute to this department?</li>
+<li>What are your long term career goals</li>
+</ul>
+</div>
+<div id="questions-for-you-to-ask-current-grad-students" class="section level3 hasAnchor" number="19.4.7">
+<h3><span class="header-section-number">19.4.7</span> Questions for you to ask current grad students<a href="graduate-school-admissions-advice.html#questions-for-you-to-ask-current-grad-students" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Does the environment feel more collaborative or competitive?</li>
+<li>What is the funding structure/guarantee for students?</li>
+<li>Is it an inclusive environment?</li>
+<li>Where do you (and students in general) live?</li>
+<li>What is the area around campus like?</li>
+<li>Do you think the stipend reflects the cost of living?</li>
+<li>Is the university helpful with finding housing?</li>
+<li>How easy/difficult was the process of joining a lab?</li>
+<li>Do most people join their first choice lab?</li>
+<li>How much time are you expected to spend in the lab?</li>
+<li>How would you describe your PI’s advising style?</li>
+<li>How do you maintain a successful relationship with your advisor?</li>
+<li>How regularly/quickly does your advisor publish?</li>
+<li>What research are you working on?</li>
+<li>How quickly were you able to start your research?</li>
+<li>Is the project you’re working on what you thought you’d be doing, or has the project you’re working on gone in any unexpected directions?</li>
+<li>Who is on your committee and why?</li>
+<li>Would you choose this advisor if you were doing it over?</li>
+<li>Do you get to attend conferences?</li>
+<li>What do you think of the courses - useful content, well taught, relevant to your research/goals?</li>
+<li>How easy/hard is it to customize the program?</li>
+<li>What would you change about the program?</li>
+<li>What kind of schedule do you work?</li>
+<li>What do grad students do in their free time?</li>
+<li>Do most students have a good work/life balance?</li>
+<li>Do grad students in this program hang out with each other?</li>
+<li>Do you know many people in grad school who regret starting it?</li>
+<li>Do you know people who have left the graduate program?</li>
+<li>What kind of resources does the program offer (e.g. for mental health, career development, learning new skills, etc.)?</li>
+<li>Is there anything you wish you had taken into consideration when making your decision about where to attend?</li>
+</ul>
+</div>
+<div id="questions-for-you-to-to-ask-potential-pis" class="section level3 hasAnchor" number="19.4.8">
+<h3><span class="header-section-number">19.4.8</span> Questions for you to to ask potential PI’s<a href="graduate-school-admissions-advice.html#questions-for-you-to-to-ask-potential-pis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>I read your paper/book X. Can you tell me about your future research goals related to X? What are your current projects?</li>
+<li>What research projects do you have that would be looking for graduate students?</li>
+<li>What advice would you give to a student who wants to be successful in your program? Are there any specific pitfalls to be avoided?</li>
+<li>What are the expectations for a graduate student in your lab?</li>
+<li>Do students create their own projects or work on something already developed/in progress?</li>
+<li>How is your lab organized? Do you have a lab manager, or do other members of the lab take on this role?</li>
+<li>Do you have lab/group meetings, and what is the format of those meetings?</li>
+<li>How much collaboration is there within the lab?</li>
+<li>How much do your students publish?</li>
+<li>How often do you sent students to conferences?</li>
+<li>How long do students in your lab take to complete their degree?</li>
+<li>What do students from your lab typically do after graduation?</li>
+<li>What is the big picture/goal/focus/priority of the department?</li>
+</ul>
+</div>
+<div id="questions-for-you-to-ask-other-interviewers" class="section level3 hasAnchor" number="19.4.9">
+<h3><span class="header-section-number">19.4.9</span> Questions for you to ask other interviewers<a href="graduate-school-admissions-advice.html#questions-for-you-to-ask-other-interviewers" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>(like program or admissions directors)</p>
+<ul>
+<li>What are the responsibilities of grad students in this program?</li>
+<li>What is the workload/time commitment?</li>
+<li>Do grad students have to TA? How many terms do you TA?</li>
+<li>Are students generally collaborative or competitive?</li>
+<li>How big is the program?</li>
+<li>What’s the biggest strength of the program?</li>
+<li>What professional development services are available?</li>
+<li>How/when are students paired with advisors?</li>
+<li>What does the program do if someone doesn’t find a lab to join by the deadline?</li>
+<li>What percentage of students complete the degree? Pass quals?</li>
+<li>How would you compare this program to X and Y?</li>
+<li>Is there funding available for attending things like conferences or summer schools?</li>
+<li>What are the career outcomes for students in this program?</li>
+</ul>
+</div>
+</div>
+<div id="field-specific-things" class="section level2 hasAnchor" number="19.5">
+<h2><span class="header-section-number">19.5</span> Field Specific Things<a href="graduate-school-admissions-advice.html#field-specific-things" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="clinical-psychology" class="section level3 hasAnchor" number="19.5.1">
+<h3><span class="header-section-number">19.5.1</span> Clinical Psychology<a href="graduate-school-admissions-advice.html#clinical-psychology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><p><a href="http://mitch.web.unc.edu/info-for-phd-applicants/">Mitch Prinstein</a>’s collection of info for Clinical Psychology PHD applicants including:</p>
 <ul>
@@ -519,31 +724,33 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p><a href="https://www.apa.org/index">American Psychological Association</a>’s <a href="https://www.apa.org/ed/accreditation/programs/">List of APA-Accredited Programs</a></p></li>
 </ul>
 </div>
-<div id="individual-differences-personality-intelligence-etc" class="section level3" number="18.6.2">
-<h3><span class="header-section-number">18.6.2</span> Individual Differences (Personality, Intelligence, etc)</h3>
+<div id="individual-differences-personality-intelligence-etc" class="section level3 hasAnchor" number="19.5.2">
+<h3><span class="header-section-number">19.5.2</span> Individual Differences (Personality, Intelligence, etc)<a href="graduate-school-admissions-advice.html#individual-differences-personality-intelligence-etc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><p><a href="https://www.personality-project.org">Bill Revelle</a>’s <a href="https://www.personality-project.org/org.html#howtoapply">Website has a collection of info</a></p></li>
 <li><p><a href="https://www.personality-project.org">Bill Revelle</a>’s List of <a href="https://www.personality-project.org/org.html#gradpsych">Graduate Departments of Psychology with Personality Programs</a></p></li>
 </ul>
 </div>
-<div id="social-psychology" class="section level3" number="18.6.3">
-<h3><span class="header-section-number">18.6.3</span> Social Psychology</h3>
+<div id="social-psychology" class="section level3 hasAnchor" number="19.5.3">
+<h3><span class="header-section-number">19.5.3</span> Social Psychology<a href="graduate-school-admissions-advice.html#social-psychology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><a href="https://www.socialpsychology.org/gsocial.htm">Social Psychology Network Ranked List</a></li>
 <li><a href="http://spsp.org/resources/student/grad-directory">SPSP’s Social and Personality Graduate Program Directory</a></li>
 </ul>
 </div>
-<div id="quantitative-psychology" class="section level3" number="18.6.4">
-<h3><span class="header-section-number">18.6.4</span> Quantitative Psychology</h3>
+<div id="quantitative-psychology" class="section level3 hasAnchor" number="19.5.4">
+<h3><span class="header-section-number">19.5.4</span> Quantitative Psychology<a href="graduate-school-admissions-advice.html#quantitative-psychology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology">List of schools for quantitative psychology</a></li>
+<li><a href="https://drive.google.com/file/d/1bZKlZOzz2gvvJbhAt1CmgLfzTthwUudR/view?usp=share_link">2022 Grad Programs in Quant Methods Descriptions</a></li>
+<li><a href="ttps://docs.google.com/document/d/1zJppucbjjIw38PyGbdlVY457xJ2fJFgT/edit?usp=share_link&amp;ouid=116013359694141653434&amp;rtpof=true&amp;sd=true">Matrix Algebra Prep</a></li>
 </ul>
 </div>
 </div>
-<div id="bonus-stuff" class="section level2" number="18.7">
-<h2><span class="header-section-number">18.7</span> Bonus Stuff</h2>
-<div id="funded-terminal-masters-programs-incomplete-list" class="section level3" number="18.7.1">
-<h3><span class="header-section-number">18.7.1</span> Funded Terminal Master’s Programs (Incomplete List)</h3>
+<div id="bonus-stuff" class="section level2 hasAnchor" number="19.6">
+<h2><span class="header-section-number">19.6</span> Bonus Stuff<a href="graduate-school-admissions-advice.html#bonus-stuff" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="funded-terminal-masters-programs-incomplete-list" class="section level3 hasAnchor" number="19.6.1">
+<h3><span class="header-section-number">19.6.1</span> Funded Terminal Master’s Programs (Incomplete List)<a href="graduate-school-admissions-advice.html#funded-terminal-masters-programs-incomplete-list" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><a href="https://www.wm.edu/as/psych-sciences/gradprogram/financial-support/index.php">College of William and Mary</a></li>
 <li><a href="https://www1.villanova.edu/villanova/artsci/psychology/AcademicPrograms/graduate/current/assistantships.html">Villanova University</a></li>
@@ -551,16 +758,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 </div>
 </div>
-<div id="subreddits" class="section level2" number="18.8">
-<h2><span class="header-section-number">18.8</span> Subreddits</h2>
+<div id="subreddits" class="section level2 hasAnchor" number="19.7">
+<h2><span class="header-section-number">19.7</span> Subreddits<a href="graduate-school-admissions-advice.html#subreddits" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li><a href="https://www.reddit.com/r/gradadmissions/">/r/Gradadmissions</a></li>
 <li><a href="https://www.reddit.com/r/GradSchool/">/r/GradSchool</a></li>
 <li><a href="https://www.reddit.com/r/AskAcademia">/r/AskAcademia</a></li>
 </ul>
 </div>
-<div id="grad-cafe" class="section level2" number="18.9">
-<h2><span class="header-section-number">18.9</span> Grad Cafe</h2>
+<div id="grad-cafe" class="section level2 hasAnchor" number="19.8">
+<h2><span class="header-section-number">19.8</span> Grad Cafe<a href="graduate-school-admissions-advice.html#grad-cafe" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li><a href="https://www.thegradcafe.com/survey/index.php">gradcafe admission results</a></li>
 <li><a href="https://www.reddit.com/r/gradadmissions/comments/7srxxy/decision_timelines_for_particular_universities/">Data Visualization of Timelines</a></li>

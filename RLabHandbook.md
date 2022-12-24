@@ -3,7 +3,7 @@ title: "Lab Handbook"
 subtitle: "Our R Computing Lab"
 author: 
 - S. Mason Garrison
-date: "2022-01-10"
+date: "2022-12-24"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://r-computing-lab.github.io/handbook/'
@@ -34,9 +34,7 @@ The R Computing Lab is directed by Prof. Mason Garrison. Our lab houses scientis
 [git]: https://github.com/r-computing-lab/handbook/
 [commits]: https://github.com/r-computing-lab/handbook/commits/main
 [git_lab]: https://github.com/R-Computing-Lab
-
 [stat545]: https://stat545.com
-
 
 
 
@@ -68,12 +66,10 @@ This handbook is broken down into multiple section and chapters. Use the table o
 [git]: https://github.com/r-computing-lab/handbook/
 [commits]: https://github.com/r-computing-lab/handbook/commits/main
 [git_lab]: https://github.com/R-Computing-Lab
-
 [stat545]: https://stat545.com
 
 
-
-# Attribution {-}
+# Attributions {-}
 I have heavily adapted pieces from other lab manuals/handbooks. I will do my best to properly attribute sources. However, I strongly suspect that as this document grows and develops attributions will be harder and harder to keep track of. 
 
 This document leans heavily on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo][commits]
@@ -149,24 +145,24 @@ This version of the notes was built with:
 ```
 #> Finding R package dependencies ... Done!
 #>  setting  value
-#>  version  R version 4.0.5 (2021-03-31)
-#>  os       Windows 10 x64 (build 19044)
+#>  version  R version 4.2.2 (2022-10-31 ucrt)
+#>  os       Windows 10 x64 (build 22623)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
 #>  language (EN)
-#>  collate  English_United States.1252
-#>  ctype    English_United States.1252
+#>  collate  English_United States.utf8
+#>  ctype    English_United States.utf8
 #>  tz       America/New_York
-#>  date     2022-01-10
-#>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
+#>  date     2022-12-24
+#>  pandoc   2.19.2 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-496a4207bd55ba64603f" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-496a4207bd55ba64603f">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.4.1",null,null,null,null,null,"0.24",null,null,"0.7.11","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.2","2.1.1","1.4.0","2.4.3",null,null,"0.6.27","1.0.7","0.20",null,"0.3.2","0.14","1.0.0",null,"1.1.0","0.5.1","1.5.2",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.6.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.37",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.3.1","2.0.3","1.2.4",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.1","1.3.1",null,null,null,"2.4.2","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.2",null,"1.7.6","1.4.0",null,"3.1.1","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.5","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.3","0.29","1.3.3",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-11-30","2022-01-03","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2021-11-26","2021-11-30","2021-10-29","2021-11-29","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-12-20","2021-04-06","2021-09-28","2021-11-30",null,"2021-10-05","2020-10-24","2021-06-18","2021-11-15","2021-12-05","2021-04-29","2019-05-28","2022-01-10","2021-02-28","2021-01-25","2021-01-27","2021-12-08","2017-10-31","2021-07-02","2021-10-13",null,"2021-10-25","2019-02-19","2022-01-03","2021-06-25","2021-04-30","2020-12-04","2021-12-17","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-12-16","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-11-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-12-19","2021-10-18","2021-12-20","2019-09-22","2021-11-30","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-30","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2021-08-05","2020-04-09","2022-01-09","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-12-06","2021-05-19","2021-11-29","2019-02-10","2020-07-23","2021-12-03","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-12-19","2016-08-04","2021-10-27","2019-04-14","2021-12-09","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-30","2021-09-14","2019-08-28","2021-11-30","2021-12-14","2021-11-30","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-95b063857a85b7a146ee" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-95b063857a85b7a146ee">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","miniUI","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,"0.2.1","1.4.1",null,null,null,null,null,null,"0.31",null,null,"1.0.2","0.4.2","1.0.6","3.7.3","1.1.0","3.5.0",null,"2.0-3",null,null,null,"1.5.2",null,null,null,null,"1.1.3","2.2.1",null,"2.4.5",null,null,"0.6.31",null,"1.0.10","0.26",null,"0.3.2","0.19","1.0.3",null,"1.1.0",null,"0.5.2","1.5.2",null,"1.2.1",null,null,"0.1.3",null,null,"3.4.0",null,null,"1.6.2","2.0.0","1.0.1",null,null,"0.3.1","2.5.1",null,"1.1.2","0.5.4","1.6.0","1.6.7","1.4.4",null,null,null,"0.1.4","1.8.4",null,"1.41",null,"1.3.0",null,null,"1.0.3","1.9.0","2.0.3",null,null,"2.0.1",null,"0.12","0.1.1.1","0.1.10","0.5.0",null,null,"1.8.1","1.4.0","2.0.3",null,"1.3.2",null,"1.1.1","3.8.0","0.3.7",null,"1.2.0.1","1.7.2","1.0.0","2.5.1",null,null,null,null,"1.0.9","2.1.3","1.4.1",null,null,null,"2.4.2","2.0.2","1.0.6","2.19",null,null,null,"0.14",null,"1.0.3","0.4.4","1.2.1",null,"1.2.2","1.7.4",null,"1.7.8","1.5.0",null,null,null,null,"3.1.8","1.2.1","1.2.0","1.3.2","0.1.1",null,"0.3.0","1.0.1","2.1.6","1.2.2",null,null,"0.5.1",null,null,null,null,null,"2.5.0","0.36","1.3.3",null,"1.8-4","2.3.6",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2022-09-05","2022-11-15","2020-08-30","2021-04-24","2022-04-10","2022-12-13","2022-09-29","2021-11-30","2022-12-15","2022-12-16","2021-08-19","2022-11-02","2016-07-27","2022-12-20","2022-02-22","2022-02-21","2022-10-14","2021-11-26","2022-10-12","2022-09-29","2021-11-29","2021-11-04","2022-10-06","2022-11-16","2022-06-18","2022-06-27","2022-09-08","2022-10-11",null,"2021-10-05","2022-12-11","2022-07-05","2022-09-01","2022-10-19","2022-08-20","2021-04-29","2022-12-13","2022-03-24","2022-07-06","2021-01-25","2022-10-25","2022-08-19","2021-12-08","2017-10-31","2022-09-08",null,null,"2022-07-05",null,"2022-12-05","2022-11-04","2022-09-08","2022-09-08","2022-02-24","2021-07-08","2022-08-13","2017-09-09","2022-11-16","2022-09-01","2022-08-22","2022-12-22","2022-08-19","2022-12-07","2022-12-15","2022-12-14","2022-08-17","2017-05-31","2018-05-20","2022-12-20","2021-04-26","2022-12-06","2022-11-10","2022-11-18","2020-10-20","2021-08-18","2021-09-22","2019-03-15","2022-10-07","2022-11-06","2022-03-30","2022-08-03","2022-09-13","2021-11-26","2022-10-21","2021-09-28","2018-05-18","2022-11-11","2018-06-12","2022-10-10","2022-12-06","2022-08-19","2022-11-27","2019-09-22","2022-12-14","2022-11-16","2015-08-11","2020-01-24","2022-10-26","2020-11-02","2019-05-16","2021-02-11","2022-10-26","2022-12-20","2021-08-19","2022-10-24","2021-01-31","2021-09-27","2022-04-03","2022-07-08","2022-10-01","2022-08-17",null,"2016-04-21","2020-05-01","2021-11-30","2022-08-17","2022-09-24","2022-12-15","2022-12-08",null,"2022-04-02","2022-08-22","2022-08-31","2022-08-19","2022-11-24","2022-08-20","2019-11-20","2021-12-06","2022-12-15","2018-04-25","2022-07-11","2022-12-02","2022-10-18","2022-02-11","2022-12-09","2021-10-13","2022-07-22","2022-09-08","2022-10-10","2022-07-18","2022-11-04","2022-12-13","2022-03-28","2021-11-30","2022-05-25","2021-07-24","2022-04-19","2022-11-03","2022-11-16","2021-10-13","2022-08-22","2022-09-30","2022-03-16","2022-12-05","2022-03-03","2022-12-21","2021-11-30","2018-09-17","2019-04-21","2022-10-18","2022-10-26"],["CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,null,"CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.1)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.1)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.1)","CRAN (R 4.2.2)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":165,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,165]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -187,7 +183,7 @@ Our substantive work focuses understanding the relationships between socioeconom
 Students in the laboratory work on projects covering a wide range of topics, including inter-generational consequences of divorce, vaccination willingness, R package development.
 
 
-My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY memember of the lab can thrive. I strongly believe that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected.  I want you to thrive. 
+My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY member of the lab can thrive. I am convinced that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected. I want you to thrive. 
 
 
 Members are listed by seniority (in the order they joined the lab).
@@ -220,10 +216,14 @@ Members are listed by seniority (in the order they joined the lab).
 
 
 ### Undergraduate Students
-* Kennon Later
+
 * Hannah Robertson
 * Rachel Good
-* out of date
+* Morgan Milhollen
+* Laura McKinzie
+* Sarah Thompson
+* Emma Webster
+* Mary King
 
 
 ### Sidekicks
@@ -241,6 +241,7 @@ Members are listed by seniority (in the order they joined the lab).
 ### Undergraduate Students
 * Nora Clancy
 * Sherry Mao
+* Kennon Later
 * Jonathan Trattner
 
 
@@ -260,7 +261,7 @@ Members are listed by seniority (in the order they joined the lab).
 Ok, so what does it mean to be part of the R computing lab? Well, let's start with my goals and expectations.
 
 
-My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY memember of the lab can thrive. I strongly believe that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected.  I want you to thrive. 
+My goal is to foster an inclusive, equitable, welcoming, and accessible lab environment, where EVERY member of the lab can thrive. I am convinced that supportive labs produce better science and scientists. I want you to feel welcomed, supported, valued, and respected. I want you to thrive. 
 
 This handbook is a first point of reference for current lab members as we strive to achieve these goals, and serves as a general introduction for prospective members. 
 
@@ -405,9 +406,7 @@ Conferences are excellent opportunities to present your research, make connectio
 
 Here are some conferences that are worth considering
 
-
 https://psychology.ucmerced.edu/graduate-program/resources-current-students/conferences-psychological-sciences
-
 
 
 ### ARP
@@ -426,7 +425,7 @@ Submission Deadline General: Submissions are typically due in March
 
 - Prior Specific Deadlines
 
-Conference Data General: Conference is generally in June
+Conference Date General: Conference is generally in June
 
 - Specific Example
 
@@ -464,14 +463,13 @@ Typical Costs
 
 ### SMEP
 
-
 Society for Multivariate Experimental Psychology ( https://smep.org/ )
 
 Submission Deadline General
 
 - Prior Specific Deadlines
 
-Conference Data General
+Conference Date General
 
 - Specific Example
 
@@ -535,9 +533,7 @@ Typical Costs
 [git]: https://github.com/r-computing-lab/handbook/
 [commits]: https://github.com/r-computing-lab/handbook/commits/main
 [git_lab]: https://github.com/R-Computing-Lab
-
 [stat545]: https://stat545.com
-
 
 
 
@@ -597,6 +593,8 @@ In psychology, the order of authors reflects their relative contribution. Other 
 
 https://datascience4psych.github.io/DataScience4Psych/
 
+### Behavior Genetics
+https://bga.org/training-materials/
 
 
 
@@ -612,9 +610,7 @@ https://datascience4psych.github.io/DataScience4Psych/
 [git]: https://github.com/r-computing-lab/handbook/
 [commits]: https://github.com/r-computing-lab/handbook/commits/main
 [git_lab]: https://github.com/R-Computing-Lab
-
 [stat545]: https://stat545.com
-
 
 
 
@@ -917,7 +913,6 @@ https://graduate.wfu.edu/graduation-requirement-checklist-reynolda-campus/
 
 # APA
 
-
 ## Bias-Free Language
 
 > The American Psychological Association emphasizes the need to talk about all people with inclusivity and respect. Writers using APA Style must strive to use language that is free of bias and avoid perpetuating prejudicial beliefs or demeaning attitudes in their writing. Just as you have learned to check what you write for spelling, grammar, and wordiness, practice reading your work for bias.
@@ -925,12 +920,24 @@ https://graduate.wfu.edu/graduation-requirement-checklist-reynolda-campus/
 > The guidelines for bias-free language contain both general guidelines for writing about people without bias across a range of topics and specific guidelines that address the individual characteristics of age, disability, gender, participation in research, racial and ethnic identity, sexual orientation, socioeconomic status, and intersectionality. These guidelines and recommendations were crafted by panels of experts on APA’s bias-free language committees.
 Inclusive and bias free-language. 
 
-(Source)[https://apastyle.apa.org/style-grammar-guidelines/bias-free-language]
+[Source](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language)
 
 
 ## Inclusive Writing
 
-See this recent document from the APA about using [inclusive language)[https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf]
+See this recent document from the APA about using [inclusive](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) and [bias-free](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/general-principles) language. The APA recently added an entire section on the [disability-community](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability). Also, the National Center on Disability and Journalism has an inclusive [style guide](https://ncdj.org/style-guide/).
+
+# Useful Copy-editing Resources
+
+These resources are useful for copyediting, readability, and academic phrasing. Often these use NLP.
+
+## Software and Widgets
+- Grammarly
+- [Writefull](https://www.writefull.com/)
+- [Writefull's Title Generator](https://x.writefull.com/title-generator/index.html)
+- [Writefull's Academic Paraphraser](https://x.writefull.com/paraphraser/index.html)
+- [Hemingway App](https://hemingwayapp.com/)
+
 
 
 # R Style Guide
@@ -963,9 +970,7 @@ Please use the variable renamer function
 [git]: https://github.com/r-computing-lab/handbook/
 [commits]: https://github.com/r-computing-lab/handbook/commits/main
 [git_lab]: https://github.com/R-Computing-Lab
-
 [stat545]: https://stat545.com
-
 
 # Software
 
@@ -1289,18 +1294,27 @@ Here are an incomplete collection of resources for students interested in applyi
 - Richard Z on [Why Would You Want to Do a PhD?: Student perspectives on the value of a graduate degree](https://gradadmissions.mit.edu/blog/why-would-you-want-do-phd)
 
 
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">A big part of my job is mentoring undergraduate students in research programs in the humanities, arts, and social sciences and so I have conversations with students who are thinking about getting PhDs every single week of my life. Here is what I tell them.</p>&mdash; Jacquelyn Ardam (@jaxwendy) <a href="https://twitter.com/jaxwendy/status/1492553462302707714?ref_src=twsrc%5Etfw">February 12, 2022</a></blockquote>
+
+```
 
 
-
-
-
-
-## 
 ## Application
 
 - [Appleby, D. C., & Appleby, K. M. (2006). Kisses of death in the graduate school application process. Teaching of Psychology, 33(1), 19-24.](https://psychology.unl.edu/psichi/Graduate_School_Application_Kisses_of_Death.pdf)
 
 - [Philip Guo's](http://www.pgbovine.net/index.html) [A Five-Minute Guide to Ph.D. Program Applications](http://www.pgbovine.net/PhD-application-tips.htm)
+
+
+### Personal Statements
+
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">With PhD applications due soon, thousands of young people are currently beginning their statements of purpose with the same cliché story, or the same anodyne statement<br><br>Stop right now!<br><br>Here are 10 thoughts for doing this right. Helps you, and helps admissions committees.👇</p>&mdash; Chris Blattman (@cblatts) <a href="https://twitter.com/cblatts/status/1593606505340801024?ref_src=twsrc%5Etfw">November 18, 2022</a></blockquote>
+
+```
+
 
 
 ### Resumes and CVs
@@ -1357,6 +1371,180 @@ I've included my materials for my application to quantitative psychology graduat
 
 ```
 
+This collection of questions comes from [this reddit post]( https://www.reddit.com/r/gradadmissions/comments/rxizvp/master_list_of_interview_questions/)
+
+### Motivations
+
+- What motivated you to apply to grad school?
+- Why do you feel prepared to start graduate school?
+- What areas of research interest you?
+- Why do you want to pursue a PhD in your area of interest?
+- Do you have any reservations/worries about entering a PhD program?
+- What are you looking to gain from your graduate school experience?
+- Why do you need a PhD to achieve your career goal?
+- Where do you see your field going in the next 5-10 years?
+- Where do you see yourself in 15 years?
+- What is unique about you that gives you a competitive edge over other applicants?
+
+### The Program/Institution
+
+- Why are you specifically drawn to this program?
+- Why do you think this program would be a good fit for you?
+- What specific resources does this institution offer to enhance your scientific trajectory?
+- How do you think your interests will fit in with the program?
+- What do you think you will contribute to the program?
+- Which faculty members’ work particularly interests you and why?
+- Have you established a relationship with one or more faculty members within the program?
+- What interests you about the city the institution is in?
+- What would make you choose this institution over other programs?
+
+### Previous Research
+
+- Please list the different research experiences you have had.
+- How many total years of research experience do you have?
+- How has your research experience prepared you for graduate school?
+- What questions did your research help answer?
+- What was your role in developing research ideas?
+- How did you manage your research project?
+- What was innovative about your research?
+- What was your favorite technique that you used in your undergraduate research?
+- What was the biggest challenge you encountered in your undergraduate research, and how did you deal with it?
+- How is your work distinct from your supervisor’s/principal investigator’s?
+- What do you think are your most significant research accomplishments?
+- What do you consider to be your best paper/work and why?
+- What has been the impact of your research?
+- Do you expect to publish before starting graduate school?
+- If you were starting your project again today, what would you do differently?
+
+### Current/Future Research
+
+- What are your research interests?
+- What are the big picture questions you want to investigate?
+- What are the biggest challenges/questions in your field of research?
+- How do you plan to approach your questions?
+- How do you see this work impacting the field?
+- How does the work you propose follow on from what you are already doing?
+- What skills do you want to develop at this institution?
+- Do you plan to apply for additional funding?
+- What funding opportunities are you aware of, or what would you like to apply for?
+- How would you convince a funding body that they should fund your research?
+- How would you fit with the existing activities in the department?
+- If we gave you unlimited resources, what would you do with them?
+- Who do would you expect to collaborate with in the institution?
+	- Why do you want to collaborate with them?
+- What is an interesting paper you have read lately?
+
+### If you have a specific project in mind...
+
+- What is the overall importance of this project?
+- Can you see any of your research proposal failing?
+- What will you do if your hypothesis is proved wrong?
+- What resources will you need?
+- What opportunities for multi-disciplinary work does your research offer?
+- 
+### Potential Advisors
+
+- What do you want to work on in my lab?
+- What interests you about my research?
+- What do you know about my research?
+- Who are you interested in working with?
+- What techniques have you learned that you could use in my lab?
+
+
+### Teaching
+
+- Do you have any teaching experience?
+- How do you feel about teaching?
+- How do you feel about mentoring undergrads?
+- How would you deal with any conflict/disagreement within the research group?
+- Do you have an example of when you have had to deal with a disagreement?
+- 
+### Personal
+
+- What do you do in your free time (not in the lab)?
+- What motivates you?
+- What drives you as a scientist?
+- Who has influenced you the most?
+- How do you work best – independently, or with a team, at home?
+- How do your interests fit with the strengths and goals of the program?
+- What do you expect to be challenging about graduate school? What are your plans for managing those challenges?
+- Graduate school often involves a combination of intense days, long nights, and high expectations. What strategies will you use to manage this combination of demands?
+- What are your strengths and weaknesses?
+- Tell us about a time when things didn’t go the way you wanted. How did you handle it, and what did you learn from the experience?
+- Tell us about your most successful or interesting research experience in a lab environment. Which of your qualities helped facilitate this success?
+- Describe a time that you encountered a significant personal obstacle? How did you handle it?
+- Is there any information pertinent to your application that you would like to add?
+- In what ways, other than research and teaching could you contribute to this department?
+- What are your long term career goals
+
+
+### Questions for you to ask current grad students
+
+- Does the environment feel more collaborative or competitive?
+- What is the funding structure/guarantee for students?
+- Is it an inclusive environment?
+- Where do you (and students in general) live?
+- What is the area around campus like?
+- Do you think the stipend reflects the cost of living?
+- Is the university helpful with finding housing?
+- How easy/difficult was the process of joining a lab?
+- Do most people join their first choice lab?
+- How much time are you expected to spend in the lab?
+- How would you describe your PI's advising style?
+- How do you maintain a successful relationship with your advisor?
+- How regularly/quickly does your advisor publish?
+- What research are you working on?
+- How quickly were you able to start your research?
+- Is the project you're working on what you thought you'd be doing, or has the project you're working on gone in any unexpected directions?
+- Who is on your committee and why?
+- Would you choose this advisor if you were doing it over?
+- Do you get to attend conferences?
+- What do you think of the courses - useful content, well taught, relevant to your research/goals?
+- How easy/hard is it to customize the program?
+- What would you change about the program?
+- What kind of schedule do you work?
+- What do grad students do in their free time?
+- Do most students have a good work/life balance?
+- Do grad students in this program hang out with each other?
+- Do you know many people in grad school who regret starting it?
+- Do you know people who have left the graduate program?
+- What kind of resources does the program offer (e.g. for mental health, career development, learning new skills, etc.)?
+- Is there anything you wish you had taken into consideration when making your decision about where to attend?
+
+### Questions for you to to ask potential PI’s
+
+- I read your paper/book X. Can you tell me about your future research goals related to X? What are your current projects?
+- What research projects do you have that would be looking for graduate students?
+- What advice would you give to a student who wants to be successful in your program? Are there any specific pitfalls to be avoided?
+- What are the expectations for a graduate student in your lab?
+- Do students create their own projects or work on something already developed/in progress?
+- How is your lab organized? Do you have a lab manager, or do other members of the lab take on this role?
+- Do you have lab/group meetings, and what is the format of those meetings?
+- How much collaboration is there within the lab?
+- How much do your students publish?
+- How often do you sent students to conferences?
+- How long do students in your lab take to complete their degree?
+- What do students from your lab typically do after graduation?
+- What is the big picture/goal/focus/priority of the department?
+
+### Questions for you to ask other interviewers
+
+(like program or admissions directors)
+
+- What are the responsibilities of grad students in this program?
+- What is the workload/time commitment?
+- Do grad students have to TA? How many terms do you TA?
+- Are students generally collaborative or competitive?
+- How big is the program?
+- What's the biggest strength of the program?
+- What professional development services are available?
+- How/when are students paired with advisors?
+- What does the program do if someone doesn't find a lab to join by the deadline?
+- What percentage of students complete the degree? Pass quals?
+- How would you compare this program to X and Y?
+- Is there funding available for attending things like conferences or summer schools?
+- What are the career outcomes for students in this program?
+
 
 ## Field Specific Things
 
@@ -1386,6 +1574,8 @@ I've included my materials for my application to quantitative psychology graduat
 ### Quantitative Psychology
 
 - [List of schools for quantitative psychology](https://en.wikipedia.org/wiki/List_of_schools_for_quantitative_psychology)
+- [2022 Grad Programs in Quant Methods Descriptions](https://drive.google.com/file/d/1bZKlZOzz2gvvJbhAt1CmgLfzTthwUudR/view?usp=share_link)
+- [Matrix Algebra Prep](ttps://docs.google.com/document/d/1zJppucbjjIw38PyGbdlVY457xJ2fJFgT/edit?usp=share_link&ouid=116013359694141653434&rtpof=true&sd=true)
 	
 ## Bonus Stuff
  
@@ -1431,10 +1621,17 @@ https://twitter.com/RohacsTibor/status/1468678482897084426
 
 https://iafais.org/scholarships
 
+## Behavior Genetics Association
 
+Travel Awards
+
+## Council of Graduate Departments of Psychology (COGDOP) 
+
+https://www.cogdop.org/scholarships/
+<!--
 ### SMEP
-https://smep.org/resources/underrepresented-fellowships Support for Students from Underrepresented Groups to Attend Methodological Workshop
-
+ https://smep.org/resources/underrepresented-fellowships Support for Students from Underrepresented Groups to Attend Methodological Workshop
+-->
 ### SPSP
 
 SPSP has travel awards
@@ -1502,7 +1699,7 @@ I had a tough time finding examples of job materials for quantitatively-inclined
 
 
 ```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Psychology?src=hash&amp;ref_src=twsrc%5Etfw">#Psychology</a> folks on the <a href="https://twitter.com/hashtag/jobmarket?src=hash&amp;ref_src=twsrc%5Etfw">#jobmarket</a> -- I&#39;ve uploaded all my job search materials including teaching, research and diversity statements to my <a href="https://twitter.com/OSFramework?ref_src=twsrc%5Etfw">@OSFramework</a> page. I hope that they might be helpful <a href="https://t.co/uuieRolpq8">https://t.co/uuieRolpq8</a> in these weird times. <a href="https://twitter.com/AcademicChatter?ref_src=twsrc%5Etfw">@AcademicChatter</a></p>&mdash; Prof. S. Mason Garrison 🌈💫✨ (@SMasonGarrison) <a href="https://twitter.com/SMasonGarrison/status/1311458554101063683?ref_src=twsrc%5Etfw">October 1, 2020</a></blockquote>
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Psychology?src=hash&amp;ref_src=twsrc%5Etfw">#Psychology</a> folks on the <a href="https://twitter.com/hashtag/jobmarket?src=hash&amp;ref_src=twsrc%5Etfw">#jobmarket</a> -- I&#39;ve uploaded all my job search materials including teaching, research and diversity statements to my <a href="https://twitter.com/OSFramework?ref_src=twsrc%5Etfw">@OSFramework</a> page. I hope that they might be helpful <a href="https://t.co/uuieRolpq8">https://t.co/uuieRolpq8</a> in these weird times. <a href="https://twitter.com/AcademicChatter?ref_src=twsrc%5Etfw">@AcademicChatter</a></p>&mdash; Prof. Mason Garrison 🌈💫✨ (@SMasonGarrison) <a href="https://twitter.com/SMasonGarrison/status/1311458554101063683?ref_src=twsrc%5Etfw">October 1, 2020</a></blockquote>
 
 ```
 
@@ -1530,9 +1727,9 @@ I had a tough time finding examples of job materials for quantitatively-inclined
 
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just to show it&#39;s possible, since I&#39;ve gotten a few Qs on changing careers at different ages lately, please choose one if it applies to you:<br><br>I transitioned into a Data Science role in my...<br>(age) from (similar career/very different career)</p>&mdash; Data Science Renee (@BecomingDataSci) <a href="https://twitter.com/BecomingDataSci/status/1458893898324099075?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
-
+```
+#> Error in tweet_blockquote(tweet_url = tweet_url, maxwidth = maxwidth,  : 
+#>   Forbidden (HTTP 403).
 ```
 
 ## Finding Jobs

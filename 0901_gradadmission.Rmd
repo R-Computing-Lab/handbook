@@ -84,20 +84,20 @@ I've included my materials for my application to quantitative psychology graduat
 try(include_tweet("https://twitter.com/julie_cristello/status/1466047527518679043"))
 ```
 
-This collection of questions comes from this reddit post: https://www.reddit.com/r/gradadmissions/comments/rxizvp/master_list_of_interview_questions/
+This collection of questions comes from [this reddit post]( https://www.reddit.com/r/gradadmissions/comments/rxizvp/master_list_of_interview_questions/)
 
 ### Motivations
 
--What motivated you to apply to grad school?
--Why do you feel prepared to start graduate school?
--What areas of research interest you?
--Why do you want to pursue a PhD in your area of interest?
--Do you have any reservations/worries about entering a PhD program?
--What are you looking to gain from your graduate school experience?
--Why do you need a PhD to achieve your career goal?
--Where do you see your field going in the next 5-10 years?
--Where do you see yourself in 15 years?
--What is unique about you that gives you a competitive edge over other applicants?
+- What motivated you to apply to grad school?
+- Why do you feel prepared to start graduate school?
+- What areas of research interest you?
+- Why do you want to pursue a PhD in your area of interest?
+- Do you have any reservations/worries about entering a PhD program?
+- What are you looking to gain from your graduate school experience?
+- Why do you need a PhD to achieve your career goal?
+- Where do you see your field going in the next 5-10 years?
+- Where do you see yourself in 15 years?
+- What is unique about you that gives you a competitive edge over other applicants?
 
 ### The Program/Institution
 
@@ -191,7 +191,7 @@ This collection of questions comes from this reddit post: https://www.reddit.com
 - What are your long term career goals
 
 
-Questions for you to ask current grad students
+### Questions for you to ask current grad students
 
 - Does the environment feel more collaborative or competitive?
 - What is the funding structure/guarantee for students?
@@ -240,7 +240,9 @@ Questions for you to ask current grad students
 - What do students from your lab typically do after graduation?
 - What is the big picture/goal/focus/priority of the department?
 
-###Questions for you to ask other interviewers (like program or admissions directors)
+### Questions for you to ask other interviewers
+
+(like program or admissions directors)
 
 - What are the responsibilities of grad students in this program?
 - What is the workload/time commitment?
