@@ -41,7 +41,7 @@ Members are listed by seniority (in the order they joined the lab).
 ### Graduate Students
 #### Primary Lab
 
-* Yoo Ri Hwang
+
 * Xuanyu Lyu
 
 
@@ -49,20 +49,21 @@ Members are listed by seniority (in the order they joined the lab).
 
 * Jonathan Trattner (Kishida)
 * Emma Sims (Jayawickreme)
-
-
-
+* Rachel Good (Furr)
 
 ### Undergraduate Students
 
-* Hannah Robertson
-* Rachel Good
-* Morgan Milhollen
-* Laura McKinzie
-* Sarah Thompson
-* Emma Webster
+#### Honors
 * Mary King
 
+#### Volunteer
+
+* Laura McKinzie
+* Emma Webster
+* Mary King
+* Holland Tyson
+* Sarah Haga
+* Lena Arnsten
 
 ### Sidekicks
 * Tukey
@@ -72,11 +73,23 @@ Members are listed by seniority (in the order they joined the lab).
 ## Prior Members
 
 #### Graduate Students
+* Yoo Ri Hwang
+
 ##### Affiliated (Primary Lab)
 
 * Lindley Slipetz (Cole)
 
 ### Undergraduate Students
+
+#### Honors Students
+* Rachel Good
+
+#### Volunteers
+* Mark Rivilis
+* Hannah Robertson
+* Morgan Milhollen
+* Sarah Thompson
+* Rachel Good
 * Nora Clancy
 * Sherry Mao
 * Kennon Later
