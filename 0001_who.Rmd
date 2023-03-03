@@ -41,12 +41,11 @@ Members are listed by seniority (in the order they joined the lab).
 ### Graduate Students
 #### Primary Lab
 
-
 * Xuanyu Lyu
 
 
 #### Affiliated (Primary Lab)
-
+* Qilin Zhang (Fleeson)
 * Jonathan Trattner (Kishida)
 * Emma Sims (Jayawickreme)
 * Rachel Good (Furr)
