@@ -1,0 +1,53 @@
+
+
+```{r include = FALSE}
+source("common.R")
+
+# install.packages("devtools")
+
+if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) #... embedding tweets
+
+```
+
+```{r links, child="content/links.md"}
+```
+
+# Offboarding
+
+## Things You'll Need
+ 
+```{r, echo=FALSE}
+library(tweetrmd) #... embedding tweets
+if(FALSE){# Forbidden (HTTP 403)
+try(include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480"))
+}        
+```
+ 
+Before you go -- I have some important practical things to walk you thru. Most of these are Wake Forest Specific... such as making sure to connect your github account to a non-WFU email. As well as a well other things...
+
+## Important Wake Forest Stuff
+
+For those of you who are graduating from Wake Forest University, you may not be aware that your email address gets shut off very soon after you graduate. Why do they do this? I do not know and this it is a silly policy. Regardless, before you lose access to your WFU email, you need to add a 2nd email address to your github account. Otherwise you will not be able to get access to your materials after you graduate.
+
+Github has some incredibly useful guides to do this...
+
+-   [How to add an email address to your github account](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/adding-an-email-address-to-your-github-account)
+-   [How to change your primary email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/changing-your-primary-email-address)
+-   [How to set up a backup email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
+
+Please do not procrastinate this! It is really important to do this before you lose access!!!!
+
+## Github
+
+### Github Membership
+Maintaining access to the lab repo
+Maintaining access to the DS class
+
+# Google Group
+
+Primarily, this google group serves as an easy way for me to transmit information/opportunities to the lab. As part of the offboarding process, students need to provide me with a non-Wake Forest email that I can reach you at. You will continue to have access to the group, and you can opt to receive emails or consolidate them as a digest if desired.
+
+https://groups.google.com/g/rcomputinglab
+
+
