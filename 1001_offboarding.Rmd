@@ -1,5 +1,3 @@
-
-
 ```{r include = FALSE}
 source("common.R")
 
@@ -16,38 +14,57 @@ library(tweetrmd) #... embedding tweets
 # Offboarding
 
 ## Things You'll Need
- 
-```{r, echo=FALSE}
-library(tweetrmd) #... embedding tweets
-if(FALSE){# Forbidden (HTTP 403)
-try(include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480"))
-}        
-```
- 
-Before you go -- I have some important practical things to walk you thru. Most of these are Wake Forest Specific... such as making sure to connect your github account to a non-WFU email. As well as a well other things...
 
-## Important Wake Forest Stuff
+Before you go, there are important practical steps to go through, most of which are Wake Forest specific. This includes connecting your GitHub account to a non-WFU email and addressing other important matters.
 
-For those of you who are graduating from Wake Forest University, you may not be aware that your email address gets shut off very soon after you graduate. Why do they do this? I do not know and this it is a silly policy. Regardless, before you lose access to your WFU email, you need to add a 2nd email address to your github account. Otherwise you will not be able to get access to your materials after you graduate.
+## 1. Project Documentation and File Organization
+   a. Organize and label all project files clearly and logically.
+   b. Upload relevant files to the shared lab drive.
+   c. Submit a final project report or summary to your repos.
 
-Github has some incredibly useful guides to do this...
+## 2. Equipment and Resources
+   a. Return borrowed equipment, books, or other resources.
+   b. Clean and organize the lab/workspace used during the project.
 
--   [How to add an email address to your github account](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/adding-an-email-address-to-your-github-account)
--   [How to change your primary email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/changing-your-primary-email-address)
--   [How to set up a backup email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
+## 3. Non-WFU Contact Information
+   a. Provide an updated personal email address.
+   b. Share a phone number (optional).
+   c. Provide a mailing address (optional).
+   d. Connect on professional networks (e.g., LinkedIn).
 
-Please do not procrastinate this! It is really important to do this before you lose access!!!!
+## 4. GitHub Membership and Email Matters
 
-## Github
+For those of you who are graduating from Wake Forest University, you may not be aware that your email address gets shut off very soon after you graduate. Why do they do this? I do not know. I think it is a silly policy. Before losing access to your WFU email, you need to add a second email address to your GitHub account to maintain access to your materials after graduation.
 
-### Github Membership
-Maintaining access to the lab repo
-Maintaining access to the DS class
+### 4.1 Maintaining Access to the Lab Repository
+### 4.2 Maintaining Access to the DS Class
+### 4.3 Adding a Non-WFU Email Address to Your GitHub Account
 
-# Google Group
+Follow these guides to add a second email address to your GitHub account:
 
-Primarily, this google group serves as an easy way for me to transmit information/opportunities to the lab. As part of the offboarding process, students need to provide me with a non-Wake Forest email that I can reach you at. You will continue to have access to the group, and you can opt to receive emails or consolidate them as a digest if desired.
+- [How to add an email address to your GitHub account](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/adding-an-email-address-to-your-github-account)
+- [How to change your primary email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/changing-your-primary-email-address)
+- [How to set up a backup email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
 
-https://groups.google.com/g/rcomputinglab
+Please do not procrastinate on this task. It is crucial to complete it before losing access to your WFU email.
+
+## 5. Google Group
+Primarily, this google group serves as an easy way for me to transmit information/opportunities to the lab. As part of the offboarding process, students need to provide me with a non-Wake Forest email that I can reach you at. You can continue to have access to the group, and you can opt to receive emails or consolidate them as a digest if desired.
+
+[Google Group Link](https://groups.google.com/g/rcomputinglab)
+
+## 6. Future Research Involvement
+   a. Indicate interest in collaborating on future research projects.
+   b. Offer suggestions for potential future projects or areas of interest.
+   c. Specify the preferred method of contact for future research opportunities.
+
+## 7. Acknowledgments and Authorship
+   a. Discuss and confirm co-authorship or acknowledgment arrangements for publications, presentations, or other project outputs.
+
+## 8. Exit Interview (optional)
+   a. Schedule a meeting with the supervising professor or lab manager to discuss the overall experience, accomplishments, and potential improvements.
+
+
+
 
 
