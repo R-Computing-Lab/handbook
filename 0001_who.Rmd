@@ -63,6 +63,7 @@ Members are listed by seniority (in the order they joined the lab).
 * Holland Tyson
 * Sarah Haga
 * Lena Arnsten
+* Reese Fortier
 
 ### Sidekicks
 * Tukey
