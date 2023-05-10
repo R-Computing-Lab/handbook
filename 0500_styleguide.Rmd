@@ -16,24 +16,49 @@ library(tweetrmd) #... embedding tweets
 > The guidelines for bias-free language contain both general guidelines for writing about people without bias across a range of topics and specific guidelines that address the individual characteristics of age, disability, gender, participation in research, racial and ethnic identity, sexual orientation, socioeconomic status, and intersectionality. These guidelines and recommendations were crafted by panels of experts on APA’s bias-free language committees.
 Inclusive and bias free-language. 
 
-[Source](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language)
+[Here](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) is a link to the APA's guidelines for bias-free language, which provides more details and examples.
 
 
 ## Inclusive Writing
 
-See this recent document from the APA about using [inclusive](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) and [bias-free](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/general-principles) language. The APA recently added an entire section on the [disability-community](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability). Also, the National Center on Disability and Journalism has an inclusive [style guide](https://ncdj.org/style-guide/).
+[Here](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) is resource from the APA about using inclusive and bias-free language. This document provides more general guidance for writing about people without bias across a range of topics.
+
+The APA recently added an entire section on the disability community to their guidelines for bias-free language. [Here](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability) is a link to this section, which provides specific recommendations for writing about people with disabilities.
+
+The National Center on Disability and Journalism also has an [inclusive style guide](https://ncdj.org/style-guide/) that provides guidance on language use, disability terminology, and story topics related to disability.
+
+[Here](https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines.pdf) is another resource from the APA about using inclusive and bias-free language. This document provides more general guidance for writing about people without bias across a range of topics.
+
 
 # Useful Copy-editing Resources
 
 These resources are useful for copyediting, readability, and academic phrasing. Often these use NLP.
 
 ## Software and Widgets
-- Grammarly
-- [Writefull](https://www.writefull.com/)
-- [Writefull's Title Generator](https://x.writefull.com/title-generator/index.html)
-- [Writefull's Academic Paraphraser](https://x.writefull.com/paraphraser/index.html)
-- [Hemingway App](https://hemingwayapp.com/)
+- - Grammarly: Grammarly is a popular grammar and spelling checker that can help identify errors and suggest corrections in your writing. It can also provide suggestions for improving your writing style, such as identifying passive voice or suggesting more concise phrasing.
+- Writefull: [Writefull](https://www.writefull.com/) is a writing toolboox that uses AI to help you improve your writing. It can help with a range of tasks, including checking grammar and spelling, suggesting alternative phrases, and providing feedback on the clarity and coherence of your writing.
 
+- Writefull's Title Generator: This [tool](https://x.writefull.com/title-generator/index.html) can help you generate title ideas for your writing. You can enter an abstract, and the tool will suggest different title options based on popular phrasing and keywords in the field.
+
+- Writefull's Academic Paraphraser: This [tool](https://x.writefull.com/paraphraser/index.html) can help you paraphrase text in your writing while maintaining the original meaning. You can enter a phrase or sentence, and the tool will provide alternative phrasing options that you can use in your writing.
+
+- Hemingway App: The [Hemingway App](https://hemingwayapp.com/) is a writing tool that can help you improve the readability and clarity of your writing. It highlights sentences that are difficult to read, identifies passive voice and adverbs, and provides suggestions for simplifying your phrasing.
+
+### Additional Resources
+
+- [The Chicago Manual of Style Online](https://www.chicagomanualofstyle.org/home.html): The Chicago Manual of Style is a comprehensive style guide for writers and editors. The online version includes a searchable database of rules and recommendations for writing style, grammar, and citation.
+
+- [The Elements of Style by William Strunk Jr. and E.B. White](https://www.bartleby.com/141/): This classic style guide provides practical advice and guidance for writers on a range of topics, from grammar and usage to composition and style.
+
+- [StyleWriter](https://www.stylewriter-usa.com/): StyleWriter is a software program that can help you improve your writing style by analyzing your text and providing suggestions for improvements.
+
+- [Merriam-Webster Online Dictionary](https://www.merriam-webster.com/): Merriam-Webster is a comprehensive online dictionary that can help you check spelling, look up definitions, and find synonyms and antonyms for words.
+
+- [Thesaurus.com](https://www.thesaurus.com/): Thesaurus.com is a useful resource for finding synonyms and antonyms for words, which can help you avoid repeating the same words or phrases in your writing.
+
+- [Writing Stack Exchange](https://writing.stackexchange.com/): Writing Stack Exchange is an online community where writers can ask and answer questions about writing and language use. It's a great resource for getting feedback on your writing, asking for advice on specific writing problems, and learning from other writers.
+
+- [Style Guide Template](https://www.lucidpress.com/pages/templates/design/style-guide): A style guide template can help you create a consistent and professional-looking style guide for your organization or publication. This can be particularly useful for academic journals or other publications that have specific formatting requirements.
 
 
 # R Style Guide
